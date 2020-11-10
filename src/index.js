@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import App from './App';
-import Header from "./components/header.jsx";
+import Header from "./components/header/header.jsx";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(<Header />, document.getElementById("root"));
