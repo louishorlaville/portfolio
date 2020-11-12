@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class NavMenu extends Component {
     state = { 
         over1:false,
-        over2:false,
+        over2:false
     };
 
     

@@ -3,6 +3,7 @@
     height: 2%;
     padding: 1%;
     font-family: "bahnschrift";
+    font-stretch: condensed;
     font-weight: 100 ;
     font-size: 1em;
     display: flex;
@@ -31,7 +32,7 @@
     height: 10%;
     order: 2;
     resize: none;
-
+    min-width: 318px;
 }
 
 .navElements{
@@ -83,10 +84,12 @@
 /*////////// GENERAL HIGHLIGHT STYLES //////////*/
 .highlightYellow{
     background-color: #EDBD21;
+    color: black;
 }
 
 .highlightPink{
     background-color: #FACBCC;
+    color: black;
 }
 
 .highlightBlue{
@@ -95,4 +98,70 @@
 
 .highlightGrey{
     background-color: #CCCCCC;
+    color: black;
+}
+
+/*////////// HOME CONTENT //////////*/
+#contentHomeContainer{
+    font-family: "bahnschrift";
+    color: black;
+    font-size: 1em;
+}
+
+/*Main skills element*/
+.mainSkills{
+    font-stretch: condensed;
+    margin-top: 3.5%;
+}
+
+#skillList{
+    list-style-type: none;
+}
+
+#skillList > li:nth-child(2){
+    margin-top: 1%;
+}
+
+.skillLink{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    font-weight: 350 ;
+}
+
+/*Resume element*/
+#homeResumeContainer{
+    background-color: #33495E;
+    position: relative;
+    color: white;
+    margin-top: 8%;
+    padding:1em;
+    padding-left: 3.5em;
+}
+
+#resumeContainer{
+    
+    font-size: 1.7em;
+    font-weight: lighter;
+    width: 75%;
+}
+
+#borderResume{
+    position: absolute;
+    background-color: white;
+    width: 75%;
+    height: 8px;
+    top:0;
+}
+
+.resumeElement{
+    margin-left: .5em;
+
+}
+
+#resumeP1{
+    width: 69%;
+}
+#resumeP2{
+    width: 90%;
 }
