@@ -165,3 +165,17 @@
 #resumeP2{
     width: 90%;
 }
+
+
+
+
+/*////////// FOOTER //////////*/
+.pacmanBallsContainer{
+    display: flex;
+}
+
+.pacmanBallsContainer>img{
+    flex-direction: row;
+    width: 18px;
+    margin-left: 14px;
+}
