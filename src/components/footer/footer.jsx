@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Ball from '../../svg/ball.svg';
+import Pacman from '../../svg/pacmanFull.svg';
 import Logo from '../header/logo';
 
 
@@ -10,19 +11,7 @@ class Footer extends Component {
      };
 
     handleResize = (e) => {
-        
-
         this.setState({ windowWidth: window.innerWidth });
-        console.log(this.state.windowWidth/32)
-        for(let i=0;(this.state.windowWidth/32)>i;i++){
-            console.log("JE PASSE ICI");
-            let ballsArray=this.state.balls.slice();
-            ballsArray[i]=i+1;
-            this.setState({balls:ballsArray});
-        }
-
-
-        
     };
 
 
@@ -30,14 +19,15 @@ class Footer extends Component {
         const { windowWidth } = this.state;
         const { balls } = this.state;
         
+        // this.updateBallArray(windowWidth);
+
         return ( 
             <div className="footerContainer">
-                {this.state.balls[this.state.balls.length-1]}
                 <div className="pacmanContainer">
-                    <img src="../svg/pacman.svg" alt="pacman" id="pacman"/>
+                    <img src={Pacman} alt="pacman" id="pacmanFooter"/>
                 </div>
                 <div className="pacmanBallsContainer">
-                    {balls.map(id=> (
+                    {this.state.balls.map(id=> (
                         <img id={id} key={id} src={Ball} alt="PacmanBall"/>
                     ))}
                 </div>
@@ -45,12 +35,28 @@ class Footer extends Component {
         );
     };
 
+    updateBallArray=()=>{
+        let ballsRendered = this.state.windowWidth/29; 
+        for(let i=0;ballsRendered>i;i++){
+            let ballsArray=this.state.balls.slice(0,Math.floor(ballsRendered)-1);
+            ballsArray[i]=i+1;
+            this.setState({balls:ballsArray});
+        }
+    }
+
     componentDidMount() {
         window.addEventListener("load", this.handleResize);
+        window.addEventListener("load", this.updateBallArray);
         window.addEventListener("resize", this.handleResize);
+        window.addEventListener("resize", this.updateBallArray);
         //window.addEventListener("resize", this.fillBalls);
         
     };
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleResize);
+        window.removeEventListener('resize', this.updateBallArray);
+      }
 
     
 

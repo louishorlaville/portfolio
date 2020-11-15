@@ -170,12 +170,40 @@
 
 
 /*////////// FOOTER //////////*/
+.footerContainer{
+    position: relative;
+    margin-top: 5%;
+}
+
+.pacmanContainer{
+    overflow: hidden;
+}
+
+.pacmanContainer>img{
+    position: absolute;
+    width: 50px;
+    top: -20px;
+    left: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
+    animation: pacmanFooterAnim all 10s linear;
+}
+
+@keyframes pacmanMoveFooterAnim{
+    from{
+        left:0%;
+    }
+    to{
+        left: 96.5%;
+    }
+}
+
 .pacmanBallsContainer{
     display: flex;
+    padding-left: 3em;
 }
 
 .pacmanBallsContainer>img{
     flex-direction: row;
-    width: 18px;
+    width: 14px;
     margin-left: 14px;
 }
