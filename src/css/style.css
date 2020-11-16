@@ -176,7 +176,6 @@
 }
 
 .pacmanContainer{
-    overflow: hidden;
     z-index: 2;
 }
 
@@ -205,16 +204,7 @@
     from{
         left:10px;
     }
-    to{
-        left: 96.5%;
-    }
-}
-
-@-webkit-keyframes pacmanMoveAnim{
-    from{
-        left:10px;
-    }
-    to{
+    45%{
         left: 96.5%;
     }
 }
@@ -224,16 +214,28 @@
     display: flex;
     padding-left: 3em;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
-    animation: vanishBalls 15s infinite linear;
+    /* animation: vanishBalls 15s infinite cubic-bezier(.54,.59,.86,.77); */
+    animation: vanishBalls 15s infinite cubic-bezier(.41,.47,.8,.72);
 }
 
 @keyframes vanishBalls{
     from{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
     }
-    to{
+    45%{
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
     }
+    50%{
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+    }
+    55%{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    to{
+        
+    }
+
+    
 }
 
 .pacmanBallsContainer>img{
