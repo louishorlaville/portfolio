@@ -177,20 +177,42 @@
 
 .pacmanContainer{
     overflow: hidden;
+    z-index: 2;
 }
 
 .pacmanContainer>img{
+    z-index: 2;
     position: absolute;
     width: 50px;
     top: -20px;
     left: 10px;
     clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
-    animation: pacmanFooterAnim all 10s linear;
+    animation: pacmanMoveAnim 15s infinite linear, pacmanEatAnim 0.15s infinite alternate ease-in-out;
 }
 
-@keyframes pacmanMoveFooterAnim{
+@keyframes pacmanEatAnim{
     from{
-        left:0%;
+        z-index: 2;
+        clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
+    }
+    to{
+        z-index: 2;
+        clip-path: polygon(0 0, 100% 0, 100% 52%, 52% 52%, 100% 52%, 100% 100%, 0 100%, 0 0);
+    }
+}
+
+@keyframes pacmanMoveAnim{
+    from{
+        left:10px;
+    }
+    to{
+        left: 96.5%;
+    }
+}
+
+@-webkit-keyframes pacmanMoveAnim{
+    from{
+        left:10px;
     }
     to{
         left: 96.5%;
@@ -198,12 +220,32 @@
 }
 
 .pacmanBallsContainer{
+    z-index: 1;
     display: flex;
     padding-left: 3em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    animation: vanishBalls 15s infinite linear;
+}
+
+@keyframes vanishBalls{
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    to{
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+    }
 }
 
 .pacmanBallsContainer>img{
     flex-direction: row;
     width: 14px;
     margin-left: 14px;
+}
+
+.ballHere{
+    display: block;
+}
+
+.ballVanish{
+    display: none;
 }
