@@ -186,7 +186,7 @@
     top: -20px;
     left: 10px;
     clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
-    animation: pacmanMoveAnim 15s infinite linear, pacmanEatAnim 0.15s infinite alternate ease-in-out;
+    /* animation: pacmanMoveAnim 15s infinite linear, pacmanEatAnim 0.15s infinite alternate ease-in-out; */
 }
 
 @keyframes pacmanEatAnim{
@@ -220,19 +220,39 @@
 
 @keyframes vanishBalls{
     from{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%, 0 0);
+    }
+    5%{
+        /* DISTRIBUTE */
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
     }
-    45%{
+    12.5%{
+        /*WAIT*/
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    42.5%{ 
+        /* EAT */
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
     }
     50%{
+        /* WAIT */
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
     }
     55%{
+        /* DISTRIBUTE */
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
     }
+    62.5%{
+        /* WAIT */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    92.5%{
+        /* EAT */
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%, 0 0);
+    }
     to{
-        
+        /* WAIT */
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%, 0 0);
     }
 
     
