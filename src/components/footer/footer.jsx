@@ -15,7 +15,7 @@ class Footer extends Component {
     handleResize = (e) => {
         this.setState({ windowWidth: window.innerWidth });
     };
-    
+
     render() { 
         const { windowWidth } = this.state;
         const { balls } = this.state;

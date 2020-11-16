@@ -186,7 +186,7 @@
     top: -20px;
     left: 10px;
     clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
-    /* animation: pacmanMoveAnim 15s infinite linear, pacmanEatAnim 0.15s infinite alternate ease-in-out; */
+    animation: pacmanMoveAnim 25s infinite linear, pacmanEatAnim 0.15s infinite alternate ease-in-out 2s;;
 }
 
 @keyframes pacmanEatAnim{
@@ -203,19 +203,50 @@
 @keyframes pacmanMoveAnim{
     from{
         left:10px;
+        transform: rotate(0deg);
     }
-    45%{
+    12.5%{
+        /*WAIT*/
+        left:10px;
+        transform: rotate(0deg);
+    }
+    42.5%{ 
+        /* EAT */
         left: 96.5%;
+        transform: rotate(0deg);
+    }
+    50%{
+        /* WAIT */
+        left: 96.5%;
+        transform: rotate(0deg);
+    }
+    55%{
+        transform: rotate(180deg);
+    }
+    62.5%{
+        /* WAIT */
+        left: 96.5%;
+        transform: rotate(180deg);
+    }
+    92.5%{
+        /* EAT */
+        left: 10px;
+        transform: rotate(180deg);
+    }
+    to{
+        /* WAIT */
+        left: 10px;
+        transform: rotate(0deg);
     }
 }
 
 .pacmanBallsContainer{
     z-index: 1;
     display: flex;
-    padding-left: 3em;
+    padding-left: 1.5em;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
     /* animation: vanishBalls 15s infinite cubic-bezier(.54,.59,.86,.77); */
-    animation: vanishBalls 15s infinite cubic-bezier(.41,.47,.8,.72);
+    animation: vanishBalls 25s infinite cubic-bezier(.41,.47,.8,.72);
 }
 
 @keyframes vanishBalls{
