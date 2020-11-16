@@ -165,3 +165,140 @@
 #resumeP2{
     width: 90%;
 }
+
+
+
+
+/*////////// FOOTER //////////*/
+.footerContainer{
+    position: relative;
+    margin-top: 5%;
+}
+
+.pacmanContainer{
+    z-index: 2;
+}
+
+.pacmanContainer>img{
+    z-index: 2;
+    position: absolute;
+    width: 50px;
+    top: -20px;
+    left: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
+    animation: pacmanMoveAnim 25s infinite linear, pacmanEatAnim 0.15s infinite alternate ease-in-out 2s;;
+}
+
+@keyframes pacmanEatAnim{
+    from{
+        z-index: 2;
+        clip-path: polygon(0 0, 100% 0, 100% 15%, 52% 52%, 100% 85%, 100% 100%, 0 100%, 0 0);
+    }
+    to{
+        z-index: 2;
+        clip-path: polygon(0 0, 100% 0, 100% 52%, 52% 52%, 100% 52%, 100% 100%, 0 100%, 0 0);
+    }
+}
+
+@keyframes pacmanMoveAnim{
+    from{
+        left:10px;
+        transform: rotate(0deg);
+    }
+    12.5%{
+        /*WAIT*/
+        left:10px;
+        transform: rotate(0deg);
+    }
+    42.5%{ 
+        /* EAT */
+        left: 96.5%;
+        transform: rotate(0deg);
+    }
+    50%{
+        /* WAIT */
+        left: 96.5%;
+        transform: rotate(0deg);
+    }
+    55%{
+        transform: rotate(180deg);
+    }
+    62.5%{
+        /* WAIT */
+        left: 96.5%;
+        transform: rotate(180deg);
+    }
+    92.5%{
+        /* EAT */
+        left: 10px;
+        transform: rotate(180deg);
+    }
+    to{
+        /* WAIT */
+        left: 10px;
+        transform: rotate(0deg);
+    }
+}
+
+.pacmanBallsContainer{
+    z-index: 1;
+    display: flex;
+    padding-left: 1.5em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    /* animation: vanishBalls 15s infinite cubic-bezier(.54,.59,.86,.77); */
+    animation: vanishBalls 25s infinite cubic-bezier(.41,.47,.8,.72);
+}
+
+@keyframes vanishBalls{
+    from{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%, 0 0);
+    }
+    5%{
+        /* DISTRIBUTE */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    12.5%{
+        /*WAIT*/
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    42.5%{ 
+        /* EAT */
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+    }
+    50%{
+        /* WAIT */
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+    }
+    55%{
+        /* DISTRIBUTE */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    62.5%{
+        /* WAIT */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    92.5%{
+        /* EAT */
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%, 0 0);
+    }
+    to{
+        /* WAIT */
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%, 0 0);
+    }
+
+    
+}
+
+.pacmanBallsContainer>img{
+    flex-direction: row;
+    width: 14px;
+    margin-left: 14px;
+}
+
+.ballHere{
+    display: block;
+}
+
+.ballVanish{
+    display: none;
+}
