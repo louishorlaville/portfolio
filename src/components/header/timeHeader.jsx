@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import Clock from 'react-live-clock';
+import Cookies from 'universal-cookie';
 
 class TimeLocation extends Component {
-    state = {  }
+
+    languageSwitchHandler=()=>{
+        console.log(this);
+    }
+
     render() { 
         return ( 
             <div className="timeContainer headerItems">
-                <div className="timeItem" id="timeClock">17:03:55</div>
+                <div className="timeItem" id="timeClock"><Clock format={'HH:mm:ss'} ticking={true} timezone={'America/Montreal'} /></div>
                 <div className="timeItem highlightYellow" id="timeLocation">Montréal, Canada</div>
-                <div className="timeItem" id="timeLanguage"><span className ="highlightPink" id="english ">English</span> // <span id="french">Français</span></div>
+                <div className="timeItem" id="timeLanguage"><span className ="highlightPink" id="english" onClick={this.languageSwitchHandler}>English</span> // <span id="french" onClick={this.languageSwitchHandler}>Français</span></div>
             </div>
             
          );
