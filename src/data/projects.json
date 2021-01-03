@@ -1,0 +1,155 @@
+{
+    "Language":[
+        {
+            "Skills":[
+                {
+                    "Fields":  {
+                        "Web Design":[
+                            {
+                                "title":"cegep's department website",
+                                "date":"fall 2020",
+                                "software":"ILLUSTRATOR//PHOTOSHOP"
+                            },
+                            {
+                                "title":"personal website",
+                                "date":"fall 2020",
+                                "software":"ILLUSTRATOR//PHOTOSHOP"
+                            },
+                            {
+                                "title":"patro le prevost",
+                                "date":"fall 2018",
+                                "software":"ILLUSTRATOR//PHOTOSHOP"
+                            }
+                        ],
+                        "3D Modeling":[
+                            {
+                                "title":"cegep's department logo",
+                                "date":"fall 2020",
+                                "software":"MAYA"
+                            },
+                            {
+                                "title":"the winged airship",
+                                "date":"fall 2019",
+                                "software":"MAYA"
+                            },
+                            {
+                                "title":"magma spear",
+                                "date":"fall 2019",
+                                "software":"MAYA"
+                            },
+                            {
+                                "title":"snorlax",
+                                "date":"fall 2019",
+                                "software":"MAYA"
+                            }
+                        ]
+                    }
+                    
+                },
+                {
+                    "Video Game Development":[
+                        {
+                            "title":"valleyfield's intercollegiate gameJam",
+                            "date":"january 2020",
+                            "software":"UNITY//C#"
+                        },
+                        {
+                            "title":"borderline",
+                            "date":"fall 2020",
+                            "software":"UNITY//C#"
+                        }
+                    ],
+                    "Web Development":[
+                        {
+                            "title":"cegep's department website",
+                            "date":"fall 2020",
+                            "software":"HTML//CSS//Js//PHP"
+                        },
+                        {
+                            "title":"personal website",
+                            "date":"fall 2020",
+                            "software":"HTML//CSS//Js//PHP//REACT.Js"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Skills":[
+                {
+                    "Fields":  {
+                        "Web Design":[
+                            {
+                                "title":"site web départemental du cégep",
+                                "date":"automne 2020",
+                                "software":"ILLUSTRATOR//PHOTOSHOP"
+                            },
+                            {
+                                "title":"site web personnel",
+                                "date":"automne 2020",
+                                "software":"ILLUSTRATOR//PHOTOSHOP"
+                            },
+                            {
+                                "title":"patro le prevost",
+                                "date":"automne 2018",
+                                "software":"ILLUSTRATOR//PHOTOSHOP"
+                            }
+                        ],
+                        "3D Modeling":[
+                            {
+                                "title":"logo départemental du cégep",
+                                "date":"automne 2020",
+                                "software":"MAYA"
+                            },
+                            {
+                                "title":"le ballon ailé",
+                                "date":"automne 2019",
+                                "software":"MAYA"
+                            },
+                            {
+                                "title":"lance de magma",
+                                "date":"automne 2019",
+                                "software":"MAYA"
+                            },
+                            {
+                                "title":"ronflex",
+                                "date":"automne 2019",
+                                "software":"MAYA"
+                            }
+                        ]
+                    }
+                    
+                },
+                {
+                    "Video Game Development":[
+                        {
+                            "title":"gameJam intercollégial de valleyfield",
+                            "date":"janvier 2020",
+                            "software":"UNITY//C#"
+                        },
+                        {
+                            "title":"borderline",
+                            "date":"automne 2020",
+                            "software":"UNITY//C#"
+                        }
+                    ],
+                    "Web Development":[
+                        {
+                            "title":"site web départemental du cégep",
+                            "date":"automne 2020",
+                            "software":"HTML//CSS//Js//PHP"
+                        },
+                        {
+                            "title":"site web personnel",
+                            "date":"automne 2020",
+                            "software":"HTML//CSS//Js//PHP//REACT.Js"
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+    
+
+}

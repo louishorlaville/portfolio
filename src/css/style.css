@@ -1,4 +1,7 @@
 /*////////// STYLE HEADER //////////*/
+body{
+    overflow: hidden;
+}
 .headerContainer{
     height: 2%;
     padding: 1%;
@@ -56,13 +59,13 @@
     margin-left: 6%;
 }
 
-/* @keyframes underlineSlide{
-    0%{clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%,20% 85%, 15% 85%, 15% 100%, 0 100%, 0 0);}
-    100%{clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%,80% 85%, 75% 85%, 75% 100%, 0 100%, 0 0);}
-} */
+
 /* Time element */
 .timeContainer{
-    order:1
+    order:1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .timeItem{
@@ -70,7 +73,8 @@
 }
 
 #timeClock{
-     font-size: 5em; 
+    font-size: 4.4em; 
+    align-self: flex-start;
 }
 
 #timeLocation{
@@ -116,17 +120,44 @@
 
 #skillList{
     list-style-type: none;
+    display:inline-block;
+}
+
+.skillsListElement{
+    width: auto;
+    
 }
 
 #skillList > li:nth-child(2){
-    margin-top: 1%;
+    margin-top: 5%;
+}
+
+.skillsListElement:hover >a.skillLink> .boxHoverBehind{
+    width: 105%;
 }
 
 .skillLink{
+    position: relative;
     text-decoration: none;
     color: black;
     font-size: 2em;
     font-weight: 350 ;
+}
+
+.boxHoverBehind{
+    width: 0%;
+    height: 105%;
+    z-index: -1;
+    position: absolute;
+    top: -2.5%;
+    left: -2.5%;
+    transition: width .2s ease-in;
+}
+#skillProgrammer>a.skillLink>.boxHoverBehind{
+    background-color: #EDBD21;
+}
+#skillDesigner>a.skillLink>.boxHoverBehind{
+    background-color:#FACBCC;
 }
 
 /*Resume element*/
@@ -134,7 +165,7 @@
     background-color: #33495E;
     position: relative;
     color: white;
-    margin-top: 8%;
+    margin-top: 7%;
     padding:1em;
     padding-left: 3.5em;
 }
