@@ -1,0 +1,8 @@
+{
+    "nav":["My work","About"],
+    "menu":["Programmeur","Designer"],
+    "resume":[
+        "Hi! My name is Louis Horlaville and I’m a Montreal-based college student who loves programming and building visually interesting interfaces. I specialize in video games and websites.",
+        "I have vast set of skills, ranging from the web’s front and back end HTML/CSS/javascript/PHP/MySQL, all the way to video games with Unity and C#."
+    ]
+}

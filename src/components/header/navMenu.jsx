@@ -9,7 +9,6 @@ class NavMenu extends Component {
     
 
     render() { 
-        
         return ( 
             <div className="navMenuContainer headerItems">
                 <a className ="navElements" id="myWorkNav" href="#">//MY WORK</a>
