@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../svg/logo.svg';
+import {Link} from "react-router-dom";
 
 
 
@@ -8,7 +9,7 @@ class Logo extends Component {
     render() { 
         return ( 
             <div className="logoContainer headerItems">
-                <img src={logo} className="logo" alt="logo" />
+                <Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
             </div>
         );
     }

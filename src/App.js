@@ -1,24 +1,20 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Dimensions } from "react-native";
+import React from "react";
+import {Route} from "react-router-dom"
+import Home from "./components/pages/home.jsx";
+
+import Header from "./components/header/header.jsx";
+import Footer from "./components/footer/footer.jsx";
+
+import ContentHome from "./components/home/contentHome.jsx";
+import ContentProjectList from "./components/projectList/contentProjectList.jsx"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="pageContainer">
+      <Header/>
+      <Route exact path="/" component={ContentHome}/>
+      <Route path="/projects" component={ContentProjectList}/>
+      <Footer/>
     </div>
   );
 }

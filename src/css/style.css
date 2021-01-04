@@ -149,13 +149,15 @@ body{
     height: 105%;
     z-index: -1;
     position: absolute;
-    top: -2.5%;
+    top: -8%;
     left: -2.5%;
     transition: width .2s ease-in;
 }
+
 #skillProgrammer>a.skillLink>.boxHoverBehind{
     background-color: #EDBD21;
 }
+
 #skillDesigner>a.skillLink>.boxHoverBehind{
     background-color:#FACBCC;
 }
@@ -171,7 +173,6 @@ body{
 }
 
 #resumeContainer{
-    
     font-size: 1.7em;
     font-weight: lighter;
     width: 75%;
@@ -187,17 +188,15 @@ body{
 
 .resumeElement{
     margin-left: .5em;
-
 }
 
 #resumeP1{
     width: 69%;
 }
+
 #resumeP2{
     width: 90%;
 }
-
-
 
 
 /*////////// FOOTER //////////*/

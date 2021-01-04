@@ -27,5 +27,5 @@ class TimeLocation extends Component {
          );
     }
 }
- 
+
 export default TimeLocation;

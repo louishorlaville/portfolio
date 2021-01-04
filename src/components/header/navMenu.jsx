@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
 
 class NavMenu extends Component {
     state = { 
@@ -6,13 +7,11 @@ class NavMenu extends Component {
         over2:false
     };
 
-    
-
     render() { 
         return ( 
             <div className="navMenuContainer headerItems">
-                <a className ="navElements" id="myWorkNav" href="#">//MY WORK</a>
-                <a className ="navElements" id="aboutNav" href="#">//ABOUT</a>               
+                <Link className ="navElements" id="myWorkNav" to="/">//MY WORK</Link>
+                <Link className ="navElements" id="aboutNav" to="/">//ABOUT</Link>              
             </div> 
         )        
     };
