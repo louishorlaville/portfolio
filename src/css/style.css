@@ -226,21 +226,22 @@ body{
     font-size: 1.8em;
 }
 
+.listItemTitle>.boxHoverBehind{
+    background-color: #EDBD21;
+}
+
+.listItemTitle:hover>.boxHoverBehind{
+    width: 105%;
+}
+
+.listItemTitle:hover>.listItemBall{
+    background-color: #33495E;
+}
+
 .listItem{
     margin-left: 5%;
     margin-top: .5%;
     transform-origin: top left;
-}
-
-.listItemBall{
-    position: absolute;
-    left: -15%;
-    top: 35%;
-
-    background-color: #EDBD21;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
 }
 
 .listItemTitle{
@@ -253,7 +254,17 @@ body{
 .listItemTitle>p{
     margin: 0;
     color: #777777;
- 
+}
+
+.listItemBall{
+    position: absolute;
+    left: -15%;
+    top: 35%;
+
+    background-color: #EDBD21;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
 }
 
 .listItemSoftware{
