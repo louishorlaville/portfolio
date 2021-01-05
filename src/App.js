@@ -1,12 +1,11 @@
 import React from "react";
 import {Route} from "react-router-dom"
-import Home from "./components/pages/home.jsx";
 
 import Header from "./components/header/header.jsx";
 import Footer from "./components/footer/footer.jsx";
 
-import ContentHome from "./components/home/contentHome.jsx";
-import ContentProjectList from "./components/projectList/contentProjectList.jsx"
+import ContentHome from "./components/pages/contentHome.jsx";
+import ContentProjectList from "./components/pages/contentProjectList.jsx"
 
 function App() {
   return (

@@ -11,6 +11,7 @@ body{
     font-size: 1em;
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .headerItems{
@@ -106,7 +107,7 @@ body{
 }
 
 /*////////// HOME CONTENT //////////*/
-#contentHomeContainer{
+#contentContainer{
     font-family: "bahnschrift";
     color: black;
     font-size: 1em;
@@ -197,6 +198,85 @@ body{
 #resumeP2{
     width: 90%;
 }
+
+
+/*////////// PROJECTS LIST PAGE //////////*/
+.listContainer{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 100%;
+    font-size: 1em;
+    font-stretch: condensed;
+
+}
+
+.listTitleContainer{
+    width: 40%;
+    border-bottom: 4px solid #293947;
+    padding-left: 1%;
+    font-size: 2em;
+}
+
+.listField{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.listFieldTitle{
+    font-size: 1.8em;
+}
+
+.listItem{
+    margin-left: 5%;
+    margin-top: .5%;
+    transform-origin: top left;
+}
+
+.listItemBall{
+    position: absolute;
+    left: -15%;
+    top: 35%;
+
+    background-color: #EDBD21;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.listItemTitle{
+    font-size: 1.7em;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.listItemTitle>p{
+    margin: 0;
+    color: #777777;
+ 
+}
+
+.listItemSoftware{
+    position: absolute;
+    left: 105%;
+    top: 25%;
+    font-size: .6em;
+    font-weight: 400;
+}
+
+.listItemDate{
+    position: absolute;
+    left: 0;
+    top:100%;
+    font-size: .8em;
+    color: #4D4D4D;
+}
+
+
+
+
+
+
 
 
 /*////////// FOOTER //////////*/
