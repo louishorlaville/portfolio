@@ -5,77 +5,77 @@
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"Web Design"
+            "fieldName":"WEB DESIGN"
         },
         {
             "title":"personal website",
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"Web Design"
+            "fieldName":"WEB DESIGN"
         },
         {
             "title":"patro le prevost",
             "date":"fall 2018",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"Web Design"
+            "fieldName":"WEB DESIGN"
         },
         {
             "title":"cegep's department logo",
             "date":"fall 2020",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D modeling"
+            "fieldName":"3D MODELING"
         },
         {
             "title":"the winged airship",
             "date":"fall 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D modeling"
+            "fieldName":"3D MODELING"
         },
         {
             "title":"magma spear",
             "date":"fall 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D modeling"
+            "fieldName":"3D MODELING"
         },
         {
             "title":"snorlax",
             "date":"fall 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D modeling"
+            "fieldName":"3D MODELING"
         },
         {
             "title":"valleyfield's intercollegiate gameJam",
             "date":"january 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"Video game development"
+            "fieldName":"VIDEO GAME DEVELOPMENT"
         },
         {
             "title":"borderline",
             "date":"fall 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"Video game development"
+            "fieldName":"VIDEO GAME DEVELOPMENT"
         },
         {
             "title":"cegep's department website",
             "date":"fall 2020",
             "software":"HTML//CSS//Js//PHP",
             "fieldId":3,
-            "fieldName":"Web development"
+            "fieldName":"WEB DEVELOPMENT"
         },
         {
             "title":"personal website",
             "date":"fall 2020",
             "software":"HTML//CSS//Js//PHP//REACT.Js",
             "fieldId":3,
-            "fieldName":"Web development"
+            "fieldName":"WEB DEVELOPMENT"
         }
     ],
     "fr":[
@@ -84,77 +84,77 @@
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"Design Web"
+            "fieldName":"DESIGN WEB"
         },
         {
             "title":"site web personnel",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"Design Web"
+            "fieldName":"DESIGN WEB"
         },
         {
             "title":"patro le prevost",
             "date":"automne 2018",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"Design Web"
+            "fieldName":"DESIGN WEB"
         },
         {
             "title":"logo départemental du cégep",
             "date":"automne 2020",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"Modélisation 3D"
+            "fieldName":"MODÉLISATION 3D"
         },
         {
             "title":"le ballon ailé",
             "date":"automne 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"Modélisation 3D"
+            "fieldName":"MODÉLISATION 3D"
         },
         {
             "title":"lance de magma",
             "date":"automne 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"Modélisation 3D"
+            "fieldName":"MODÉLISATION 3D"
         },
         {
             "title":"ronflex",
             "date":"automne 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"Modélisation 3D"
+            "fieldName":"MODÉLISATION 3D"
         },
         {
             "title":"gameJam intercollégial de valleyfield",
             "date":"janvier 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"Développement de jeux vidéo"
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO"
         },
         {
-            "title":"borderline",
+            "title":"borderline balbal",
             "date":"automne 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"Développement de jeux vidéo"
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO"
         },
         {
             "title":"site web départemental du cégep",
             "date":"automne 2020",
             "software":"HTML//CSS//Js//PHP",
             "fieldId":3,
-            "fieldName":"Développement web"
+            "fieldName":"DÉVELOPPEMENT WEB"
         },
         {
             "title":"site web personnel",
             "date":"automne 2020",
             "software":"HTML//CSS//Js//PHP//REACT.Js",
             "fieldId":3,
-            "fieldName":"Développement web"
+            "fieldName":"DÉVELOPPEMENT WEB"
         }
     ]
 }

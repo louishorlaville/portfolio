@@ -171,6 +171,7 @@ body{
     margin-top: 7%;
     padding:1em;
     padding-left: 3.5em;
+    margin-bottom: 5%;
 }
 
 #resumeContainer{
@@ -218,6 +219,7 @@ body{
 }
 
 .listField{
+    position: relative;
     margin-left: 5%;
     margin-top: 2%;
     padding-bottom: 60px;
@@ -241,11 +243,11 @@ body{
 
 .listItem{
     margin-left: 5%;
-    margin-top: 2.5%;
+    margin-top: 40px;
     transform-origin: top left;
 }
 .listField>.listItem:nth-of-type(2){
-    margin-top: .5%;
+    margin-top: 25px;
 }
 
 .listItemTitle{
@@ -262,7 +264,7 @@ body{
 
 .listItemBall{
     position: absolute;
-    left: -15%;
+    left: -40px;
     top: 35%;
 
     background-color: #EDBD21;
@@ -283,17 +285,20 @@ body{
     position: absolute;
     left: 0;
     top:100%;
+    width: 200%;
     font-size: .8em;
     color: #4D4D4D;
 }
 
 .listSeparator{
+    position: absolute;
+    left:-11%;
+    top: 102%;
     height: 2px;
-    width: 100%;
+    width: 99vw;
     background-color:#33495E ;
-    margin-left: -5%;
 }
-.listSeparator:last-child{
+.listField:last-child>.listSeparator{
     display: none;
 }
 
@@ -307,7 +312,7 @@ body{
 /*////////// FOOTER //////////*/
 .footerContainer{
     position: relative;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 
 .pacmanContainer{
