@@ -37,9 +37,11 @@ class ContentProjectList extends Component {
             if(projects[cookies.get("lang")][i].fieldId===field){
                 indexProjects++;
                 currentProjects[indexProjects]=projects[cookies.get("lang")][i];
-                return currentProjects;
+                console.log(currentProjects);
+                
             }
         }
+        return currentProjects;
     }
 
 
