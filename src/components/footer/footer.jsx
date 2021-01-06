@@ -20,6 +20,7 @@ class Footer extends Component {
         const { windowWidth } = this.state;
         const { balls } = this.state;
         return ( 
+            
             <div className="footerContainer">
                 <div className="pacmanContainer">
                     <img src={Pacman} alt="pacman" id="pacmanFooter"/>
@@ -48,12 +49,12 @@ class Footer extends Component {
         window.addEventListener("resize", this.handleResize);
         window.addEventListener("resize", this.updateBallArray);
         
-    };
+    }
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.handleResize);
         window.removeEventListener('resize', this.updateBallArray);
-      }
+    }
 
     
 

@@ -1,6 +1,6 @@
 /*////////// STYLE HEADER //////////*/
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .headerContainer{
     height: 2%;
@@ -205,7 +205,7 @@ body{
     margin-left: 5%;
     margin-top: 2%;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.15em;
     font-stretch: condensed;
 
 }
@@ -218,8 +218,9 @@ body{
 }
 
 .listField{
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 2%;
+    padding-bottom: 60px;
 }
 
 .listFieldTitle{
@@ -240,8 +241,11 @@ body{
 
 .listItem{
     margin-left: 5%;
-    margin-top: .5%;
+    margin-top: 2.5%;
     transform-origin: top left;
+}
+.listField>.listItem:nth-of-type(2){
+    margin-top: .5%;
 }
 
 .listItemTitle{
@@ -281,6 +285,16 @@ body{
     top:100%;
     font-size: .8em;
     color: #4D4D4D;
+}
+
+.listSeparator{
+    height: 2px;
+    width: 100%;
+    background-color:#33495E ;
+    margin-left: -5%;
+}
+.listSeparator:last-child{
+    display: none;
 }
 
 
