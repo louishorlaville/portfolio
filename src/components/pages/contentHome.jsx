@@ -3,7 +3,8 @@ import MainSkills from "../home/mainSkills.jsx";
 import Resume from "../home/resume.jsx";
 
 class ContentHome extends Component {
-    state = {  }
+    state = { 
+     }
     render() { 
         return (  
             <div id="contentContainer">

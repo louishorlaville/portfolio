@@ -74,9 +74,8 @@ class ContentProjectList extends Component {
                 <div className="listContainer">
                     <div className="listTitleContainer">
                         <div className="listTitle">
-                            {console.log(this.state.fieldsID)}
-                            <a id="listTitleDesigner" className={(fieldsID[0]!=1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>//
-                            <a id="listTitleProgrammer" className={(fieldsID[0]==1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a> 
+                            <a id="listTitleDesigner" className={(this.state.fieldsID[0]!=1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>//
+                            <a id="listTitleProgrammer" className={(this.state.fieldsID[0]==1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a> 
                         </div>
                     </div>
                     {/* MAP THE FIELD DEPENDING ON THE SELECTED CATEGORY */}

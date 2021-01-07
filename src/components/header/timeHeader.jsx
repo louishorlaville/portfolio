@@ -13,7 +13,11 @@ class TimeLocation extends Component {
         else{
             cookies.set("lang","en")
         }
-        console.log(cookies.get("lang"));
+        this.sendData();
+    }
+
+    sendData = () =>{
+        this.props.parentCallback(cookies.get("lang"));
     }
 
     render() { 

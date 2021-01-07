@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
+import homeData from '../../data/home.json';
+import Cookies from 'universal-cookie';
+
+const cookies = new Cookies();
 
 const Resume = () => {
     return ( 
         <div id="homeResumeContainer">
             <div id="resumeContainer">
                 <div id="borderResume"></div>
-                <p className="resumeElement" id="resumeP1">Hi! My name is Louis Horlaville and I’m a
-                Montreal-based college student who loves <span className="highlightYellow">programming</span> and building <span className="highlightPink">visually interesting</span> interfaces. 
-                I specialize in <span className="highlightBlue">video games</span> and <span className="highlightGrey">websites</span></p>
-                <p className="resumeElement" id="resumeP2">I have vast set of skills, ranging from the 
-                web’s front and back end HTML/CSS/javascript/PHP/MySQL, all the way to video games with Unity and C#.</p>
+                <p className="resumeElement" id="resumeP1">
+                    {homeData[cookies.get("lang")].resume[0]}<span className="highlightYellow">{homeData[cookies.get("lang")].resumeHighlight[0]}</span>
+                    {homeData[cookies.get("lang")].resume[1]}<span className="highlightPink">{homeData[cookies.get("lang")].resumeHighlight[1]}</span>
+                    {homeData[cookies.get("lang")].resume[2]}<span className="highlightBlue">{homeData[cookies.get("lang")].resumeHighlight[2]}</span>
+                    {homeData[cookies.get("lang")].resume[3]}<span className="highlightGrey">{homeData[cookies.get("lang")].resumeHighlight[3]}</span>
+                </p>
+                <p className="resumeElement" id="resumeP2">{homeData[cookies.get("lang")].resume[5]}</p>
             </div>
         </div>
      );
