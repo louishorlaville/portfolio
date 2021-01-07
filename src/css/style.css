@@ -229,12 +229,34 @@ body{
     font-size: 1.8em;
 }
 
+.listTitle>a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.listTitle>.activeListTitle{
+    color: black;
+    opacity: 1;
+}
+
+.listTitle>.inactiveListTitle{
+    transition: opacity 0.4s ease-out;
+}
+
+.listTitle>.inactiveListTitle:hover{
+    opacity: .8;
+}
+
 .listItemTitle>.boxHoverBehind{
     background-color: #EDBD21;
+    left:-5px;
 }
 
 .listItemTitle:hover>.boxHoverBehind{
     width: 105%;
+    
 }
 
 .listItemTitle:hover>.listItemBall{
@@ -255,6 +277,8 @@ body{
     position: relative;
     cursor: pointer;
     display: inline-block;
+    text-decoration: none;
+    color: black;
 }
 
 .listItemTitle>p{

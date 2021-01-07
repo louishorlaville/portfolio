@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
 import Cookies from 'universal-cookie';
 import projects from '../../data/projects.json';
 
@@ -7,11 +8,12 @@ const cookies = new Cookies();
 class ContentProjectList extends Component {
 
     state = { 
+        msg:"bruhbruhbruh",
         fieldsID:[],
         skillTitle:{
             "en":["PROGRAMMER","DESIGNER"],
             "fr":["PROGRAMMEUR", "DESIGNER"]
-        }     
+        }    
     }
 
     componentDidMount(){
@@ -46,6 +48,23 @@ class ContentProjectList extends Component {
         return currentProjects;
     }
 
+    handleSkillSwitch = (skillClicked) =>{
+        this.resetFields();
+        let temp = [];
+        if(skillClicked!=0){
+            temp=[1,0];
+        }
+        else{
+            temp=[2,3];
+        }
+        this.setState({fieldsID:temp});
+
+    }
+
+    resetFields(){
+        this.setState({fieldsId:[]});
+    }
+
 
     render() { 
         const { fieldsID } = this.state;
@@ -54,7 +73,11 @@ class ContentProjectList extends Component {
             <div id="contentContainer">
                 <div className="listContainer">
                     <div className="listTitleContainer">
-                        <div className="listTitle">//{(fieldsID[0]==1)?skillTitle[cookies.get("lang")][1]:skillTitle[cookies.get("lang")][0]}</div>
+                        <div className="listTitle">
+                            {console.log(this.state.fieldsID)}
+                            <a id="listTitleDesigner" className={(fieldsID[0]!=1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>//
+                            <a id="listTitleProgrammer" className={(fieldsID[0]==1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a> 
+                        </div>
                     </div>
                     {/* MAP THE FIELD DEPENDING ON THE SELECTED CATEGORY */}
                     {fieldsID.map((field,fIndex)=>{
