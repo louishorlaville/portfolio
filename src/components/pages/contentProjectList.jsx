@@ -8,7 +8,6 @@ const cookies = new Cookies();
 class ContentProjectList extends Component {
 
     state = { 
-        msg:"bruhbruhbruh",
         fieldsID:[],
         skillTitle:{
             "en":["PROGRAMMER","DESIGNER"],
@@ -18,16 +17,34 @@ class ContentProjectList extends Component {
 
     componentDidMount(){
         const {fields} = this.props.location.state;
-        this.handleFields(fields)
+        /*If the user reloads the page it displays the fields he was currently watching*/
+        if(cookies.get("fields")){
+            if(cookies.get("fields")==="prog"){
+                this.setState({fieldsID:[2,3]});
+            }
+            else{
+                this.setState({fieldsID:[1,0]});
+            }
+        }
+        else{
+            this.handleFields(fields);
+        }
+    }
+
+    componentWillUnmount(){
+        /*Remove cookies when the user changes page*/
+        cookies.remove("fields");
     }
 
     handleFields=(fieldsData)=>{
         this.setState({fieldsID:fieldsData});
+        /*Set the cookies in case of relaod*/
+        cookies.set("fields",(fieldsData[0]==2)?"prog":"design");
     }
 
 
     /*Return the field we are currently in when function called*/
-    getCurrentField(field){
+    getCurrentField(field){ 
         for(let i=0;i<projects[cookies.get("lang")].length;i++){
             if(projects[cookies.get("lang")][i].fieldId===field){
                 return projects[cookies.get("lang")][i].fieldName;
@@ -58,12 +75,14 @@ class ContentProjectList extends Component {
             temp=[2,3];
         }
         this.setState({fieldsID:temp});
-
+        /*Set the cookies in case of relaod*/
+        cookies.set("fields",(skillClicked==0)?"prog":"design");
     }
 
     resetFields(){
         this.setState({fieldsId:[]});
     }
+
 
 
     render() { 
