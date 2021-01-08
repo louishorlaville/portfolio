@@ -85,7 +85,56 @@ body{
 
 #timeLanguage{
     padding-top: 5%;
+    position: relative;
+
 }
+
+.languageItem{
+    cursor: pointer;
+}
+
+#selectedLanguageBackground{
+    position: absolute;
+    
+    height: 70%;
+    transition: all .3s cubic-bezier(.17,.67,.55,1.95);
+    background-color: #FACBCC;
+    z-index: -1;
+}
+
+#en:hover ~ div.frSelected {
+    top: 30%;
+    left:-2%;
+    width: 43%;
+}
+#fr:hover ~ div.enSelected {
+    top: 30%;
+    left:53%;
+    width: 48%;
+}
+
+
+.frSelected{
+    top: 30%;
+    left:53%;
+    width: 48%;
+}
+
+.enSelected{
+    top: 30%;
+    left:-2%;
+    width: 43%;
+}
+
+@keyframes widthAnimation{
+    from{
+
+    }
+    to{
+
+    }
+}
+
 /*////////// GENERAL HIGHLIGHT STYLES //////////*/
 .highlightYellow{
     background-color: #EDBD21;

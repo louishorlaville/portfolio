@@ -14,7 +14,7 @@
         "nav":["Mon travail","À propos"],
         "menu":["Programmeur","Designer"],
         "resume":[
-            "Bonjour! Je m'appelle Louis Horlaville et je suis un finissant collégial établit à Montréal, passionné de "," et j'adore créer des ",". Je me spécialise dans le "," et le ",".",
+            "Bonjour! Je m'appelle Louis Horlaville et je suis un finissant collégial établit à Montréal. Je suis passionné de "," et j'adore créer des ",". Je me spécialise dans le "," et le ",".",
             "Je possède un vaste ensemble de compétences, partant de la programmation web back-end et front-end HTML/CSS/javascript/PHP/MySQL, jusqu'aux jeux vidéo avec Unity et C#."
         ],
         "resumeHighlight":[
