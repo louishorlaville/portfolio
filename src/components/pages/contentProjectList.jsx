@@ -105,7 +105,8 @@ class ContentProjectList extends Component {
                             {/* MAP THE PROJECTS DEPENDING ON THE CURRENT FIELD */}
                             {this.getCurrentProjects(field).map((project,pIndex)=>{
                                 return(
-                                <div key={pIndex} className="listItem">
+                                <Link to={{pathname:"/projectProfile",state:{id:project.id}}} key={pIndex} className="listItem">
+                                    {console.log(pIndex)}
                                     <div className="listItemTitle">
                                         {project.title}
                                         <p className="listItemSoftware">{project.software}</p>
@@ -113,7 +114,7 @@ class ContentProjectList extends Component {
                                         <div className="boxHoverBehind">&#10240;</div>
                                         <div className="listItemBall">&#10240;</div>
                                     </div>
-                                </div>
+                                </Link>
                                 );
                             })}
                             <div className="listSeparator">&#10240;</div>

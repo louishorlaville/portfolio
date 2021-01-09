@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer.jsx";
 
 import ContentHome from "./components/pages/contentHome.jsx";
 import ContentProjectList from "./components/pages/contentProjectList.jsx"
+import ContentProjectProfile from "./components/pages/contentProjectProfile.jsx"
 
 class App extends Component{
   state={
@@ -23,6 +24,7 @@ class App extends Component{
         <Header parentCallback={this.callBackFunction} />
         <Route exact path="/" render={(props)=>(<ContentHome {...props} langData={this.state.langData}/>)}/>
         <Route path="/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)}/>
+        <Route path="/projectProfile" component={ContentProjectProfile}/>
         <Footer/>
       </div>
     );

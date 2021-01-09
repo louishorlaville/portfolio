@@ -12,7 +12,7 @@ class Header extends Component {
         langData:""
     };
 
-    componentWillMount(){
+    UNSAFE_componentWillMount=()=>{
         console.log(cookies.get("lang"));
         if(!cookies.get("lang")){
             cookies.set("lang","en");

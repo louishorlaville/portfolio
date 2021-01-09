@@ -273,6 +273,8 @@ body{
     margin-left: 5%;
     margin-top: 2%;
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .listFieldTitle{
@@ -292,7 +294,7 @@ body{
 }
 
 .listTitle>.inactiveListTitle{
-    transition: opacity 0.4s ease-out;
+    transition: opacity 0.3s ease-out;
 }
 
 .listTitle>.inactiveListTitle:hover{
@@ -318,7 +320,8 @@ body{
     margin-top: 40px;
     transform-origin: top left;
 }
-.listField>.listItem:nth-of-type(2){
+
+.listField>.listItem:nth-of-type(1){
     margin-top: 25px;
 }
 
@@ -377,8 +380,78 @@ body{
 }
 
 
+/*////////// PROJECT PROFILE PAGE //////////*/
+.projectContentContainer{
+    margin-left: 5%;
+    margin-top: 2%;
+}
 
+.projectContentContainer>div{
+    margin-top: 1%;
+}
 
+/*TITLE*/
+.projectTitleContainer{
+    position: relative;
+    border-bottom: 4px solid #293947;
+    padding-left: 3.5%;
+    font-size: 2em;
+    width: 50%
+}
+
+.backToList{
+    position: absolute;
+    top: 25%;
+    left: -1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6%;
+}
+
+.ballBack{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #EDBD21;
+    cursor: pointer;
+}
+
+/*INFOS*/
+.projectInfosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.projectInfoTitle{
+    color: black;
+}
+
+.projectInfo{
+    color: #5f5f5f;
+}
+
+.projectCollabInfos{
+    background-color: #D9DBDE;
+    padding: 5px;
+}
+
+.projectCollabInfos>p{
+    margin: 0;
+}
+
+/*PREVIEW*/
+.projectPreviewsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projectPreviewsContainer>img{
+    width: 2em;
+}
 
 
 
