@@ -31,7 +31,7 @@ class ProjectProfile extends Component {
                         </div>
                     </div>
                     <ProjectInfos/>
-                    <ProjectPreviews/>
+                    <ProjectPreviews id={this.state.projectId}/>
                     <ProjectText/>
                 </div>
             </div>

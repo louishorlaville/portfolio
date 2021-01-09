@@ -423,6 +423,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     width: 30%;
+    min-width: 400px;
 }
 
 .projectInfoTitle{
@@ -445,13 +446,42 @@ body{
 /*PREVIEW*/
 .projectPreviewsContainer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 80%;
 }
 
 .projectPreviewsContainer>img{
-    width: 2em;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 300px;
+    flex: 1;
 }
+
+/*TEXT*/
+.projectTextContainer{
+    position: relative;
+}
+
+.projectTextSeparator{
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 40%;
+    background-color: #33495E;
+    margin-left: -5.5%;
+}
+
+#projectTextContentContainer{
+    padding-top: 1%;
+    font-size: 1.25em;
+    font-weight: 100;
+    max-width: 80%;
+    text-align: justify;
+}
+
+
 
 
 
