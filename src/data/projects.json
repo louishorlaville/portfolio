@@ -77,8 +77,20 @@
             "software":"UNITY//C#",
             "fieldId":2,
             "fieldName":"VIDEO GAME DEVELOPMENT",
-            "collab":[],
-            "text":[]
+            "collab":[
+                "Rebecca Anescar",
+                "Radhika Patel",
+                "Émile Jutras",
+                "Olivier Larose",
+                "Allen Jang",
+                "Luka Ross",
+                "Valera Kuzmenko"
+            ],
+            "text":[
+                "My team and I won second place in our first GameJam ever, which theme's was 'Quebec's Tales and Legends'. We are very proud of what we've been able to accomplish in the little time we had and given the fact that we created all of our assets ourselves.",
+                "I was in charge of the character's movements, the interaction of the player with its environment (such as the enemies and the lamp posts), the compass' functionality, and the assets' implementation into Unity. Even though those were my responsibilities, we all helped each other out with every and other tasks, and I think that anybody reading this who participated to a gameJam can say that we never really stick to only one role during those events.",
+                "The biggest challenge on this project was to, first, get out of my comfort zone since this was my first gameJam ever, and second the 40h time limit we had. Working under such pressure thaught me a lot of things and really made me grow."
+            ]
         },
         {
             "id":8,
@@ -197,8 +209,20 @@
             "software":"UNITY//C#",
             "fieldId":2,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
-            "collab":[],
-            "text":[]
+            "collab":[
+                "Rebecca Anescar",
+                "Radhika Patel",
+                "Émile Jutras",
+                "Olivier Larose",
+                "Allen Jang",
+                "Luka Ross",
+                "Valera Kuzmenko"
+            ],
+            "text":[
+                "Mon équipe et moi-même avons gagné la seconde place à notre tout premier gameJam, qui avait pour thème 'Contes et légendes québécoises'. Nous sommes très fier de travail que nous avons réalisé  dans le peu de temps que nous avions (40 heures), et étant donné que nous avons réalisé tout le matériel visuel et sonore nous-même.",
+                "J'étais en charge de la programmation des mouvements du personnage, de ses intéractions avec son environnement (tel que les ennemies et les lampadaires), la fonctionnalité du compas, ainsi que l'implémentation des assets visuels et sonor dans Unity. Même si ces dernières étaient mes responsabilités, nous nous sommes tous entraidé ici et là, et je pense que quiconque lisant ceci et ayant participé à un gameJam peut confirmer qu'on ne reste jamais cantonné à un seul et même rôle pendant ces évènnements.",
+                "Le plus gros challenge sur ce projet était de, premièrement, sortir de ma zone de confort étant donné que les gameJams étaient quelques chose d'inconnus et que je ne savais pas à quoi m'attendre. Ensuite, il y avait la limite de temps de 40h que nous avions pour réalizer le projet. Travail sous une telle pression m'a très certainement appris beaucoup de choses et m'a fais grandir."
+            ]
         },
         {
             "id":8,
@@ -207,7 +231,11 @@
             "software":"UNITY//C#",
             "fieldId":2,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
-            "collab":[],
+            "collab":[
+                "Gabriel A.P.",
+                "Sandrine Cryans",
+                "Diphany Chea"
+            ],
             "text":[]
         },
         {
