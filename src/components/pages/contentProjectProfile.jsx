@@ -6,6 +6,7 @@ import projectsData from '../../data/projects.json';
 import ProjectInfos from "../project/projectInfos.jsx"
 import ProjectPreviews from "../project/projectPreviews.jsx"
 import ProjectText from "../project/projectText.jsx"
+import ProjectVideo from "../project/projectVideo.jsx"
 
 
 const cookies = new Cookies();
@@ -21,7 +22,7 @@ class ProjectProfile extends Component {
             <div id="contentContainer">
                 <div className="projectContentContainer">
                     <div className="projectTitleContainer">
-                        <div className="backToList">
+                        <div className="backToList ballBackPassive">
                             <div className="ballBack">&#10240;</div>
                             <div className="ballBack">&#10240;</div>
                             <div className="ballBack">&#10240;</div>
@@ -30,9 +31,10 @@ class ProjectProfile extends Component {
                             //{projectsData[cookies.get("lang")][projectId].title.toUpperCase()}
                         </div>
                     </div>
-                    <ProjectInfos/>
+                    <ProjectInfos id={this.state.projectId}/>
                     <ProjectPreviews id={this.state.projectId}/>
-                    <ProjectText/>
+                    <ProjectText id={this.state.projectId}/>
+                    <ProjectVideo id={this.state.projectId}/>
                 </div>
             </div>
         );

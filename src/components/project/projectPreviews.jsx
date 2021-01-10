@@ -17,7 +17,7 @@ class ProjectPreviews extends Component {
                 {/* <Image source='../../img/projects/0/1.jpg'/> */}
                 {console.log(this.state.projectId)}
                 {imgIndex.map(imageId=>
-                    <img src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt="project screenshot"/>
+                    <img key={imageId} src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt="project screenshot"/>
                 )}
             </div>
         );

@@ -387,7 +387,7 @@ body{
 }
 
 .projectContentContainer>div{
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 /*TITLE*/
@@ -407,6 +407,20 @@ body{
     flex-direction: row;
     justify-content: space-between;
     width: 6%;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.backToList:hover{
+    width: 7%;
+    left: -2.5%;
+}
+
+.backToList:hover>.ballBack:nth-child(1){
+    transform: scale(1.5);
+}
+.backToList:hover>.ballBack:nth-child(2){
+    transform: scale(1.25);
 }
 
 .ballBack{
@@ -414,8 +428,39 @@ body{
     height: 11px;
     border-radius: 50%;
     background-color: #EDBD21;
-    cursor: pointer;
+    transition: all .2s cubic-bezier(.5,0,.32,1.72);
 }
+
+.ballBackPassive>.ballBack{
+    animation: passiveBallBack 5s infinite cubic-bezier(.5,0,.32,1.72);
+}
+.ballBackPassive>.ballBack:nth-child(3){
+    animation-delay: 0s;
+}
+.ballBackPassive>.ballBack:nth-child(2){
+    animation-delay: .3s;
+}
+.ballBackPassive>.ballBack:nth-child(1){
+    animation-delay: .6s;
+}
+
+@keyframes passiveBallBack{
+    from{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.5);
+    }
+    20%{
+        transform: scale(1);
+
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
 
 /*INFOS*/
 .projectInfosContainer{
@@ -479,6 +524,17 @@ body{
     font-weight: 100;
     max-width: 80%;
     text-align: justify;
+}
+
+/* VIDEO */
+.projectVideoContainer{
+    margin-top: 4% !important;
+    margin-bottom: 4% ;
+    width: 35%;
+    min-width: 500px;
+}
+.projectVideoPlayer{
+    width: 100%;
 }
 
 
