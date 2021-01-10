@@ -23,7 +23,7 @@ class ContentProjectList extends Component {
                 this.setState({fieldsID:[2,3]});
             }
             else{
-                this.setState({fieldsID:[1,0]});
+                this.setState({fieldsID:[4,1,0]});
             }
         }
         else{
@@ -69,7 +69,7 @@ class ContentProjectList extends Component {
         this.resetFields();
         let temp = [];
         if(skillClicked!=0){
-            temp=[1,0];
+            temp=[4,1,0];
         }
         else{
             temp=[2,3];
@@ -93,8 +93,8 @@ class ContentProjectList extends Component {
                 <div className="listContainer">
                     <div className="listTitleContainer">
                         <div className="listTitle">
-                            <a id="listTitleDesigner" className={(this.state.fieldsID[0]!=1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>//
-                            <a id="listTitleProgrammer" className={(this.state.fieldsID[0]==1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a> 
+                            <a id="listTitleDesigner" className={(this.state.fieldsID[0]===2)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>//
+                            <a id="listTitleProgrammer" className={(this.state.fieldsID[0]!==2)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a> 
                         </div>
                     </div>
                     {/* MAP THE FIELD DEPENDING ON THE SELECTED CATEGORY */}

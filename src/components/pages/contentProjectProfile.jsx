@@ -19,8 +19,8 @@ class ProjectProfile extends Component {
     }
 
     componentDidMount(){
-        if(projectsData[cookies.get("lang")][this.state.projectId].fieldId==0 || projectsData[cookies.get("lang")][this.state.projectId].fieldId==1){
-            this.setState({listFields:[1,0]});
+        if(projectsData[cookies.get("lang")][this.state.projectId].fieldId==0 || projectsData[cookies.get("lang")][this.state.projectId].fieldId==1 || projectsData[cookies.get("lang")][this.state.projectId].fieldId==4){
+            this.setState({listFields:[4,1,0]});
         }
         else{
             this.setState({listFields:[2,3]});

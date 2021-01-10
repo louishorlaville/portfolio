@@ -2,13 +2,19 @@
     "en":[
         {
             "id":0,
-            "title":"cegep's department website",
+            "title":"cegep's department website's design",
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
             "fieldName":"WEB DESIGN",
-            "collab":[],
-            "text":[]
+            "collab":[
+                "Gabriel A.P."
+            ],
+            "text":[
+                "One of our final projects was to remake our cegep's department's website, while simulating a real work environment in which our clients were our teachers.",
+                "Responsible of the website's design with my teammate Gabriel to help me out, I wanted our website to stand out by using a not-so-commonly used design among websites: Bauhaus, which was originally an architectural design. The main challenge with this project was to modernize and give a fresh look to a style dating from the 20th century. We obvioulsy created a lot of models as well as colors tests to finally get our final product.",
+                "I also wanted our weebsite to be dynamic and interactive, which is why we added background animations on a few geometric shapes as well as an option for the user to choose which color theme to be displayed: day or night."
+            ]
         },
         {
             "id":1,
@@ -18,7 +24,11 @@
             "fieldId":0,
             "fieldName":"WEB DESIGN",
             "collab":[],
-            "text":[]
+            "text":[
+                "This website is my portfolio itself, which i created because I simply needed a platform to display my variety of different projects.",
+                "I made it using React.js, which was really fun to learn as a new framework. The biggest challenge was definitely to be able to create on single page template for all of my different projects and display them the best I could",
+                "I made various models for the different pages, and tried different colors. I wanted a theme based on my logo's design which explains the pacman references here and there."
+            ]
         },
         {
             "id":2,
@@ -28,7 +38,11 @@
             "fieldId":0,
             "fieldName":"WEB DESIGN",
             "collab":[],
-            "text":[]
+            "text":[
+                "In one of my design classes I had to to choose a website and remake some of its pages based on the principles I had learned beforehand.",
+                "It was my first time creating multi-platform models that could support all three device formats: desktop, tablet, and mobile. It sure was an interesting little challenge at the time.",
+                "Go check the artstation page for the project down below if you're interested to see more of the models for this project!"
+            ]
         },
         {
             "id":3,
@@ -37,8 +51,11 @@
             "software":"MAYA",
             "fieldId":1,
             "fieldName":"3D MODELING",
-            "collab":[],
-            "text":[]
+            "collab":["Radhika Patel"],
+            "text":[
+                "For my last 3D class in college, we had to make a short intro animation of our department's logo. It was supposed to represent the creative and logical/programmer aspects of the program. We idealized, modeled and animated all of the project ourselves.",
+                "The main challenge was to, first, work from home with a teammate for the first time because of the pandemic, and, second, we had to use at least one dynamic simulation, such as MASH and Bifrost (that we both used). My teammate and I both did everything together, except for the storyboard, which she drew herself. We found the music on a royalty-free ambient music website, we did not make it ourselves. "
+            ]
         },
         {
             "id":4,
@@ -48,7 +65,11 @@
             "fieldId":1,
             "fieldName":"3D MODELING",
             "collab":[],
-            "text":[]
+            "text":[
+                "A vehicle 3D model I idealized by myself. I was inspired by a pterodactyle to then create an aerial vehicle with a steampunk vibe.",
+                "The biggest challenge on this project was the conceptualization of the vehicle. How to make a vehicle from a dinausor was a challenge I enjoyed facing and overcome. I spent a lot of time thinking, brainstorming, and documenting before finally being able to start modelizing.",
+                "Regarding the inspirations, there's obvioulsy the pterodactyl's anatomy, but on the more mechanical side I tookk a lot from 'Ratchet and Clank''s universe, a game I played countless hours and still love today. I wanted to see some of the game's gear and mechanic aspect on my model. I also obviously got inspired by other steampunk works."
+            ]
         },
         {
             "id":5,
@@ -118,7 +139,9 @@
             "fieldId":3,
             "fieldName":"WEB DEVELOPMENT",
             "collab":[],
-            "text":[]
+            "text":[
+                
+            ]
         },
         {
             "id":10,
@@ -129,18 +152,32 @@
             "fieldName":"WEB DEVELOPMENT",
             "collab":[],
             "text":[]
+        },
+        {
+            "id":11,
+            "title":"personal logo research",
+            "date":"fall 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "fieldId":4,
+            "fieldName":"GRAPHIC DESIGN",
+            "collab":[],
+            "text":[] 
         }
     ],
     "fr":[
         {
             "id":0,
-            "title":"site web départemental du cégep",
+            "title":"design du site web départemental du cégep",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
             "fieldName":"DESIGN WEB",
-            "collab":[],
-            "text":[]
+            "collab":["Gabriel A.P."],
+            "text":[
+                "Un de nos projets de fin de techniques était de refaire le site web de notre département du cégep en simulant un contexte de travail réel ou nos clients étaient en fait nos professeurs.",
+                "En charge de l'ensemble du design avec mon coéquipier Gabriel pour m'assister, nous voulions démarquer notre design en choisissant un style peu commun pour un site web: le Bauhaus. Le défi principal fut de donner un aspect moderne qu'on retrouverait aujourd'hui à un style datant du 20e siècle. Nous avons évidemment fait beaucoup de maquettes ainsi que des tests de couleurs avant de tomber sur la version finale.",
+                "Je voulais aussi que notre site web soit intéractif et dynamique, ce pourquoi nous avons rajouté des animations dans le fond de plusieurs formes géométriques ainsi qu'une option permettant à l'utilisateur de changer entre un thème de couleurs jour et nuit."
+            ]
         },
         {
             "id":1,
@@ -150,7 +187,11 @@
             "fieldId":0,
             "fieldName":"DESIGN WEB",
             "collab":[],
-            "text":[]
+            "text":[
+                "Ce site web est mon portfolio lui-même, que j'ai créé car j'avais tout simplement besoin d'une plateforme où je pouvais présenter mes différents projets malgré leur nature variée.",
+                "Je l'ai réalisé en utilisant React.js, qui était très intéressant à apprendre comme nouveau 'framework' que je ne connaissais pas avant. Le plus gros défi d'un point de vue design était définitivement de créer un seul et même modèle de page de projet capable de présenter l'ensemble des projets différents.",
+                "J'ai évidement créé différentes maquettes de pages, ainsi que plusieurs tests de couleurs avant de les intégrer afin de planifier l'intégration web par la suite. Je voulais créer un thème basé sur mon design de logo personnel, ce qui explique les différentes références à Pacman un peu partout."
+            ]
         },
         {
             "id":2,
@@ -160,7 +201,10 @@
             "fieldId":0,
             "fieldName":"DESIGN WEB",
             "collab":[],
-            "text":[]
+            "text":[
+                "Dans un de mes cours de design collégial je devais choisir un siteweb existant et refaire certaines de ses pages basé sur ce que nous avions appris au cours de la session.",
+                "C'était la première fois que je créais des maquettes multi-plateformes qui pouvaient supporter les trois format d'appareil suivant: bureau, tablette, et mobile. C'était un petit défi intéressant à relever à l'époque."
+            ]
         },
         {
             "id":3,
@@ -169,8 +213,11 @@
             "software":"MAYA",
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
-            "collab":[],
-            "text":[]
+            "collab":["Radhika Patel"],
+            "text":[
+                "Pour mon dernier cours de 3D au cégep nous devions créer une animation d'introduction de 30 secondes pour le logo de notre département. Elle était supposée représenter l'aspect créatif et logique/programmeur du programme. Nous avons idéalisé, modélisé et animé l'ensemble du projet nous-même.",
+                "Le défi principal était de, premièrement, travailler en équipe à distance dû aux conditions sanitaires, et, deuxièmement, nous devions utiliser un minimum d'une simluation dynamique, tel que MASH ou Bifrost (que nous avons tous deux utilisé). Ma coéquière et moi-même avons fais l'ensemble du projet ensemble, à part le scénarimage qu'elle a dessiné elle-même. Nous avons trouvé la musique sur un site web proposant des musique d'ambiance libres de droit, nous ne l'avons pas faite nous-même."
+            ]
         },
         {
             "id":4,
@@ -180,7 +227,11 @@
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":[],
-            "text":[]
+            "text":[
+                "Un modèle de véhicule que j'ai idéalisé moi-même. Je me suis inspiré d'un pterodactyle pour partir sur un véhicule aérien dans un style steampunk.",
+                "Le plus gros défi de ce projet-ci fut la conception du véhicule. J'ai passé beaucoup de temps à réflechir, à me remuer les méninges, et à documenter mes idées avant de finalement commencer la modélisation.",
+                "En ce qui concerne les inspiration, il y a forcément l'anatomie du ptérodactyle, mais du côté mechanique j'ai beaucoup pris de l'univers du jeu 'Ratchet et Clank' que j'adore et dont je voulais retrouver un peu l'aspect mécanique sur mon projet. Je me suis évidement inspiré d'autres oeuvres dans le thème steampunk."
+            ]
         },
         {
             "id":5,
@@ -236,7 +287,11 @@
                 "Sandrine Cryans",
                 "Diphany Chea"
             ],
-            "text":[]
+            "text":[
+                "Un prototype de jeu pixel 2D JRPG réalisé avec Unity 3D qui prend place dans un monde ou votre source de préoccupation principale et de venir en aidee à vos amis victimes de problèmes psychologiques tel que l'anxiété scolaire et la toxicité dans les relations sociales.",
+                "Mon rôle dans ce projet était d'implémenter les assets créées par l'équipe artistique dans Unity, créer et assembler la ville (je n'ai pas créer les asssets visuelles) dans laquelle le joueur commence son aventure, et implémenter les musique pour chaque scène. Mes responsabilités comprenaient aussi de programmer l'instanciation aléatoire des accessoires dans le donjon, tel que les casiers, les horloges, et les portes, et coder la fonctionnalité d'entrer et sortir des salles dans le donjon.",
+                "L'ensemble du projet a été développé avec un structure modulaire, ce qui nous permet de pouvoir créer plusieurs donjons très facilement une fois que les modules du premier donjon étaient programmés. Tout ce qui restait à faire était de créer le matériel visuel et sonor et le travail était quasiment finit. Ce projet étant mon premier projet à base de modules, c'était définitivement un challenge sur lequel j'ai aimé travaillé et duquel j'en ai appris beaucoup."
+            ]
         },
         {
             "id":9,
@@ -257,6 +312,16 @@
             "fieldName":"DÉVELOPPEMENT WEB",
             "collab":[],
             "text":[]
+        },
+        {
+            "id":11,
+            "title":"recherche de logo personnel",
+            "date":"automne 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "fieldId":4,
+            "fieldName":"DESIGN GRAPHIQUE",
+            "collab":[],
+            "text":[] 
         }
     ]
 }
