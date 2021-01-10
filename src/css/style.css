@@ -409,6 +409,8 @@ body{
     width: 6%;
     cursor: pointer;
     transition: all .2s ease-in;
+    text-decoration: none;
+
 }
 
 .backToList:hover{
@@ -429,11 +431,17 @@ body{
     border-radius: 50%;
     background-color: #EDBD21;
     transition: all .2s cubic-bezier(.5,0,.32,1.72);
+    z-index: -1;
 }
 
 .ballBackPassive>.ballBack{
     animation: passiveBallBack 5s infinite cubic-bezier(.5,0,.32,1.72);
 }
+
+.ballBackActive{
+    animation: none;
+}
+
 .ballBackPassive>.ballBack:nth-child(3){
     animation-delay: 0s;
 }
@@ -448,10 +456,13 @@ body{
     from{
         transform: scale(1);
     }
-    10%{
+    15%{
+        transform: scale(1);
+    }
+    25%{
         transform: scale(1.5);
     }
-    20%{
+    35%{
         transform: scale(1);
 
     }
@@ -486,6 +497,7 @@ body{
 
 .projectCollabInfos>p{
     margin: 0;
+    padding: 0;
 }
 
 /*PREVIEW*/

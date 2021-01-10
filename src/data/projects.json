@@ -6,7 +6,9 @@
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"WEB DESIGN"
+            "fieldName":"WEB DESIGN",
+            "collab":[],
+            "text":[]
         },
         {
             "id":1,
@@ -14,7 +16,9 @@
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"WEB DESIGN"
+            "fieldName":"WEB DESIGN",
+            "collab":[],
+            "text":[]
         },
         {
             "id":2,
@@ -22,7 +26,9 @@
             "date":"fall 2018",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"WEB DESIGN"
+            "fieldName":"WEB DESIGN",
+            "collab":[],
+            "text":[]
         },
         {
             "id":3,
@@ -30,7 +36,9 @@
             "date":"fall 2020",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D MODELING"
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[]
         },
         {
             "id":4,
@@ -38,7 +46,9 @@
             "date":"fall 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D MODELING"
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[]
         },
         {
             "id":5,
@@ -46,7 +56,9 @@
             "date":"fall 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D MODELING"
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[]
         },
         {
             "id":6,
@@ -54,7 +66,9 @@
             "date":"fall 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"3D MODELING"
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[]
         },
         {
             "id":7,
@@ -62,7 +76,9 @@
             "date":"january 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"VIDEO GAME DEVELOPMENT"
+            "fieldName":"VIDEO GAME DEVELOPMENT",
+            "collab":[],
+            "text":[]
         },
         {
             "id":8,
@@ -70,7 +86,17 @@
             "date":"fall 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"VIDEO GAME DEVELOPMENT"
+            "fieldName":"VIDEO GAME DEVELOPMENT",
+            "collab":[
+                "Gabriel A.P.",
+                "Sandrine Cryans",
+                "Diphany Chea"
+            ],
+            "text":[
+                "A pixel 2D JRPG game protoype realised with Unity 3D taking place in a world where your main concern is to save your friends from mental problems such as school anxiety and relationships toxicity.",
+                "My role on this project was to implement the overworld’s assets, create and assemble the city (didn't create the assets) where the player starts his journey, and implement the musics for each scene. My responsibilities also  included coding the random props instanciation in the dungeon, such as the lockers, the clocks and the doors,  and coding the functionnality of entering and exiting rooms in the dungeon.",
+                "The whole project was developped with a modular structure, making us able to create multiple dungeons very easily after the first one was done. All that was left once the modules have been coded was to create the visual and audio assets and the job was done. This project being my first time working with a modular structure, it was definitely a challenge that I liked working on and that I learned a lot from."
+            ]
         },
         {
             "id":9,
@@ -78,7 +104,9 @@
             "date":"fall 2020",
             "software":"HTML//CSS//Js//PHP",
             "fieldId":3,
-            "fieldName":"WEB DEVELOPMENT"
+            "fieldName":"WEB DEVELOPMENT",
+            "collab":[],
+            "text":[]
         },
         {
             "id":10,
@@ -86,7 +114,9 @@
             "date":"fall 2020",
             "software":"HTML//CSS//Js//PHP//REACT.Js",
             "fieldId":3,
-            "fieldName":"WEB DEVELOPMENT"
+            "fieldName":"WEB DEVELOPMENT",
+            "collab":[],
+            "text":[]
         }
     ],
     "fr":[
@@ -96,7 +126,9 @@
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"DESIGN WEB"
+            "fieldName":"DESIGN WEB",
+            "collab":[],
+            "text":[]
         },
         {
             "id":1,
@@ -104,7 +136,9 @@
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"DESIGN WEB"
+            "fieldName":"DESIGN WEB",
+            "collab":[],
+            "text":[]
         },
         {
             "id":2,
@@ -112,7 +146,9 @@
             "date":"automne 2018",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "fieldId":0,
-            "fieldName":"DESIGN WEB"
+            "fieldName":"DESIGN WEB",
+            "collab":[],
+            "text":[]
         },
         {
             "id":3,
@@ -120,7 +156,9 @@
             "date":"automne 2020",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"MODÉLISATION 3D"
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[]
         },
         {
             "id":4,
@@ -128,7 +166,9 @@
             "date":"automne 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"MODÉLISATION 3D"
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[]
         },
         {
             "id":5,
@@ -136,7 +176,9 @@
             "date":"automne 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"MODÉLISATION 3D"
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[]
         },
         {
             "id":6,
@@ -144,7 +186,9 @@
             "date":"automne 2019",
             "software":"MAYA",
             "fieldId":1,
-            "fieldName":"MODÉLISATION 3D"
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[]
         },
         {
             "id":7,
@@ -152,7 +196,9 @@
             "date":"janvier 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO"
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "collab":[],
+            "text":[]
         },
         {
             "id":8,
@@ -160,7 +206,9 @@
             "date":"automne 2020",
             "software":"UNITY//C#",
             "fieldId":2,
-            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO"
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "collab":[],
+            "text":[]
         },
         {
             "id":9,
@@ -168,7 +216,9 @@
             "date":"automne 2020",
             "software":"HTML//CSS//Js//PHP",
             "fieldId":3,
-            "fieldName":"DÉVELOPPEMENT WEB"
+            "fieldName":"DÉVELOPPEMENT WEB",
+            "collab":[],
+            "text":[]
         },
         {
             "id":10,
@@ -176,7 +226,9 @@
             "date":"automne 2020",
             "software":"HTML//CSS//Js//PHP//REACT.Js",
             "fieldId":3,
-            "fieldName":"DÉVELOPPEMENT WEB"
+            "fieldName":"DÉVELOPPEMENT WEB",
+            "collab":[],
+            "text":[]
         }
     ]
 }

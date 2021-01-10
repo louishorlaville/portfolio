@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cookies from 'universal-cookie';
+import {Link} from "react-router-dom";
 
 import projectsData from '../../data/projects.json';
 
@@ -13,20 +14,41 @@ const cookies = new Cookies();
 
 class ProjectProfile extends Component {
     state = { 
-        projectId:this.props.location.state.id
-     }
+        projectId:this.props.location.state.id,
+        listFields:[1,0]
+    }
+
+    componentDidMount(){
+        if(projectsData[cookies.get("lang")][this.state.projectId].fieldId==0 || projectsData[cookies.get("lang")][this.state.projectId].fieldId==1){
+            this.setState({listFields:[1,0]});
+        }
+        else{
+            this.setState({listFields:[2,3]});
+        }
+    }
+
+    mouseEnterBack= (e) =>{
+        e.target.classList.remove("ballBackPassive");
+        e.target.classList.add("ballBackActive");
+
+    }
+    mouseLeaveBack= (e) =>{
+        e.target.classList.add("ballBackPassive");
+        e.target.classList.remove("ballBackActive");
+    }
 
     render() { 
         const{projectId} = this.state;
+        const{listFields} = this.state;
         return ( 
             <div id="contentContainer">
                 <div className="projectContentContainer">
                     <div className="projectTitleContainer">
-                        <div className="backToList ballBackPassive">
+                        <Link to={{pathname:"/projects",state:{fields:listFields}}}  className="backToList ballBackPassive" onMouseEnter={(e)=>this.mouseEnterBack(e)} onMouseLeave={(e)=>this.mouseLeaveBack(e)}>
                             <div className="ballBack">&#10240;</div>
                             <div className="ballBack">&#10240;</div>
                             <div className="ballBack">&#10240;</div>
-                        </div>
+                        </Link>
                         <div className="projectTitle">
                             //{projectsData[cookies.get("lang")][projectId].title.toUpperCase()}
                         </div>
