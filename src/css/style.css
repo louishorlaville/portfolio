@@ -221,7 +221,6 @@ body{
     margin-top: 7%;
     padding:1em;
     padding-left: 3.5em;
-    margin-bottom: 5%;
 }
 
 #resumeContainer{
@@ -362,7 +361,6 @@ body{
     position: absolute;
     left: 0;
     top:100%;
-    width: 6em;
     font-size: .8em;
     color: #4D4D4D;
 }
@@ -557,7 +555,8 @@ body{
 /*////////// FOOTER //////////*/
 .footerContainer{
     position: relative;
-    margin-top: 2.5%;
+    margin-top: 2%;
+    margin-bottom:1%;
 }
 
 .pacmanContainer{

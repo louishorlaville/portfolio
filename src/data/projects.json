@@ -5,6 +5,8 @@
             "title":"cegep's department website's design",
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":0,
             "fieldName":"WEB DESIGN",
             "collab":[
@@ -21,6 +23,8 @@
             "title":"personal website",
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":0,
             "fieldName":"WEB DESIGN",
             "collab":[],
@@ -35,11 +39,13 @@
             "title":"patro le prevost",
             "date":"fall 2018",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":0,
             "fieldName":"WEB DESIGN",
             "collab":[],
             "text":[
-                "In one of my design classes I had to to choose a website and remake some of its pages based on the principles I had learned beforehand.",
+                "In one of my design classes I had to choose a website and remake some of its pages based on the principles I had learned beforehand.",
                 "It was my first time creating multi-platform models that could support all three device formats: desktop, tablet, and mobile. It sure was an interesting little challenge at the time.",
                 "Go check the artstation page for the project down below if you're interested to see more of the models for this project!"
             ]
@@ -49,6 +55,8 @@
             "title":"cegep's department logo",
             "date":"fall 2020",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"3D MODELING",
             "collab":["Radhika Patel"],
@@ -62,6 +70,8 @@
             "title":"the winged airship",
             "date":"fall 2019",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"3D MODELING",
             "collab":[],
@@ -76,26 +86,38 @@
             "title":"magma spear",
             "date":"fall 2019",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"3D MODELING",
             "collab":[],
-            "text":[]
+            "text":[
+                "I started off this project by wanting to create an object that would use a unique energy that I'd create myself. From here on out I then chose to create a weapon that would use the body temperature of the user to then, once it would've stored up enough energy, would change shape and the blade would become magma. It is a weapon's concept set between a futuristic high-end and rudimentary technology.",
+                "I made everything myself, from the conceptualization, to the modelization, to the rendering. This project was my first real project using Maya, and the main challenge while realizing it was to make odd shapes like the bottom of the weapon have clean topology with maximum 4-sides polygons. I'm happy I managed to create something that was just an idea at first with a clean topology."
+            ]
         },
         {
             "id":6,
             "title":"snorlax",
             "date":"fall 2019",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"3D MODELING",
             "collab":[],
-            "text":[]
+            "text":[
+                "This Pokemon voxel art model was the very first model I made using Maya. I still like how it looks and the vibe it gives off today.",
+                "To make it, I simply used cubes that were snipped to the grid so they would fit perfectly and the scale would stay right for each one of the cubes."
+            ]
         },
         {
             "id":7,
             "title":"valleyfield's intercollegiate gameJam",
             "date":"january 2020",
             "software":"UNITY//C#",
+            "artstation":[],
+            "github":[],
             "fieldId":2,
             "fieldName":"VIDEO GAME DEVELOPMENT",
             "collab":[
@@ -118,6 +140,8 @@
             "title":"borderline",
             "date":"fall 2020",
             "software":"UNITY//C#",
+            "artstation":[],
+            "github":[],
             "fieldId":2,
             "fieldName":"VIDEO GAME DEVELOPMENT",
             "collab":[
@@ -136,32 +160,53 @@
             "title":"cegep's department website",
             "date":"fall 2020",
             "software":"HTML//CSS//Js//PHP",
+            "artstation":[],
+            "github":[],
             "fieldId":3,
             "fieldName":"WEB DEVELOPMENT",
-            "collab":[],
+            "collab":[
+                "Gabriel A.P.",
+                "Thomas Lorenzo",
+                "Kevin Ponce"
+            ],
             "text":[
-                
+                "One of our final projects was to remake our cegep's department's website, while simulating a real work environment in which our clients were our teachers.",
+                "Being the SCRUM master of our team, I was not only in the charge of the design, but also organizing meetings, the tasks, and the work left to do. We developed the website using vanilla Javascript, regular CSS and JSON for the content manager.",
+                "My responsibilities regarding the web implementation were to work on the home, interships and teachers pages, create the css animations and make those pages responsive. I also made it so the content on the teachers and interships pages is rendered dynamically based on the JSON files we had created beforehand. I implemented the common header and footer to the different pages and coded the navigation using PHP.",
+                "I also created the CSS day/night switch using cookies."
             ]
         },
         {
             "id":10,
             "title":"personal website",
             "date":"fall 2020",
-            "software":"HTML//CSS//Js//PHP//REACT.Js",
+            "software":"HTML//CSS//Js//REACT.Js",
+            "artstation":[],
+            "github":[],
             "fieldId":3,
             "fieldName":"WEB DEVELOPMENT",
             "collab":[],
-            "text":[]
+            "text":[
+                "This website is my portfolio itself, which i created because I simply needed a platform to display my variety of different projects.",
+                "I used this project as an opportunity to learn React.Js and widen my set of skills. It was definitely a challenge at first to grasp the concept of the compenents system and the different mounting phases, but once I was familiar with it, everything was way easier.",
+                "I'm using JSON files to manage my content, and creating my components' structure so I can easily create and delete new projects/fields without having to worry about the website's functionnality. A thing I really like about this project is that it's my first website developing all alone, so i can really make sure the all the file organization and the CSS is clean well done."
+            ]
         },
         {
             "id":11,
             "title":"personal logo research",
-            "date":"fall 2020",
+            "date":"summer/fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":4,
             "fieldName":"GRAPHIC DESIGN",
             "collab":[],
-            "text":[] 
+            "text":[
+                "When I started my portfolio project, I first needed a visual identity, therefore, a logo to represent myself.",
+                "I went through a lot of different ideas and variations before getting to Pacman, which references the video game industry, the field I wanna work in in the future. It was a real challenge to first find a concept and then colors that would give the right vibe, the Louis Horlaville vibe. I collected a lot of feedback from different people before choosing this version.",
+                "Go check the artstation project page down below if you're interested in seeing the ideas I went through!"
+            ] 
         }
     ],
     "fr":[
@@ -170,6 +215,8 @@
             "title":"design du site web départemental du cégep",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":0,
             "fieldName":"DESIGN WEB",
             "collab":["Gabriel A.P."],
@@ -184,6 +231,8 @@
             "title":"site web personnel",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":0,
             "fieldName":"DESIGN WEB",
             "collab":[],
@@ -198,6 +247,8 @@
             "title":"patro le prevost",
             "date":"automne 2018",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":0,
             "fieldName":"DESIGN WEB",
             "collab":[],
@@ -211,6 +262,8 @@
             "title":"logo départemental du cégep",
             "date":"automne 2020",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":["Radhika Patel"],
@@ -224,6 +277,8 @@
             "title":"le ballon ailé",
             "date":"automne 2019",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":[],
@@ -238,6 +293,8 @@
             "title":"lance de magma",
             "date":"automne 2019",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":[],
@@ -248,6 +305,8 @@
             "title":"ronflex",
             "date":"automne 2019",
             "software":"MAYA",
+            "artstation":[],
+            "github":[],
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":[],
@@ -258,6 +317,8 @@
             "title":"gameJam intercollégial de valleyfield",
             "date":"janvier 2020",
             "software":"UNITY//C#",
+            "artstation":[],
+            "github":[],
             "fieldId":2,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
             "collab":[
@@ -280,6 +341,8 @@
             "title":"borderline",
             "date":"automne 2020",
             "software":"UNITY//C#",
+            "artstation":[],
+            "github":[],
             "fieldId":2,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
             "collab":[
@@ -298,6 +361,8 @@
             "title":"site web départemental du cégep",
             "date":"automne 2020",
             "software":"HTML//CSS//Js//PHP",
+            "artstation":[],
+            "github":[],
             "fieldId":3,
             "fieldName":"DÉVELOPPEMENT WEB",
             "collab":[],
@@ -308,6 +373,8 @@
             "title":"site web personnel",
             "date":"automne 2020",
             "software":"HTML//CSS//Js//PHP//REACT.Js",
+            "artstation":[],
+            "github":[],
             "fieldId":3,
             "fieldName":"DÉVELOPPEMENT WEB",
             "collab":[],
@@ -318,6 +385,8 @@
             "title":"recherche de logo personnel",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
+            "artstation":[],
+            "github":[],
             "fieldId":4,
             "fieldName":"DESIGN GRAPHIQUE",
             "collab":[],

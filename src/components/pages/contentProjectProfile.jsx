@@ -27,6 +27,18 @@ class ProjectProfile extends Component {
         }
     }
 
+    pathExists = (path) =>{
+        try {
+            console.log(path);
+            return require(`${path}`);
+        } 
+        catch (err) {
+            console.log("okokok");
+            return null;
+        }
+    };
+    
+
     mouseEnterBack= (e) =>{
         e.target.classList.remove("ballBackPassive");
         e.target.classList.add("ballBackActive");
@@ -38,6 +50,7 @@ class ProjectProfile extends Component {
     }
 
     render() { 
+        // const vid = require('../vid/projects/'+projectId+'/project'+projectId+'.mp4');
         const{projectId} = this.state;
         const{listFields} = this.state;
         return ( 
@@ -56,7 +69,13 @@ class ProjectProfile extends Component {
                     <ProjectInfos id={this.state.projectId}/>
                     <ProjectPreviews id={this.state.projectId}/>
                     <ProjectText id={this.state.projectId}/>
-                    <ProjectVideo id={this.state.projectId}/>
+                    {this.pathExists('../../vid/projects/'+projectId+'/project'+projectId+'.mp4')}
+                    <div className="projectVideoContainer">
+                        <video className="projectVideoPlayer" controls>
+                            <source src={'vid/projects/'+projectId+'/project'+projectId+'.mp4'} type="video/mp4"/>
+                            <source src={'vid/projects/'+projectId+'/project'+projectId+'.ogg'} type="video/ogg"/>
+                        </video>
+                    </div>
                 </div>
             </div>
         );
