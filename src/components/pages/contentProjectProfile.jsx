@@ -8,7 +8,7 @@ import ProjectInfos from "../project/projectInfos.jsx"
 import ProjectPreviews from "../project/projectPreviews.jsx"
 import ProjectText from "../project/projectText.jsx"
 import ProjectVideo from "../project/projectVideo.jsx"
-
+import ProjectLinks from "../project/projectLinks.jsx"
 
 const cookies = new Cookies();
 
@@ -27,14 +27,11 @@ class ProjectProfile extends Component {
         }
     }
 
-    pathExists = (path) =>{
-        try {
-            console.log(path);
-            return require(`${path}`);
-        } 
-        catch (err) {
-            console.log("okokok");
-            return null;
+    videoExists = (projectId) =>{
+        if(projectsData[cookies.get("lang")][projectId].video==true){
+            return(
+                <ProjectVideo id={this.state.projectId}/>
+            )
         }
     };
     
@@ -69,13 +66,12 @@ class ProjectProfile extends Component {
                     <ProjectInfos id={this.state.projectId}/>
                     <ProjectPreviews id={this.state.projectId}/>
                     <ProjectText id={this.state.projectId}/>
-                    {this.pathExists('../../vid/projects/'+projectId+'/project'+projectId+'.mp4')}
-                    <div className="projectVideoContainer">
-                        <video className="projectVideoPlayer" controls>
-                            <source src={'vid/projects/'+projectId+'/project'+projectId+'.mp4'} type="video/mp4"/>
-                            <source src={'vid/projects/'+projectId+'/project'+projectId+'.ogg'} type="video/ogg"/>
-                        </video>
+                    <div className="projectBottomContainer">
+                        {this.videoExists(projectId)}
+                        <ProjectLinks id={this.state.projectId}/>
                     </div>
+                    
+                   
                 </div>
             </div>
         );
