@@ -5,10 +5,6 @@ import projectProfileData from '../../data/projectProfile.json';
 
 const cookies = new Cookies();
 
-
-
-
-
 class ProjectLinks extends Component {
     state = { 
         projectId:this.props.id,
