@@ -14,7 +14,6 @@ class ProjectLinks extends Component {
 
     componentDidMount(){
         console.log("JE SUIS ICIIIIIIIIIIII")
-
         this.setState({
             artstation:(projectsData[cookies.get("lang")][this.state.projectId].artstation.length!=0)?true:false,
             github:(projectsData[cookies.get("lang")][this.state.projectId].github.length!=0)?true:false
