@@ -362,7 +362,7 @@ body{
     position: absolute;
     left: 0;
     top:100%;
-    width: 300%;
+    width: 160%;
     font-size: .8em;
     color: #4D4D4D;
 }
@@ -426,8 +426,8 @@ body{
 }
 
 .ballBack{
-    width: 11px;
-    height: 11px;
+    width: .8vw;
+    height: .8vw;
     border-radius: 50%;
     background-color: #EDBD21;
     transition: all .2s cubic-bezier(.5,0,.32,1.72);
