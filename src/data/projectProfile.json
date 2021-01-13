@@ -1,0 +1,11 @@
+{
+    "en":{
+        "infos":["made in collaboration with:", "software/technology:"],
+        "link":["artstation project page", "github project"]
+    },
+    "fr":{
+        "infos":["fais en collaboration avec:", "logiciel/technologie:"],
+        "link":["page artstation du projet", "projet github"]
+    }
+    
+}

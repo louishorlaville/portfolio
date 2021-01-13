@@ -1,155 +1,422 @@
 {
-    "Language":[
+    "en":[
         {
-            "Skills":[
-                {
-                    "Fields":  {
-                        "Web Design":[
-                            {
-                                "title":"cegep's department website",
-                                "date":"fall 2020",
-                                "software":"ILLUSTRATOR//PHOTOSHOP"
-                            },
-                            {
-                                "title":"personal website",
-                                "date":"fall 2020",
-                                "software":"ILLUSTRATOR//PHOTOSHOP"
-                            },
-                            {
-                                "title":"patro le prevost",
-                                "date":"fall 2018",
-                                "software":"ILLUSTRATOR//PHOTOSHOP"
-                            }
-                        ],
-                        "3D Modeling":[
-                            {
-                                "title":"cegep's department logo",
-                                "date":"fall 2020",
-                                "software":"MAYA"
-                            },
-                            {
-                                "title":"the winged airship",
-                                "date":"fall 2019",
-                                "software":"MAYA"
-                            },
-                            {
-                                "title":"magma spear",
-                                "date":"fall 2019",
-                                "software":"MAYA"
-                            },
-                            {
-                                "title":"snorlax",
-                                "date":"fall 2019",
-                                "software":"MAYA"
-                            }
-                        ]
-                    }
-                    
-                },
-                {
-                    "Video Game Development":[
-                        {
-                            "title":"valleyfield's intercollegiate gameJam",
-                            "date":"january 2020",
-                            "software":"UNITY//C#"
-                        },
-                        {
-                            "title":"borderline",
-                            "date":"fall 2020",
-                            "software":"UNITY//C#"
-                        }
-                    ],
-                    "Web Development":[
-                        {
-                            "title":"cegep's department website",
-                            "date":"fall 2020",
-                            "software":"HTML//CSS//Js//PHP"
-                        },
-                        {
-                            "title":"personal website",
-                            "date":"fall 2020",
-                            "software":"HTML//CSS//Js//PHP//REACT.Js"
-                        }
-                    ]
-                }
+            "id":0,
+            "title":"cegep's department website's design",
+            "date":"fall 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":["https://www.youtube-nocookie.com/embed/Yx4wNC_tRjU"],
+            "artstation":["https://louishorlaville.artstation.com/projects/Nxo2Dq"],
+            "github":["https://github.com/louishorlaville/tim-2020"],
+            "fieldId":0,
+            "fieldName":"WEB DESIGN",
+            "collab":[
+                "Gabriel A.P."
+            ],
+            "text":[
+                "One of our final projects was to remake our cegep's department's website, while simulating a real work environment in which our clients were our teachers.",
+                "Responsible of the website's design with my teammate Gabriel to help me out, I wanted our website to stand out by using a not-so-commonly used design among websites: Bauhaus, which was originally an architectural design. The main challenge with this project was to modernize and give a fresh look to a style dating from the 20th century. We obvioulsy created a lot of models as well as colors tests to finally get our final product.",
+                "I also wanted our weebsite to be dynamic and interactive, which is why we added background animations on a few geometric shapes as well as an option for the user to choose which color theme to be displayed: day or night."
             ]
         },
         {
-            "Skills":[
-                {
-                    "Fields":  {
-                        "Web Design":[
-                            {
-                                "title":"site web départemental du cégep",
-                                "date":"automne 2020",
-                                "software":"ILLUSTRATOR//PHOTOSHOP"
-                            },
-                            {
-                                "title":"site web personnel",
-                                "date":"automne 2020",
-                                "software":"ILLUSTRATOR//PHOTOSHOP"
-                            },
-                            {
-                                "title":"patro le prevost",
-                                "date":"automne 2018",
-                                "software":"ILLUSTRATOR//PHOTOSHOP"
-                            }
-                        ],
-                        "3D Modeling":[
-                            {
-                                "title":"logo départemental du cégep",
-                                "date":"automne 2020",
-                                "software":"MAYA"
-                            },
-                            {
-                                "title":"le ballon ailé",
-                                "date":"automne 2019",
-                                "software":"MAYA"
-                            },
-                            {
-                                "title":"lance de magma",
-                                "date":"automne 2019",
-                                "software":"MAYA"
-                            },
-                            {
-                                "title":"ronflex",
-                                "date":"automne 2019",
-                                "software":"MAYA"
-                            }
-                        ]
-                    }
-                    
-                },
-                {
-                    "Video Game Development":[
-                        {
-                            "title":"gameJam intercollégial de valleyfield",
-                            "date":"janvier 2020",
-                            "software":"UNITY//C#"
-                        },
-                        {
-                            "title":"borderline",
-                            "date":"automne 2020",
-                            "software":"UNITY//C#"
-                        }
-                    ],
-                    "Web Development":[
-                        {
-                            "title":"site web départemental du cégep",
-                            "date":"automne 2020",
-                            "software":"HTML//CSS//Js//PHP"
-                        },
-                        {
-                            "title":"site web personnel",
-                            "date":"automne 2020",
-                            "software":"HTML//CSS//Js//PHP//REACT.Js"
-                        }
-                    ]
-                }
+            "id":1,
+            "title":"personal website",
+            "date":"fall 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/aY1E6q"],
+            "github":["https://github.com/louishorlaville/portfolio"],
+            "fieldId":0,
+            "fieldName":"WEB DESIGN",
+            "collab":[],
+            "text":[
+                "This website is my portfolio itself, which i created because I simply needed a platform to display my variety of different projects.",
+                "I made it using React.js, which was really fun to learn as a new framework. The biggest challenge was definitely to be able to create on single page template for all of my different projects and display them the best I could",
+                "I made various models for the different pages, and tried different colors. I wanted a theme based on my logo's design which explains the pacman references here and there."
             ]
+        },
+        {
+            "id":2,
+            "title":"patro le prevost",
+            "date":"fall 2018",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/B1nwKz?album_id=2786133"],
+            "github":[],
+            "fieldId":0,
+            "fieldName":"WEB DESIGN",
+            "collab":[],
+            "text":[
+                "In one of my design classes I had to choose a website and remake some of its pages based on the principles I had learned beforehand.",
+                "It was my first time creating multi-platform models that could support all three device formats: desktop, tablet, and mobile. It sure was an interesting little challenge at the time.",
+                "Go check the artstation page for the project down below if you're interested to see more of the models for this project!"
+            ]
+        },
+        {
+            "id":3,
+            "title":"cegep's department logo",
+            "date":"fall 2020",
+            "software":"MAYA",
+            "video":["https://www.youtube-nocookie.com/embed/Sfx0RrLGyIU"],
+            "artstation":["https://louishorlaville.artstation.com/projects/g2qE2G?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"3D MODELING",
+            "collab":["Radhika Patel"],
+            "text":[
+                "For my last 3D class in college, we had to make a short intro animation of our department's logo. It was supposed to represent the creative and logical/programmer aspects of the program. We idealized, modeled and animated all of the project ourselves.",
+                "The main challenge was to, first, work from home with a teammate for the first time because of the pandemic, and, second, we had to use at least one dynamic simulation, such as MASH and Bifrost (that we both used). My teammate and I both did everything together, except for the storyboard, which she drew herself. We found the music on a royalty-free ambient music website, we did not make it ourselves. "
+            ]
+        },
+        {
+            "id":4,
+            "title":"the winged airship",
+            "date":"fall 2019",
+            "software":"MAYA",
+            "video":["https://www.youtube-nocookie.com/embed/MEd7EwSFAjo"],
+            "artstation":["https://louishorlaville.artstation.com/projects/48PWE2?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[
+                "A vehicle 3D model I idealized by myself. I was inspired by a pterodactyle to then create an aerial vehicle with a steampunk vibe.",
+                "The biggest challenge on this project was the conceptualization of the vehicle. How to make a vehicle from a dinausor was a challenge I enjoyed facing and overcome. I spent a lot of time thinking, brainstorming, and documenting before finally being able to start modelizing.",
+                "Regarding the inspirations, there's obvioulsy the pterodactyl's anatomy, but on the more mechanical side I took a lot from 'Ratchet and Clank''s universe, a game I played countless hours and still love today. I wanted to see some of the game's gear and mechanic aspect on my model. I also obviously got inspired by other steampunk works."
+            ]
+        },
+        {
+            "id":5,
+            "title":"magma spear",
+            "date":"fall 2019",
+            "software":"MAYA",
+            "video":["https://www.youtube-nocookie.com/embed/mpCbZkm5phk"],
+            "artstation":["https://louishorlaville.artstation.com/projects/48PWE2?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[
+                "I started off this project by wanting to create an object that would use a unique energy that I'd create myself. From here on out I then chose to create a weapon that would use the body temperature of the user to then, once it would've stored up enough energy, would change shape and the blade would become magma. It is a weapon's concept set between a futuristic high-end and rudimentary technology.",
+                "I made everything myself, from the conceptualization, to the modelization, to the rendering. This project was my first real project using Maya, and the main challenge while realizing it was to make odd shapes like the bottom of the weapon have clean topology with maximum 4-sides polygons. I'm happy I managed to create something that was just an idea at first with a clean topology."
+            ]
+        },
+        {
+            "id":6,
+            "title":"snorlax",
+            "date":"fall 2019",
+            "software":"MAYA",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/Pog868?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"3D MODELING",
+            "collab":[],
+            "text":[
+                "This Pokemon voxel art model was the very first model I made using Maya. I still like how it looks and the vibe it gives off today.",
+                "To make it, I simply used cubes that were snipped to the grid so they would fit perfectly and the scale would stay right for each one of the cubes."
+            ]
+        },
+        {
+            "id":7,
+            "title":"valleyfield's intercollegiate gameJam",
+            "date":"january 2020",
+            "software":"UNITY//C#",
+            "video":["https://www.youtube-nocookie.com/embed/f8dJNoXbYNk"],
+            "artstation":["https://louishorlaville.artstation.com/projects/w6qzk9"],
+            "github":[],
+            "fieldId":2,
+            "fieldName":"VIDEO GAME DEVELOPMENT",
+            "collab":[
+                "Rebecca Anescar",
+                "Radhika Patel",
+                "Émile Jutras",
+                "Olivier Larose",
+                "Allen Jang",
+                "Luka Ross",
+                "Valera Kuzmenko"
+            ],
+            "text":[
+                "My team and I won second place in our first GameJam ever, which theme's was 'Quebec's Tales and Legends'. We are very proud of what we've been able to accomplish in the little time we had and given the fact that we created all of our assets ourselves.",
+                "I was in charge of the character's movements, the interaction of the player with its environment (such as the enemies and the lamp posts), the compass' functionality, and the assets' implementation into Unity. Even though those were my responsibilities, we all helped each other out with every and other tasks, and I think that anybody reading this who participated to a gameJam can say that we never really stick to only one role during those events.",
+                "The biggest challenge on this project was to, first, get out of my comfort zone since this was my first gameJam ever, and second the 40h time limit we had. Working under such pressure thaught me a lot of things and really made me grow."
+            ]
+        },
+        {
+            "id":8,
+            "title":"borderline",
+            "date":"fall 2020",
+            "software":"UNITY//C#",
+            "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
+            "artstation":["https://louishorlaville.artstation.com/projects/WKzZN2?album_id=2882884"],
+            "github":[],
+            "fieldId":2,
+            "fieldName":"VIDEO GAME DEVELOPMENT",
+            "collab":[
+                "Gabriel A.P.",
+                "Sandrine Cryans",
+                "Diphany Chea"
+            ],
+            "text":[
+                "A pixel 2D JRPG game protoype realised with Unity 3D taking place in a world where your main concern is to save your friends from mental problems such as school anxiety and relationships toxicity.",
+                "My role on this project was to implement the overworld’s assets, create and assemble the city (didn't create the assets) where the player starts his journey, and implement the musics for each scene. My responsibilities also  included coding the random props instanciation in the dungeon, such as the lockers, the clocks and the doors,  and coding the functionnality of entering and exiting rooms in the dungeon.",
+                "The whole project was developped with a modular structure, making us able to create multiple dungeons very easily after the first one was done. All that was left once the modules have been coded was to create the visual and audio assets and the job was done. This project being my first time working with a modular structure, it was definitely a challenge that I liked working on and that I learned a lot from."
+            ]
+        },
+        {
+            "id":9,
+            "title":"cegep's department website",
+            "date":"fall 2020",
+            "software":"HTML//CSS//Js//PHP",
+            "video":["https://www.youtube-nocookie.com/embed/Yx4wNC_tRjU"],
+            "artstation":["https://louishorlaville.artstation.com/projects/Nxo2Dq?album_id=2786133"],
+            "github":["https://github.com/louishorlaville/tim-2020"],
+            "fieldId":3,
+            "fieldName":"WEB DEVELOPMENT",
+            "collab":[
+                "Gabriel A.P.",
+                "Thomas Lorenzo",
+                "Kevin Ponce"
+            ],
+            "text":[
+                "One of our final projects was to remake our cegep's department's website, while simulating a real work environment in which our clients were our teachers.",
+                "Being the SCRUM master of our team, I was not only in the charge of the design, but also organizing meetings, the tasks, and the work left to do. We developed the website using vanilla Javascript, regular CSS and JSON for the content manager.",
+                "My responsibilities regarding the web implementation were to work on the home, interships and teachers pages, create the css animations and make those pages responsive. I also made it so the content on the teachers and interships pages is rendered dynamically based on the JSON files we had created beforehand. I implemented the common header and footer to the different pages and coded the navigation using PHP.",
+                "I also created the CSS day/night switch using cookies."
+            ]
+        },
+        {
+            "id":10,
+            "title":"personal website",
+            "date":"fall 2020",
+            "software":"HTML//CSS//Js//REACT.Js",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/aY1E6q?album_id=2786133"],
+            "github":["https://github.com/louishorlaville/portfolio"],
+            "fieldId":3,
+            "fieldName":"WEB DEVELOPMENT",
+            "collab":[],
+            "text":[
+                "This website is my portfolio itself, which i created because I simply needed a platform to display my variety of different projects.",
+                "I used this project as an opportunity to learn React.Js and widen my set of skills. It was definitely a challenge at first to grasp the concept of the compenents system and the different mounting phases, but once I was familiar with it, everything was way easier.",
+                "I'm using JSON files to manage my content, and creating my components' structure so I can easily create and delete new projects/fields without having to worry about the website's functionnality. A thing I really like about this project is that it's my first website developing all alone, so i can really make sure the all the file organization and the CSS is clean well done."
+            ]
+        },
+        {
+            "id":11,
+            "title":"personal logo research",
+            "date":"summer/fall 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/EL1qYq?album_id=2786133"],
+            "github":[],
+            "fieldId":4,
+            "fieldName":"GRAPHIC DESIGN",
+            "collab":[],
+            "text":[
+                "When I started my portfolio project, I first needed a visual identity, therefore, a logo to represent myself.",
+                "I went through a lot of different ideas and variations before getting to Pacman, which references the video game industry, the field I wanna work in in the future. It was a real challenge to first find a concept and then colors that would give the right vibe, the Louis Horlaville vibe. I collected a lot of feedback from different people before choosing this version.",
+                "Go check the artstation project page down below if you're interested in seeing the ideas I went through!"
+            ] 
         }
-
+    ],
+    "fr":[
+        {
+            "id":0,
+            "title":"design du site web départemental du cégep",
+            "date":"automne 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":["https://www.youtube-nocookie.com/embed/Yx4wNC_tRjU"],
+            "artstation":["https://louishorlaville.artstation.com/projects/Nxo2Dq?album_id=2786133"],
+            "github":["https://github.com/louishorlaville/tim-2020"],
+            "fieldId":0,
+            "fieldName":"DESIGN WEB",
+            "collab":["Gabriel A.P."],
+            "text":[
+                "Un de nos projets de fin de techniques était de refaire le site web de notre département du cégep en simulant un contexte de travail réel ou nos clients étaient en fait nos professeurs.",
+                "En charge de l'ensemble du design avec mon coéquipier Gabriel pour m'assister, nous voulions démarquer notre design en choisissant un style peu commun pour un site web: le Bauhaus. Le défi principal fut de donner un aspect moderne qu'on retrouverait aujourd'hui à un style datant du 20e siècle. Nous avons évidemment fait beaucoup de maquettes ainsi que des tests de couleurs avant de tomber sur la version finale.",
+                "Je voulais aussi que notre site web soit intéractif et dynamique, ce pourquoi nous avons rajouté des animations dans le fond de plusieurs formes géométriques ainsi qu'une option permettant à l'utilisateur de changer entre un thème de couleurs jour et nuit."
+            ]
+        },
+        {
+            "id":1,
+            "title":"site web personnel",
+            "date":"automne 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/aY1E6q?album_id=2786133"],
+            "github":["https://github.com/louishorlaville/portfolio"],
+            "fieldId":0,
+            "fieldName":"DESIGN WEB",
+            "collab":[],
+            "text":[
+                "Ce site web est mon portfolio lui-même, que j'ai créé car j'avais tout simplement besoin d'une plateforme où je pouvais présenter mes différents projets malgré leur nature variée.",
+                "Je l'ai réalisé en utilisant React.js, qui était très intéressant à apprendre comme nouveau 'framework' que je ne connaissais pas avant. Le plus gros défi d'un point de vue design était définitivement de créer un seul et même modèle de page de projet capable de présenter l'ensemble des projets différents.",
+                "J'ai évidement créé différentes maquettes de pages, ainsi que plusieurs tests de couleurs avant de les intégrer afin de planifier l'intégration web par la suite. Je voulais créer un thème basé sur mon design de logo personnel, ce qui explique les différentes références à Pacman un peu partout."
+            ]
+        },
+        {
+            "id":2,
+            "title":"patro le prevost",
+            "date":"automne 2018",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/B1nwKz?album_id=2786133"],
+            "github":[],
+            "fieldId":0,
+            "fieldName":"DESIGN WEB",
+            "collab":[],
+            "text":[
+                "Dans un de mes cours de design collégial je devais choisir un siteweb existant et refaire certaines de ses pages basé sur ce que nous avions appris au cours de la session.",
+                "C'était la première fois que je créais des maquettes multi-plateformes qui pouvaient supporter les trois format d'appareil suivant: bureau, tablette, et mobile. C'était un petit défi intéressant à relever à l'époque."
+            ]
+        },
+        {
+            "id":3,
+            "title":"logo départemental du cégep",
+            "date":"automne 2020",
+            "software":"MAYA",
+            "video":["https://www.youtube-nocookie.com/embed/Sfx0RrLGyIU"],
+            "artstation":["https://louishorlaville.artstation.com/projects/g2qE2G?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"MODÉLISATION 3D",
+            "collab":["Radhika Patel"],
+            "text":[
+                "Pour mon dernier cours de 3D au cégep nous devions créer une animation d'introduction de 30 secondes pour le logo de notre département. Elle était supposée représenter l'aspect créatif et logique/programmeur du programme. Nous avons idéalisé, modélisé et animé l'ensemble du projet nous-même.",
+                "Le défi principal était de, premièrement, travailler en équipe à distance dû aux conditions sanitaires, et, deuxièmement, nous devions utiliser un minimum d'une simluation dynamique, tel que MASH ou Bifrost (que nous avons tous deux utilisé). Ma coéquière et moi-même avons fais l'ensemble du projet ensemble, à part le scénarimage qu'elle a dessiné elle-même. Nous avons trouvé la musique sur un site web proposant des musique d'ambiance libres de droit, nous ne l'avons pas faite nous-même."
+            ]
+        },
+        {
+            "id":4,
+            "title":"le ballon ailé",
+            "date":"automne 2019",
+            "software":"MAYA",
+            "video":["https://www.youtube-nocookie.com/embed/MEd7EwSFAjo"],
+            "artstation":["https://louishorlaville.artstation.com/projects/48PWE2?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[
+                "Un modèle de véhicule que j'ai idéalisé moi-même. Je me suis inspiré d'un pterodactyle pour partir sur un véhicule aérien dans un style steampunk.",
+                "Le plus gros défi de ce projet-ci fut la conception du véhicule. J'ai passé beaucoup de temps à réflechir, à me remuer les méninges, et à documenter mes idées avant de finalement commencer la modélisation.",
+                "En ce qui concerne les inspiration, il y a forcément l'anatomie du ptérodactyle, mais du côté mechanique j'ai beaucoup pris de l'univers du jeu 'Ratchet et Clank' que j'adore et dont je voulais retrouver un peu l'aspect mécanique sur mon projet. Je me suis évidement inspiré d'autres oeuvres dans le thème steampunk."
+            ]
+        },
+        {
+            "id":5,
+            "title":"lance de magma",
+            "date":"automne 2019",
+            "software":"MAYA",
+            "video":["https://www.youtube-nocookie.com/embed/mpCbZkm5phk"],
+            "artstation":["https://louishorlaville.artstation.com/projects/0n6NoY?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[]
+        },
+        {
+            "id":6,
+            "title":"ronflex",
+            "date":"automne 2019",
+            "software":"MAYA",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/Pog868?album_id=2786134"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"MODÉLISATION 3D",
+            "collab":[],
+            "text":[]
+        },
+        {
+            "id":7,
+            "title":"gameJam intercollégial de valleyfield",
+            "date":"janvier 2020",
+            "software":"UNITY//C#",
+            "video":["https://www.youtube-nocookie.com/embed/f8dJNoXbYNk"],
+            "artstation":["https://louishorlaville.artstation.com/projects/w6qzk9?album_id=2882884"],
+            "github":[],
+            "fieldId":2,
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "collab":[
+                "Rebecca Anescar",
+                "Radhika Patel",
+                "Émile Jutras",
+                "Olivier Larose",
+                "Allen Jang",
+                "Luka Ross",
+                "Valera Kuzmenko"
+            ],
+            "text":[
+                "Mon équipe et moi-même avons gagné la seconde place à notre tout premier gameJam, qui avait pour thème 'Contes et légendes québécoises'. Nous sommes très fier de travail que nous avons réalisé  dans le peu de temps que nous avions (40 heures), et étant donné que nous avons réalisé tout le matériel visuel et sonore nous-même.",
+                "J'étais en charge de la programmation des mouvements du personnage, de ses intéractions avec son environnement (tel que les ennemies et les lampadaires), la fonctionnalité du compas, ainsi que l'implémentation des assets visuels et sonor dans Unity. Même si ces dernières étaient mes responsabilités, nous nous sommes tous entraidé ici et là, et je pense que quiconque lisant ceci et ayant participé à un gameJam peut confirmer qu'on ne reste jamais cantonné à un seul et même rôle pendant ces évènnements.",
+                "Le plus gros challenge sur ce projet était de, premièrement, sortir de ma zone de confort étant donné que les gameJams étaient quelques chose d'inconnus et que je ne savais pas à quoi m'attendre. Ensuite, il y avait la limite de temps de 40h que nous avions pour réalizer le projet. Travail sous une telle pression m'a très certainement appris beaucoup de choses et m'a fais grandir."
+            ]
+        },
+        {
+            "id":8,
+            "title":"borderline",
+            "date":"automne 2020",
+            "software":"UNITY//C#",
+            "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
+            "artstation":[],
+            "github":[],
+            "fieldId":2,
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "collab":[
+                "Gabriel A.P.",
+                "Sandrine Cryans",
+                "Diphany Chea"
+            ],
+            "text":[
+                "Un prototype de jeu pixel 2D JRPG réalisé avec Unity 3D qui prend place dans un monde ou votre source de préoccupation principale et de venir en aidee à vos amis victimes de problèmes psychologiques tel que l'anxiété scolaire et la toxicité dans les relations sociales.",
+                "Mon rôle dans ce projet était d'implémenter les assets créées par l'équipe artistique dans Unity, créer et assembler la ville (je n'ai pas créer les asssets visuelles) dans laquelle le joueur commence son aventure, et implémenter les musique pour chaque scène. Mes responsabilités comprenaient aussi de programmer l'instanciation aléatoire des accessoires dans le donjon, tel que les casiers, les horloges, et les portes, et coder la fonctionnalité d'entrer et sortir des salles dans le donjon.",
+                "L'ensemble du projet a été développé avec un structure modulaire, ce qui nous permet de pouvoir créer plusieurs donjons très facilement une fois que les modules du premier donjon étaient programmés. Tout ce qui restait à faire était de créer le matériel visuel et sonor et le travail était quasiment finit. Ce projet étant mon premier projet à base de modules, c'était définitivement un challenge sur lequel j'ai aimé travaillé et duquel j'en ai appris beaucoup."
+            ]
+        },
+        {
+            "id":9,
+            "title":"site web départemental du cégep",
+            "date":"automne 2020",
+            "software":"HTML//CSS//Js//PHP",
+            "video":["https://www.youtube-nocookie.com/embed/Yx4wNC_tRjU"],
+            "artstation":["https://louishorlaville.artstation.com/projects/WKzZN2?album_id=2882884"],
+            "github":["https://github.com/louishorlaville/tim-2020"],
+            "fieldId":3,
+            "fieldName":"DÉVELOPPEMENT WEB",
+            "collab":[],
+            "text":[]
+        },
+        {
+            "id":10,
+            "title":"site web personnel",
+            "date":"automne 2020",
+            "software":"HTML//CSS//Js//PHP//REACT.Js",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/aY1E6q?album_id=2786133"],
+            "github":["https://github.com/louishorlaville/portfolio"],
+            "fieldId":3,
+            "fieldName":"DÉVELOPPEMENT WEB",
+            "collab":[],
+            "text":[]
+        },
+        {
+            "id":11,
+            "title":"recherche de logo personnel",
+            "date":"automne 2020",
+            "software":"ILLUSTRATOR//PHOTOSHOP",
+            "video":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/EL1qYq?album_id=2786133"],
+            "github":[],
+            "fieldId":4,
+            "fieldName":"DESIGN GRAPHIQUE",
+            "collab":[],
+            "text":[] 
+        }
     ]
-    
-
 }
+
+

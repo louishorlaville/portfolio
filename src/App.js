@@ -1,26 +1,35 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Dimensions } from "react-native";
+import React, { Component } from "react";
+import {Route} from "react-router-dom"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from "./components/header/header.jsx";
+import Footer from "./components/footer/footer.jsx";
+
+import ContentHome from "./components/pages/contentHome.jsx";
+import ContentProjectList from "./components/pages/contentProjectList.jsx"
+import ContentProjectProfile from "./components/pages/contentProjectProfile.jsx"
+
+class App extends Component{
+  state={
+    langData:""
+  }
+
+  callBackFunction =(childData)=>{
+    this.setState({langData:childData});
+    console.log(childData);
+  }
+
+  render(){
+    return (
+      <div className="pageContainer">
+        <Header parentCallback={this.callBackFunction} />
+        <Route exact path="/" render={(props)=>(<ContentHome {...props} langData={this.state.langData}/>)}/>
+        <Route path="/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)}/>
+        <Route path="/projectProfile" component={ContentProjectProfile}/>
+        <Footer/>
+      </div>
+    );
+  }
+  
 }
 
 export default App;

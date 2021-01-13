@@ -1,6 +1,7 @@
 /*////////// STYLE HEADER //////////*/
 body{
-    overflow: hidden;
+    overflow-x: hidden;
+
 }
 .headerContainer{
     height: 2%;
@@ -11,6 +12,7 @@ body{
     font-size: 1em;
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .headerItems{
@@ -45,12 +47,12 @@ body{
     padding-bottom: 2px;
     border-bottom: 4px solid #293947;
     transition: all 0.3s cubic-bezier( 0.94, 0.38, .48, 1.2 );
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%,20% 85%, 15% 85%, 15% 100%, 0 100%, 0 0);
+    clip-path: polygon(-100% -20%, 200% -20%, 200% 100%, 20% 100%,20% 85%, 15% 85%, 15% 100%, -100% 100%, -100% -20%);
 }
 
 .navElements:hover{
     /* animation: underlineSlide 0.3s cubic-bezier( 0.94, 0.38, .48, 1.2 )   forwards; */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%,80% 85%, 75% 85%, 75% 100%, 0 100%, 0 0);
+    clip-path: polygon(-100% -20%, 200% -20%, 200% 100%, 80% 100%,80% 85%, 75% 85%, 75% 100%, -100% 100%, -100% -20%);
 
 }
 
@@ -84,7 +86,57 @@ body{
 
 #timeLanguage{
     padding-top: 5%;
+    position: relative;
+
 }
+
+.languageItem{
+    cursor: pointer;
+}
+
+#selectedLanguageBackground{
+    position: absolute;
+    
+    height: 70%;
+    transition: all .3s cubic-bezier(.17,.67,.55,1.95);
+    background-color: #FACBCC;
+    z-index: -1;
+}
+
+#en:hover ~ div.frSelected {
+    top: 30%;
+    left:41%;
+    width: 60%;
+}
+
+#fr:hover ~ div.enSelected {
+    top: 30%;
+    left:-2%;
+    width: 55%;
+}
+
+
+.frSelected{
+    top: 30%;
+    left:53%;
+    width: 48%;
+}
+
+.enSelected{
+    top: 30%;
+    left:-2%;
+    width: 43%;
+}
+
+@keyframes widthAnimation{
+    from{
+
+    }
+    to{
+
+    }
+}
+
 /*////////// GENERAL HIGHLIGHT STYLES //////////*/
 .highlightYellow{
     background-color: #EDBD21;
@@ -106,7 +158,7 @@ body{
 }
 
 /*////////// HOME CONTENT //////////*/
-#contentHomeContainer{
+#contentContainer{
     font-family: "bahnschrift";
     color: black;
     font-size: 1em;
@@ -149,13 +201,15 @@ body{
     height: 105%;
     z-index: -1;
     position: absolute;
-    top: -2.5%;
+    top: -8%;
     left: -2.5%;
     transition: width .2s ease-in;
 }
+
 #skillProgrammer>a.skillLink>.boxHoverBehind{
     background-color: #EDBD21;
 }
+
 #skillDesigner>a.skillLink>.boxHoverBehind{
     background-color:#FACBCC;
 }
@@ -171,7 +225,6 @@ body{
 }
 
 #resumeContainer{
-    
     font-size: 1.7em;
     font-weight: lighter;
     width: 75%;
@@ -187,23 +240,373 @@ body{
 
 .resumeElement{
     margin-left: .5em;
-
 }
 
 #resumeP1{
     width: 69%;
 }
+
 #resumeP2{
     width: 90%;
 }
 
+
+/*////////// PROJECTS LIST PAGE //////////*/
+.listContainer{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 100%;
+    font-size: 1.15em;
+    font-stretch: condensed;
+
+}
+
+.listTitleContainer{
+    width: 40%;
+    border-bottom: 4px solid #293947;
+    padding-left: 1%;
+    font-size: 2em;
+}
+
+.listField{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listFieldTitle{
+    font-size: 1.8em;
+}
+
+.listTitle>a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.listTitle>.activeListTitle{
+    color: black;
+    opacity: 1;
+}
+
+.listTitle>.inactiveListTitle{
+    transition: opacity 0.3s ease-out;
+}
+
+.listTitle>.inactiveListTitle:hover{
+    opacity: .8;
+}
+
+.listItemTitle>.boxHoverBehind{
+    background-color: #EDBD21;
+    left:-5px;
+}
+
+.listItemTitle:hover>.boxHoverBehind{
+    width: 105%;
+    
+}
+
+.listItemTitle:hover>.listItemBall{
+    background-color: #33495E;
+}
+
+.listItem{
+    margin-left: 5%;
+    margin-top: 40px;
+    transform-origin: top left;
+}
+
+.listField>.listItem:nth-of-type(1){
+    margin-top: 25px;
+}
+
+.listItemTitle{
+    font-size: 1.7em;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.listItemTitle>p{
+    margin: 0;
+    color: #777777;
+}
+
+.listItemBall{
+    position: absolute;
+    left: -40px;
+    top: 35%;
+
+    background-color: #EDBD21;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.listItemSoftware{
+    position: absolute;
+    left: 105%;
+    top: 25%;
+    font-size: .6em;
+    font-weight: 400;
+}
+
+.listItemDate{
+    position: absolute;
+    left: 0;
+    top:100%;
+    width: 300%;
+    font-size: .8em;
+    color: #4D4D4D;
+}
+
+.listSeparator{
+    position: absolute;
+    left:-11%;
+    top: 102%;
+    height: 2px;
+    width: 99vw;
+    background-color:#33495E ;
+}
+.listField:last-child>.listSeparator{
+    display: none;
+}
+
+
+/*////////// PROJECT PROFILE PAGE //////////*/
+.projectContentContainer{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.projectContentContainer>div{
+    margin-top: 2%;
+}
+
+/*TITLE*/
+.projectTitleContainer{
+    position: relative;
+    border-bottom: 4px solid #293947;
+    padding-left: 3.5%;
+    font-size: 2em;
+    width: 50%
+}
+
+.backToList{
+    position: absolute;
+    top: 25%;
+    left: -1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6%;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    text-decoration: none;
+
+}
+
+.backToList:hover{
+    width: 7%;
+    left: -2.5%;
+}
+
+.backToList:hover>.ballBack:nth-child(1){
+    transform: scale(1.5);
+}
+.backToList:hover>.ballBack:nth-child(2){
+    transform: scale(1.25);
+}
+
+.ballBack{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #EDBD21;
+    transition: all .2s cubic-bezier(.5,0,.32,1.72);
+    z-index: -1;
+}
+
+.ballBackPassive>.ballBack{
+    animation: passiveBallBack 5s infinite cubic-bezier(.5,0,.32,1.72);
+}
+
+.ballBackActive{
+    animation: none;
+}
+
+.ballBackPassive>.ballBack:nth-child(3){
+    animation-delay: 0s;
+}
+.ballBackPassive>.ballBack:nth-child(2){
+    animation-delay: .3s;
+}
+.ballBackPassive>.ballBack:nth-child(1){
+    animation-delay: .6s;
+}
+
+@keyframes passiveBallBack{
+    from{
+        transform: scale(1);
+    }
+    15%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    35%{
+        transform: scale(1);
+
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+
+/*INFOS*/
+.projectInfosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    min-width: 400px;
+}
+
+.projectInfoTitle{
+    color: black;
+}
+
+.projectInfo{
+    color: #5f5f5f;
+}
+
+.projectCollabInfos{
+    background-color: #D9DBDE;
+    padding: 5px;
+}
+
+.projectCollabInfos>p{
+    margin: 0;
+    padding: 0;
+}
+
+/*PREVIEW*/
+.projectPreviewsContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 80%;
+}
+
+.projectPreviewsContainer>img{
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 300px;
+    flex: 1;
+}
+
+/*TEXT*/
+.projectTextContainer{
+    position: relative;
+}
+
+.projectTextSeparator{
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 40%;
+    background-color: #33495E;
+    margin-left: -5.5%;
+}
+
+#projectTextContentContainer{
+    padding-top: 1%;
+    font-size: 1.25em;
+    font-weight: 100;
+    max-width: 80%;
+    text-align: justify;
+}
+/*BOTTOM PART*/
+.projectBottomContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin-top: 4% !important;
+    margin-bottom: 4% ;
+}
+
+/* VIDEO */
+.projectVideoContainer{
+    width: 35%;
+    min-width: 500px;
+    margin-right: 100px;
+
+}
+.projectVideoPlayer{
+    width: 100%;
+}
+
+/*LINKS*/
+.projectLinksBoxContainer{
+    display: inline-block;
+}
+
+.projectLinksFlexContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.linkItem{
+    text-decoration: none;
+    color: black;
+    font-stretch: condensed;
+    font-weight: 400;
+    position: relative;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.linkItem:nth-child(2){
+    margin-top: 10px;
+}
+
+.linkItemBall{
+    position: absolute;
+    left: -10%;
+    top: 30%;
+    display: inline-block;
+    background-color: #EDBD21;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.linkItem:hover>.linkItemBall{
+    background-color: #33495E;
+} 
 
 
 
 /*////////// FOOTER //////////*/
 .footerContainer{
     position: relative;
-    margin-top: 5%;
+
+    margin-top: 2%;
+    margin-bottom:30px;
+
 }
 
 .pacmanContainer{
