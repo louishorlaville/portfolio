@@ -115,7 +115,7 @@
             "collab":[],
             "text":[
                 "This Pokemon voxel art model was the very first model I made using Maya. I still like how it looks and the vibe it gives off today.",
-                "To make it, I simply used cubes that were snipped to the grid so they would fit perfectly and the scale would stay right for each one of the cubes."
+                "To make it, I simply used cubes that were snipped to the grid so they would fit perfectly and the scale would stay right for each one of the cubes. The only challenge back then was to play with the lights to give the glow effect on the lamp pole all the while making sure Snorlax is looking good."
             ]
         },
         {
@@ -316,7 +316,10 @@
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":[],
-            "text":[]
+            "text":[
+                "J'ai commencé ce projet en ayant en tête de créer un objet qui utiliserais une énergie unique que je créerai moi-même. À partir de là j'ai choisit de créer une arme qui utiliserai la chaleur corporelle de l'utilisateur qui, une fois qu'assez d'énergie aurait été stocké dans la boule au centre de l'arme, changerait de forme et la lame se transformerait en lave tout en gardant sa forme initiale. C'est un concept d'arme situé entre une technologie futuriste avancée et une arme rudimenterre (lame initiale en pierre).",
+                "En ce qui concerne la conception, j'ai tout réalisé moi-même, allant de l'idéation, en passant par la modélisation, l'éclairage et le texturage, jusqu'au rendu final. Ce projet était mon premier vrai projet utilisant Maya, et le défi principal que j'ai rencontré était de réaliser des forme qui sortent un peu de l'ordinaire comme le bas de l'arme, tout en gardant une topologie propre avec des polygons de 4 côtés maximum. Je suis content d'avoir été capable de réaliser ce qui n'était au départ qu'une idée en un modèle 3D fini."
+            ]
         },
         {
             "id":6,
@@ -329,7 +332,10 @@
             "fieldId":1,
             "fieldName":"MODÉLISATION 3D",
             "collab":[],
-            "text":[]
+            "text":[
+                "Ce modèle Pokémon de 'Voxel Art' est mon tout premier modèle 3D réalisé sur Maya. Encore aujourd'hui j'aime de quoi Ronflex à l'air et le vibe qu'il donne.",
+                "Pour le réaliser j'ai tout simplement pris des cubes dont la position était attachée à une grille afin que les ratios et positions s'emboîtent parfaitement. Le seul challenge à l'époque était de jouer avec les lumière pour donner cette impression de brillance au lampadaire tout en mettant en valeur Ronflex."
+            ]
         },
         {
             "id":7,
@@ -362,7 +368,7 @@
             "date":"automne 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
-            "artstation":[],
+            "artstation":["https://louishorlaville.artstation.com/projects/WKzZN2"],
             "github":[],
             "fieldId":2,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
@@ -387,26 +393,39 @@
             "github":["https://github.com/louishorlaville/tim-2020"],
             "fieldId":3,
             "fieldName":"DÉVELOPPEMENT WEB",
-            "collab":[],
-            "text":[]
+            "collab":[
+                "Gabriel A.P.",
+                "Thomas Lorenzo",
+                "Kevin Ponce"
+            ],
+            "text":[
+                "Un de nos projet final était de refaire le site web de notre département au cégep, tout en simlant un véritable environnement de travail dans lequel nos client étaient en fait nos professeurs.",
+                "Étant le 'SCRUM master' de l'équipe, j'étais non seulement en charge du design, mais je devais aussi organiser les rencontres d'équipes, répartir les tâches à faire, et planifier le travail qu'il nous restait à faire. Nous avons développé le site web en utilisant du 'vanilla Javascript & CSS', et du JSON pour la gestion de contenu.",
+                "Mes responsabilités concernant l'implémentation web étaient de m'occuper des pages suivantes: Accueil, Stages, et Professeurs, de créer les animations CSS et rendre ses dernières pages adaptable à différentes tailles d'appareil. J'ai aussi fait en sorte que le contenu sur les pages des professeurs et stages soit rendu dynamiquement, basé sur le contenu de fichiers JSON lié à chaque page. J'ai aussi implémenté l'entête et le pied de page commun aux pages et codé la navigation en PHP.",
+                "J'ai aussi créer le switch CSS jour/nuit en utilisant des cookies."
+            ]
         },
         {
             "id":10,
             "title":"site web personnel",
             "date":"automne 2020",
-            "software":"HTML//CSS//Js//PHP//REACT.Js",
+            "software":"HTML//CSS//Js//REACT.Js",
             "video":[],
             "artstation":["https://louishorlaville.artstation.com/projects/aY1E6q?album_id=2786133"],
             "github":["https://github.com/louishorlaville/portfolio"],
             "fieldId":3,
             "fieldName":"DÉVELOPPEMENT WEB",
             "collab":[],
-            "text":[]
+            "text":[
+                "Ce site web lui-même est mon portfolio, que j'ai créé car j'avais tout simplement besoin d'une plateforme centralisé sur laquelle je pouvais présenter l'ensemble de mes projets divers et variés.",
+                "J'ai vu ce projet comme une opportunité pour apprendre React.js, un framwork javascript que je ne connaissais pas avant ça, et ainsi aggrandir mon inventaire de compétence. C'était définitivement un défi au début, d'essayer de comprendre les concepts de 'components' et les différentes phase de 'mount', mais une fois assimilé, le travail est tout de suite devenu beaucoup plus simple.",
+                "J'utilise du JSON pour gérer mon contenu dynamiquement et créer la structure de mes 'components' afin de pouvoir facilement ajouter et retirer des nouveaux projets/compétences sans avoir à m'inquiéter du bon fonctionnement du site. Une chose que j'ai particulièrement aimé à propos de ce projet est que c'était mon premier site web que j'ai eu l'occasion de développer tout seul. Je pouvais donc m'assurer qu'il reste bien organisé et propre, que ce soit autant au niveau de la nomenclature ou des commentaires."
+            ]
         },
         {
             "id":11,
             "title":"recherche de logo personnel",
-            "date":"automne 2020",
+            "date":"été/automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "video":[],
             "artstation":["https://louishorlaville.artstation.com/projects/EL1qYq?album_id=2786133"],
@@ -414,7 +433,11 @@
             "fieldId":4,
             "fieldName":"DESIGN GRAPHIQUE",
             "collab":[],
-            "text":[] 
+            "text":[
+                "Lorsque j'ai commencé à réflechir à mon portfolio j'ai réalisé qu'il me fallait tout d'abords une identité visuelle, donc un logo qui pourrait me représenter.",
+                "Je suis passé à travers beaucoup d'idée différentes et j'ai fais beaucoup de variation de formes et couleurs avant d'arriver au Pacman final, qui fait référence à l'industrie du jeu vidéo dans laquelle je veux travailler plus tard. C'était un véritable défi de trouver un concept et les justes couleurs qui donneraient le bon vibe, le vibe Louis Horlaville. J'ai récupérer beaucoup d'avis et de retours avant de m'établir sur cette version finale (le logo que vous voyez en entête du site).",
+                "Allez voir la page Artstation du projet ci-dessous puor voir d'autres concepts au travers desquels je suis passé!"
+            ] 
         }
     ]
 }
