@@ -4,8 +4,8 @@
         "link":["artstation project page", "github project"]
     },
     "fr":{
-        "infos":["fais en collaborationa avec:", "logiciel/technologie:"],
-        "link":["page du projet artstation", "projet github"]
+        "infos":["fais en collaboration avec:", "logiciel/technologie:"],
+        "link":["page artstation du projet", "projet github"]
     }
     
 }

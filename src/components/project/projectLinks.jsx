@@ -13,6 +13,8 @@ class ProjectLinks extends Component {
      }
 
     componentDidMount(){
+        console.log("JE SUIS ICIIIIIIIIIIII")
+
         this.setState({
             artstation:(projectsData[cookies.get("lang")][this.state.projectId].artstation.length!=0)?true:false,
             github:(projectsData[cookies.get("lang")][this.state.projectId].github.length!=0)?true:false
@@ -39,10 +41,17 @@ class ProjectLinks extends Component {
     }
 
     render() { 
+        const {artstation} = this.state;
+        const {github} = this.state;
+
         return ( 
-            <div className="projectLinksContainer">
-                {(this.state.artstation)?this.ArtstationLink(projectsData[cookies.get("lang")][this.state.projectId].artstation):null}
-                {(this.state.github)?this.GitHubLink(projectsData[cookies.get("lang")][this.state.projectId].github):null}
+            <div className="projectLinksBoxContainer">
+                <div className="projectLinksFlexContainer">
+                    {(artstation)?this.ArtstationLink(projectsData[cookies.get("lang")][this.state.projectId].artstation):null}
+                    {(github)?this.GithubLink(projectsData[cookies.get("lang")][this.state.projectId].github):null}
+                </div>
+                {console.log()}
+                
             </div>
          );
     }

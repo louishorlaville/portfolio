@@ -28,10 +28,11 @@ class ProjectProfile extends Component {
     }
 
     videoExists = (projectId) =>{
-        if(projectsData[cookies.get("lang")][projectId].video==true){
+        if(projectsData[cookies.get("lang")][projectId].video.length!==0){
             return(
-                <ProjectVideo id={this.state.projectId}/>
+                <ProjectVideo id={this.state.projectId}/>         
             )
+            
         }
     };
     

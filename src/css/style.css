@@ -361,6 +361,7 @@ body{
     position: absolute;
     left: 0;
     top:100%;
+    width: 300%;
     font-size: .8em;
     color: #4D4D4D;
 }
@@ -543,22 +544,28 @@ body{
     flex-wrap: wrap;
     max-width: 90%;
     margin-top: 4% !important;
+    margin-bottom: 4% ;
 }
 
 /* VIDEO */
 .projectVideoContainer{
-    margin-bottom: 4% ;
     width: 35%;
     min-width: 500px;
+    margin-right: 100px;
+
 }
 .projectVideoPlayer{
     width: 100%;
 }
 
 /*LINKS*/
-.projectLinksContainer{
+.projectLinksBoxContainer{
     display: inline-block;
-    margin-left: 50px;
+}
+
+.projectLinksFlexContainer{
+    display: flex;
+    flex-direction: column;
 }
 
 .linkItem{
@@ -571,11 +578,15 @@ body{
     text-decoration: underline;
 }
 
+.linkItem:nth-child(2){
+    margin-top: 10px;
+}
+
 .linkItemBall{
     position: absolute;
     left: -10%;
     top: 30%;
-
+    display: inline-block;
     background-color: #EDBD21;
     width: 10px;
     height: 10px;
