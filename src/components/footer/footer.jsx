@@ -56,9 +56,6 @@ class Footer extends Component {
         window.removeEventListener('resize', this.updateBallArray);
     }
 
-    
-
-    
 }
  
 export default Footer;

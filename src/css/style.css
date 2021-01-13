@@ -1,6 +1,7 @@
 /*////////// STYLE HEADER //////////*/
 body{
     overflow-x: hidden;
+
 }
 .headerContainer{
     height: 2%;
@@ -599,14 +600,13 @@ body{
 
 
 
-
-
-
 /*////////// FOOTER //////////*/
 .footerContainer{
     position: relative;
+
     margin-top: 2%;
     margin-bottom:30px;
+
 }
 
 .pacmanContainer{
