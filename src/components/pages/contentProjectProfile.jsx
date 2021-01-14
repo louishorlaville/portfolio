@@ -15,6 +15,7 @@ const cookies = new Cookies();
 class ProjectProfile extends Component {
     state = { 
         projectId:this.props.location.state.id,
+        pageFrom:this.props.location.state.from,
         listFields:[1,0]
     }
 
@@ -50,13 +51,14 @@ class ProjectProfile extends Component {
     render() { 
         // const vid = require('../vid/projects/'+projectId+'/project'+projectId+'.mp4');
         const{projectId} = this.state;
+        const{pageFrom} = this.state;
         const{listFields} = this.state;
         return ( 
             <div id="contentContainer">
                 {console.log(projectId)}
                 <div className="projectContentContainer">
                     <div className="projectTitleContainer">
-                        <Link to={{pathname:"/projects",state:{fields:listFields}}}  className="backToList ballBackPassive" onMouseEnter={(e)=>this.mouseEnterBack(e)} onMouseLeave={(e)=>this.mouseLeaveBack(e)}>
+                        <Link to={{pathname:(pageFrom=='myWork')?'/myWork':'/projects',state:{fields:listFields}}}  className="backToList ballBackPassive" onMouseEnter={(e)=>this.mouseEnterBack(e)} onMouseLeave={(e)=>this.mouseLeaveBack(e)}>
                             <div className="ballBack">&#10240;</div>
                             <div className="ballBack">&#10240;</div>
                             <div className="ballBack">&#10240;</div>
@@ -72,8 +74,6 @@ class ProjectProfile extends Component {
                         {this.videoExists(projectId)}
                         <ProjectLinks id={this.state.projectId}/>
                     </div>
-                    
-                   
                 </div>
             </div>
         );

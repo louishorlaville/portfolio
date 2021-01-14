@@ -21,7 +21,7 @@
         },
         {
             "id":1,
-            "title":"personal website",
+            "title":"personal website's design",
             "date":"fall 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "video":[],
@@ -224,7 +224,7 @@
     "fr":[
         {
             "id":0,
-            "title":"design du site web départemental du cégep",
+            "title":"design site web départemental du cégep",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "video":["https://www.youtube-nocookie.com/embed/Yx4wNC_tRjU"],
@@ -241,7 +241,7 @@
         },
         {
             "id":1,
-            "title":"site web personnel",
+            "title":"design site web personnel",
             "date":"automne 2020",
             "software":"ILLUSTRATOR//PHOTOSHOP",
             "video":[],

@@ -598,6 +598,83 @@ body{
     background-color: #33495E;
 } 
 
+/*////////// MY WORK //////////*/
+.myWorkContainer{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: "bahnschrift";
+}
+
+/*TITLE*/
+.myWorkTitleContainer{
+    border-bottom: 4px solid #293947;
+    font-size: 2em;
+    width: 50%;
+    padding-left: 1%;
+}
+
+/*CONTENT*/
+.myWorkContent{
+    margin-top: 3em;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 85%;
+
+}
+
+/*ITEM*/
+.myWorkItem{
+    width: 300px;
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+/*item title*/
+.myWorkItemTitleContainer{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #33495E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/*item preview*/
+.myWorkItemPreviewContainer{
+    position: relative;
+    align-self: center;
+    width: 90%;
+}
+
+.myWorkItemPreview{
+    width: 100%;
+    transition: filter .1s ease-in-out;
+}
+
+.myWorkItemPreviewInfos{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+    font-stretch: condensed;
+}
+
+.myWorkItemPreviewDate{
+    margin-top: 5%;
+}
+
+.myWorkItem:hover>.myWorkItemPreviewContainer>.myWorkItemPreviewInfos{
+    opacity: 1;
+}
+.myWorkItem:hover>.myWorkItemPreviewContainer>.myWorkItemPreview{
+    filter: brightness(60%);
+}
 
 
 /*////////// FOOTER //////////*/

@@ -1,6 +1,6 @@
 {
     "en":{
-        "nav":["My work","About"],
+        "nav":["My work","Contact"],
         "menu":["Programmer","Designer"],
         "resume":[
             "Hi! My name is Louis Horlaville and I’m a Montreal-based college student who loves "," and building "," interfaces. I specialize in "," and ",".",
@@ -11,7 +11,7 @@
         ]
     },
     "fr":{
-        "nav":["Mon travail","À propos"],
+        "nav":["Mon travail","Contact"],
         "menu":["Programmeur","Designer"],
         "resume":[
             "Bonjour! Je m'appelle Louis Horlaville et je suis un finissant collégial établit à Montréal. Je suis passionné de "," et j'adore créer des ",". Je me spécialise dans le "," et le ",".",
