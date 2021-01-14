@@ -72,8 +72,6 @@ class ProjectProfile extends Component {
                         {this.videoExists(projectId)}
                         <ProjectLinks id={this.state.projectId}/>
                     </div>
-                    
-                   
                 </div>
             </div>
         );

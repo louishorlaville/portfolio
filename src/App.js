@@ -7,6 +7,8 @@ import Footer from "./components/footer/footer.jsx";
 import ContentHome from "./components/pages/contentHome.jsx";
 import ContentProjectList from "./components/pages/contentProjectList.jsx"
 import ContentProjectProfile from "./components/pages/contentProjectProfile.jsx"
+import ContentMyWork from "./components/pages/contentProjectProfile.jsx"
+import ContentContact from "./components/pages/contentProjectProfile.jsx"
 
 class App extends Component{
   state={
@@ -25,6 +27,8 @@ class App extends Component{
         <Route exact path="/" render={(props)=>(<ContentHome {...props} langData={this.state.langData}/>)}/>
         <Route path="/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)}/>
         <Route path="/projectProfile" component={ContentProjectProfile}/>
+        <Route path="/contact" component={ContentContact}/>
+        <Route path="/myWork" component={ContentMyWork}/>
         <Footer/>
       </div>
     );
