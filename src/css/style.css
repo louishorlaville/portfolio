@@ -676,7 +676,140 @@ body{
 }
 
 
+/*////////// CONTACT PAGE //////////*/
+.contactContainer{
+    margin-top: 2%;
+    font-family: "bahnschrift";
+}
 
+/*TITLE*/
+.contactTitleContainer{
+    border-bottom: 4px solid #293947;
+    font-size: 2em;
+    margin-left: 5%;
+    width: 50%;
+    padding-left: 1%;
+}
+
+/*EMAIL*/
+.contactEmailContainer{
+    margin-top: 50px;
+    width: 100vw;
+    background-color: #33495E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/*email*/
+.contactEmailContent{
+    margin-left: 8%;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    max-width: 80%;
+}
+
+.contactEmail,.contactEmailSideBalls{
+    margin-right: 10px;
+}
+
+.contactEmail>a{
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 100;
+    font-stretch: condensed;
+}
+
+/*side*/
+.contactEmailSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactEmailSideBalls{
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    justify-content: space-between;
+}
+
+.contactEmailBall{
+    background-color: #EDBD21;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.contactEmailSideText{
+    font-size: 1.3em;
+}
+/*Pacman*/
+.contactEmailPacman{
+    position: absolute;
+    right: 0;
+    transform-origin: center;
+    width: 200px;
+    height: 200px;
+    background-color: #E8EAED;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 85%, 52% 52%, 0 15%, 0 0);
+}
+
+/*CONTACT*/
+.contactLinksContainer{
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+
+.contactLinkItemBox{
+    position: relative;
+    margin-top: 10px;
+}
+
+.contactLinkItem{ 
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.contactLinkItem>a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10%;
+    font-size: 1.5em;
+}
+
+.contactLinkItemBall{
+    position: absolute;
+    left: -2%;
+    top: 30%;
+    display: inline-block;
+    background-color: #EDBD21;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.contactLinkItem> .boxHoverBehind{
+    background-color: #EDBD21;
+
+}
+
+.contactLinkItem:hover> .boxHoverBehind{
+    width: 105%;
+}
+
+.contactLinkItem:hover ~ .contactLinkItemBall{
+    background-color: #33495E;
+}
 
 
 /*////////// FOOTER //////////*/
