@@ -43,7 +43,7 @@ class App extends Component{
         <Route path="/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)} />
         <Route path="/projectProfile" component={ContentProjectProfile} />
         <Route path="/contact" onEnter={this.onRouteChanged} component={ContentContact} />
-        <Route path="/myWork" component={ContentMyWork}/>
+        <Route path="/myWork" onLeave={this.onRouteChanged} component={ContentMyWork}/>
         <Footer/>
       </div>
     );

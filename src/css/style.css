@@ -127,15 +127,6 @@ body{
     width: 43%;
 }
 
-@keyframes widthAnimation{
-    from{
-
-    }
-    to{
-
-    }
-}
-
 /*////////// GENERAL HIGHLIGHT STYLES //////////*/
 .highlightYellow{
     background-color: #EDBD21;
@@ -610,6 +601,8 @@ body{
     font-size: 2em;
     width: 50%;
     padding-left: 1%;
+    font-stretch: condensed;
+
 }
 
 /*CONTENT*/
@@ -680,6 +673,7 @@ body{
 .contactContainer{
     margin-top: 2%;
     font-family: "bahnschrift";
+    height: 64vh;
 }
 
 /*TITLE*/
@@ -689,6 +683,8 @@ body{
     margin-left: 5%;
     width: 50%;
     padding-left: 1%;
+    font-stretch: condensed;
+
 }
 
 /*EMAIL*/
@@ -723,6 +719,23 @@ body{
     font-size: 3em;
     font-weight: 100;
     font-stretch: condensed;
+    position: relative;
+}
+.contactEmail>a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.contactEmail>a:hover:after { 
+    width: 100%; 
+    left: 0; 
 }
 
 /*side*/
@@ -744,11 +757,51 @@ body{
     height: 15px;
     width: 15px;
     border-radius: 50%;
+    animation: animBallContact infinite 5s cubic-bezier(0,.42,.78,1.39);
+}
+
+.contactEmailBall:nth-of-type(1){
+    animation-delay: 0s;
+}
+.contactEmailBall:nth-of-type(2){
+    animation-delay: .25s;
+}
+.contactEmailBall:nth-of-type(3){
+    animation-delay: .5s;
+}
+.contactEmailBall:nth-of-type(4){
+    animation-delay: .75s;
+}
+.contactEmailBall:nth-of-type(5){
+    animation-delay: 1s;
+}
+.contactEmailBall:nth-of-type(6){
+    animation-delay: 1.25s;
+}
+
+@keyframes animBallContact{
+    from{
+        transform: scale(1);
+    }
+    
+    20%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.3);
+    }
+    30%{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 .contactEmailSideText{
     font-size: 1.3em;
 }
+
 /*Pacman*/
 .contactEmailPacman{
     position: absolute;
@@ -761,7 +814,7 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 85%, 52% 52%, 0 15%, 0 0);
 }
 
-/*CONTACT*/
+/*LINKS*/
 .contactLinksContainer{
     margin-left: 10%;
     margin-top: 3%;

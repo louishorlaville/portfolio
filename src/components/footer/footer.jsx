@@ -11,7 +11,7 @@ class Footer extends Component {
         windowWidth:window.innerWidth,
         balls:[
             [0,"ballHere"]
-        ]
+        ],
      };
 
     handleResize = (e) => {
@@ -21,9 +21,10 @@ class Footer extends Component {
     render() { 
         const { windowWidth } = this.state;
         const { balls } = this.state;
+        const { scroll } = this.state;
         return ( 
             
-            <div className={(cookies.get("scroll")===false)?"footerContainer stickyFooter":"footerContainer"}>
+            <div className='footerContainer'>
                 <div className="pacmanContainer">
                     <img src={Pacman} alt="pacman" id="pacmanFooter"/>
                 </div>
