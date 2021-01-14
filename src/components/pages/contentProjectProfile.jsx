@@ -26,8 +26,6 @@ class ProjectProfile extends Component {
         else{
             this.setState({listFields:[2,3]});
         }
-
-        console.log(window.history[1]);
     }
 
     videoExists = (projectId) =>{

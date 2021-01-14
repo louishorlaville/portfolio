@@ -3,6 +3,7 @@ import Cookies from 'universal-cookie';
 import {Link} from "react-router-dom";
 
 import projectsData from '../../data/projects.json';
+import homeData from '../../data/home.json';
 
 const cookies = new Cookies();
 
@@ -13,7 +14,7 @@ class ContentMyWork extends Component {
             <div className="contentContainer">
                 <div className="myWorkContainer">
                     <div className="myWorkTitleContainer">
-                        <div className="myWorkTitle">//MY WORK</div>
+                        <div className="myWorkTitle">//{homeData[cookies.get("lang")].nav[0].toUpperCase()}</div>
                     </div>
                     <div className="myWorkContent">
                         {projectsData[cookies.get("lang")].map((project,index)=>{

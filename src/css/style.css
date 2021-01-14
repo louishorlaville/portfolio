@@ -617,22 +617,21 @@ body{
     margin-top: 3em;
     display: flex;
     flex-flow: row wrap;
-    max-width: 80%;
-    justify-content: space-between;
+    max-width: 85%;
 
 }
 
 /*ITEM*/
 .myWorkItem{
     width: 300px;
-    height: 194px;
+    flex-grow: 1;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     cursor: pointer;
     margin-bottom: 30px;
     text-decoration: none;
+    margin-right: 20px;
 }
 /*item title*/
 .myWorkItemTitleContainer{
@@ -641,6 +640,7 @@ body{
     background-color: #33495E;
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 /*item preview*/
