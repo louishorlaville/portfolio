@@ -7,7 +7,7 @@ import Footer from "./components/footer/footer.jsx";
 import ContentHome from "./components/pages/contentHome.jsx";
 import ContentProjectList from "./components/pages/contentProjectList.jsx"
 import ContentProjectProfile from "./components/pages/contentProjectProfile.jsx"
-import ContentMyWork from "./components/pages/contentProjectProfile.jsx"
+import ContentMyWork from "./components/pages/contentMyWork.jsx"
 import ContentContact from "./components/pages/contentProjectProfile.jsx"
 
 class App extends Component{

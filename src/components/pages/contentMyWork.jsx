@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+import Cookies from 'universal-cookie';
+import {Link} from "react-router-dom";
+
+import projectsData from '../../data/projects.json';
+
+const cookies = new Cookies();
 
 class ContentMyWork extends Component {
-    state = {  }
+    state = {}
     render() { 
         return ( 
             <div className="contentContainer">
@@ -10,18 +16,24 @@ class ContentMyWork extends Component {
                         <div className="myWorkTitle">//MY WORK</div>
                     </div>
                     <div className="myWorkContent">
-                        <div className="myWorkItem">
-                            <div className="myWorkItemTitleContainer">
-                                <div className="myWorkItemTitle">cegep's department website</div>
-                            </div>
-                            <div className="myWorkItemPreviewContainer">
-                                <img src='../../img/projects/1/1.jpg' className="myWorkItemPreview"/>
-                                <div className="myWorkItemPreviewInfos">
-                                    <div className="myWorkItemPreviewDate">fall 2020</div>
-                                    <div className="myWorkItemPreviewDate">HTML//CSS//Js//PHP</div>
+                        {projectsData[cookies.get("lang")].map((project,index)=>{
+                            return(
+                            <div key={index} className="myWorkItem">
+                                <div className="myWorkItemTitleContainer">
+                                    <div className="myWorkItemTitle">{project.title}</div>
+                                </div>
+                                <div className="myWorkItemPreviewContainer">
+                                    <img src={'../../img/projects/'+project.id+'/1.jpg'} className="myWorkItemPreview"/>
+                                    <div className="myWorkItemPreviewInfos">
+                                        <div className="myWorkItemPreviewField">{project.fieldName}</div>
+                                        <div className="myWorkItemPreviewDate">{project.date}</div>
+                                        <div className="myWorkItemPreviewSoftware">{project.software}</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            );
+                        })}
+                        
                     </div>
                 </div>
 
