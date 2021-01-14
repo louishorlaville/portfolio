@@ -29,6 +29,10 @@ class ContentProjectList extends Component {
         else{
             this.handleFields(fields);
         }
+
+        if(cookies.get("scroll")==false){
+            cookies.set("scroll",true);
+        }
     }
 
     componentWillUnmount(){

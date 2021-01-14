@@ -9,6 +9,13 @@ const cookies = new Cookies();
 
 class ContentMyWork extends Component {
     state = {}
+
+    componentDidMount() {
+        if(cookies.get("scroll")==false){
+            cookies.set("scroll",true);
+        }
+    }
+
     render() { 
         return ( 
             <div className="contentContainer">

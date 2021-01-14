@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Cookies from 'universal-cookie';
 import Ball from '../../svg/ball.svg';
 import Pacman from '../../svg/pacmanFull.svg';
 import Logo from '../header/logo';
 
+const cookies = new Cookies();
 
 class Footer extends Component {
     state = { 
@@ -21,7 +23,7 @@ class Footer extends Component {
         const { balls } = this.state;
         return ( 
             
-            <div className="footerContainer">
+            <div className={(cookies.get("scroll")===false)?"footerContainer stickyFooter":"footerContainer"}>
                 <div className="pacmanContainer">
                     <img src={Pacman} alt="pacman" id="pacmanFooter"/>
                 </div>
