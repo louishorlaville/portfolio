@@ -1203,7 +1203,7 @@ body{
     }
 
     /*BURGER BOX*/
-    .burgerActive ~ .burgerMenuNavContainer{
+    .burgerActive > .burgerMenuNavContainer{
         transform: translateX(-100vw);
     }
 

@@ -29,7 +29,6 @@ class Header extends Component {
 
     toggleBurger = (e) =>{
         let currentState = this.state.burgerState;
-        console.log(e);
         if(currentState===0 &&  e.target.classList.contains("burgerMenuBar")){
             e.target.parentElement.parentElement.classList.add("burgerActive");
             this.setState({burgerState:1});
@@ -38,6 +37,12 @@ class Header extends Component {
             e.target.parentElement.parentElement.classList.remove("burgerActive");
             this.setState({burgerState:0});
         }
+    }
+
+    closeBurger=(e)=>{
+        console.log(e);
+        e.target.parentElement.parentElement.parentElement.parentElement.classList.remove("burgerActive");
+        this.setState({burgerState:0});
     }
 
     render() { 
@@ -54,8 +59,9 @@ class Header extends Component {
                         <div className="burgerMenuBar">&#10240;</div>
                         <div className="burgerMenuBar">&#10240;</div>
                     </div>
+                    <BurgerMenuContent callBackParent={(e)=>this.closeBurger(e)}/>
                 </div>
-                <BurgerMenuContent/>
+                
             </div>
         );
     }
