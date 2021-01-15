@@ -10,28 +10,33 @@ body{
     font-weight: 100 ;
     font-size: 1em;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.headerItems{
-    
+.burgerMenuContainer{
+    display: none;
 }
+
 /* Logo element */
 .logoContainer{
-    position:absolute;
-    top: 2%;
-    left: 2%;
+    order: 1;
     width: 20%;
 }
 
 
+.headerRightSide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 2;
+}
 
 /* NavMenu element */
 .navMenuContainer{
-    margin-left: 40%;
-    margin-right: 2%;
-    padding-top: 2.5%;
+    justify-self: flex-end;
+    padding-top: 5%;
     width: 400px;
     height: 10%;
     order: 2;
@@ -63,10 +68,11 @@ body{
 
 /* Time element */
 .timeContainer{
-    order:1;
+    order:3;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-self: flex-end;
 }
 
 .timeItem{
@@ -209,9 +215,10 @@ body{
     background-color: #33495E;
     position: relative;
     color: white;
-    margin-top: 7%;
+    margin-top: 5%;
     padding:1em;
     padding-left: 3.5em;
+    margin-bottom: 40px;
 }
 
 #resumeContainer{
@@ -998,4 +1005,112 @@ body{
 
 .ballVanish{
     display: none;
+}
+
+/*PHONE VERSIONS*/
+@media (max-width:850px){
+    .pageContainer{
+        overflow-x: hidden;
+    }
+    .headerContainer{
+        justify-content: space-around;
+    }
+
+    .logoContainer{
+        flex: .6;
+    }
+
+    .headerRightSide{
+        display: none;
+    }
+    .burgerMenuContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40px;
+        order: 2;
+        height: 20px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 5;
+        transition: all .2s ease-in;
+    }
+
+    .burgerMenuBox{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .burgerMenuBar{
+        position: absolute;
+        background-color: #33495E;
+        width: 100%;
+        height: 5px;
+        transition: all .3s cubic-bezier(0,.42,.78,1.39);
+        z-index: 5;
+        transform-origin: center;
+    }
+
+    .burgerMenuBar:nth-of-type(1){
+        top: 0%;
+    }
+    .burgerMenuBar:nth-of-type(2){
+        top: 50%;
+    }
+    .burgerMenuBar:nth-of-type(3){
+        top: 100%;
+    }
+
+    .burgerActive>.burgerMenuBox>.burgerMenuBar:nth-of-type(1){
+        top: 50%;
+    }
+    .burgerActive>.burgerMenuBox>.burgerMenuBar:nth-of-type(3){
+        top: 50%;
+    }
+
+    .burgerActive>.burgerMenuBox>.burgerMenuBar{
+        background-color: white;
+    }
+
+
+    /*HOME*/
+
+    /*skills*/
+    .mainSkills{
+        margin-top: 10%;
+    }
+    .skillsListElement{
+        font-size: .8em;
+    }
+
+    /*resume*/
+    #homeResumeContainer{
+        font-size: .65em;
+        width: 100vw;
+        margin-bottom: 30vh;
+    }
+
+    #homeResumeContainer{
+        padding: 0;
+    }
+    #resumeContainer{
+        width: 90%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 5%;
+    }
+    #resumeP1, #resumeP2{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .resumeElement{
+        align-self: center;
+    }
+
+
 }
