@@ -15,7 +15,7 @@ body{
     justify-content: space-between;
 }
 
-.burgerMenuContainer{
+.burgerMenuContainer,.burgerMenuNavContainer{
     display: none;
 }
 
@@ -1149,6 +1149,8 @@ body{
     .headerRightSide{
         display: none;
     }
+
+    /*BURGER MENU*/
     .burgerMenuContainer{
         display: flex;
         flex-direction: column;
@@ -1200,6 +1202,61 @@ body{
         background-color: white;
     }
 
+    /*BURGER BOX*/
+    .burgerActive ~ .burgerMenuNavContainer{
+        transform: translateX(-100vw);
+    }
+
+    .burgerMenuNavContainer{
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100vw;
+        height: 100vh;
+        background-color: #33495E;
+        z-index: 4;
+        display: inline-block;
+        transition: transform .3s ease-in-out;
+    }
+
+    .burgerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20vh;
+        margin-top: 20vh;
+    }
+
+    .linkBurgerContainer{
+        display:flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .navBurgerItem{
+        text-decoration: none;
+        color: white;
+        font-size: 1.8em;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navBurgerItem::before{
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        transform-origin: center;
+        transform: translateX(-40%);
+        position: absolute;
+        background: #fff;
+        width: 10%;
+    }
+
+    
 
     /*HOME*/
 

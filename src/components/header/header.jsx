@@ -3,6 +3,8 @@ import Cookies from 'universal-cookie';
 import Logo from './logo.jsx';
 import NavMenu from './navMenu.jsx';
 import TimeHeader from './timeHeader.jsx';
+import BurgerMenuContent from './burgerMenu.jsx';
+
 import '../../css/style.css';
 
 const cookies = new Cookies();
@@ -53,6 +55,7 @@ class Header extends Component {
                         <div className="burgerMenuBar">&#10240;</div>
                     </div>
                 </div>
+                <BurgerMenuContent/>
             </div>
         );
     }
