@@ -7,6 +7,10 @@ class ImageGallery extends Component {
         images:[1,2,3]
      }
 
+    componentDidMount() {
+        this.setState({imageId:this.props.imageId})
+    }
+
     switchLeftRight=(direction, imageId)=>{
         let allow = (direction==1)? (imageId+1!==4):(imageId-1!==0);
         if(allow){
@@ -18,6 +22,10 @@ class ImageGallery extends Component {
         this.setState({imageId:id})
     }
 
+    unmount=()=>{
+        this.props.unmountMe();
+    }
+
     render() { 
         const {projectId} = this.state;
         const {imageId} = this.state;
@@ -26,6 +34,7 @@ class ImageGallery extends Component {
                 <div className="galleryContainerBackground"  onClick={console.log("okok")}>&#10240;</div>
                 <div className="galleryContentContainer">
                     <div className="galleryExpandedImg">
+                        <div className="exitGallery" onClick={this.unmount}>&#10240;</div>
                         <div id="galleryNavLeft" className="galleryExpandedNavBox" onClick={()=>this.switchLeftRight(0, imageId)}>
                             <div id="navLeftSymbol" className="navSymbol">&#10240;</div>
                         </div>

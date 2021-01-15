@@ -538,6 +538,24 @@ body{
     z-index: -1;
 }
 
+/*exit*/
+.exitGallery{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    cursor: pointer;
+    transform-origin: center;
+    transition: all .3s ease-out;
+}
+
+.exitGallery:hover{
+    transform: scale(1.2);
+}
+
 /*Content*/
 .galleryContentContainer{
     height: 100vh;
@@ -551,6 +569,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #galleryExpandedImgContent{
     height: 80%;
@@ -1119,6 +1138,7 @@ body{
         overflow-x: hidden;
     }
     .headerContainer{
+        margin-top: 5%;
         justify-content: space-around;
     }
 
@@ -1195,7 +1215,8 @@ body{
     #homeResumeContainer{
         font-size: .65em;
         width: 100vw;
-        margin-bottom: 30vh;
+        margin-bottom: 22vh;
+        margin-top: 15%;
     }
 
     #homeResumeContainer{
