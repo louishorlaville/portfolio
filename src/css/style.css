@@ -975,8 +975,8 @@ body{
 
 .contactLinkItemBall{
     position: absolute;
-    left: -2%;
-    top: 30%;
+    left: -15px;
+    top: 10px;
     display: inline-block;
     background-color: #EDBD21;
     width: 10px;
@@ -1298,7 +1298,7 @@ body{
     }
 
 
-    #contentContainer{
+    #contentContainer,.contentContainer{
         margin-top: 10%;
     }
 
@@ -1409,5 +1409,16 @@ body{
         height: 45vw;
     }
 
-    
+    /*CONTACT PAGE */
+    .contactEmailPacman{
+        display: none;
+    }
+
+    /*email*/
+    .contactEmail{
+        font-size: 2.3vw;
+    }
+    .contactEmailSideText{
+        font-size: 5vw;
+    }
 }
