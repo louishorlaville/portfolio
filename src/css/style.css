@@ -218,7 +218,7 @@ body{
     margin-top: 5%;
     padding:1em;
     padding-left: 3.5em;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 #resumeContainer{
@@ -1215,6 +1215,19 @@ body{
     }
 
     /*BURGER BOX*/
+    
+    /*lang*/
+    .burgerLangContainer{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: white;
+    }
+
+    .selectedLang{
+        color: black;
+    }
+    /*nav*/
     .burgerActive > .burgerMenuNavContainer{
         transform: translateX(-100vw);
     }
@@ -1232,11 +1245,17 @@ body{
     }
 
     .burgerContent{
+        height: 100%;
+        position: relative;
+    }
+
+    .burgerNavContainer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 20vh;
         margin-top: 20vh;
+        position: relative;
     }
 
     .linkBurgerContainer{
@@ -1290,6 +1309,7 @@ body{
 
     #homeResumeContainer{
         padding: 0;
+        margin-bottom: 17vh;
     }
     #resumeContainer{
         width: 90%;
@@ -1450,12 +1470,16 @@ body{
         display: none;
     }
 
+    .contactContainer{
+        height:73vh;
+    }
+
     /*email*/
     .contactEmail{
         font-size: 2.3vw;
     }
     .contactEmailSideText{
-        font-size: 5vw;
+        font-size: 4.7vw;
     }
 
     /*MY WORK PAGE*/
