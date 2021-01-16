@@ -1297,4 +1297,63 @@ body{
     }
 
 
+    #contentContainer{
+        margin-top: 10%;
+    }
+
+    /*PROJECT LIST*/
+    
+    /*title*/
+    .listTitleContainer{
+        width: 60%;
+        margin-bottom: 10%;
+    }
+
+    .listTitle{
+        font-size: .9em;
+    }
+
+    /*field*/
+    .listField{
+        margin-left: 0;
+    }
+    .listFieldTitle{
+        font-size: 1.4em;
+    }
+
+    /*item*/
+    .listItem{
+        font-size: .8em;
+        width: 90%;
+    }
+    .listItemSoftware{
+        left: 0;
+        top: auto;
+        bottom: -20px;
+    }
+
+    .listItemDate{
+        top: auto;
+        bottom: -44px;
+    }
+
+    .listItemBall{
+        top: 10px;
+        left: -20px;
+    }
+
+    .listItem{
+        margin-left: 5%;
+        margin-top: 60px;
+        transform-origin: top left;
+    }
+    
+    .listField>.listItem:nth-of-type(1){
+        margin-top: 25px;
+    }
+
+    .listField{
+        margin-top: 5%;
+    }
+
 }
