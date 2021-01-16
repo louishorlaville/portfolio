@@ -14,7 +14,7 @@ class NavMenu extends Component {
         return ( 
             <div className="navMenuContainer headerItems">
                 <Link className ="navElements" id="myWorkNav" to="/myWork">//{homeData[cookies.get("lang")].nav[0].toUpperCase()}</Link>
-                <Link className ="navElements" id="contactNav" to="/">//{homeData[cookies.get("lang")].nav[1].toUpperCase()}</Link>              
+                <Link className ="navElements" id="contactNav" to="/contact">//{homeData[cookies.get("lang")].nav[1].toUpperCase()}</Link>              
             </div> 
         )        
     };

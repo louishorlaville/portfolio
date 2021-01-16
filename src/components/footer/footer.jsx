@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import Cookies from 'universal-cookie';
 import Ball from '../../svg/ball.svg';
 import Pacman from '../../svg/pacmanFull.svg';
 import Logo from '../header/logo';
 
+const cookies = new Cookies();
 
 class Footer extends Component {
     state = { 
         windowWidth:window.innerWidth,
         balls:[
             [0,"ballHere"]
-        ]
+        ],
      };
 
     handleResize = (e) => {
@@ -19,9 +21,10 @@ class Footer extends Component {
     render() { 
         const { windowWidth } = this.state;
         const { balls } = this.state;
+        const { scroll } = this.state;
         return ( 
             
-            <div className="footerContainer">
+            <div className='footerContainer'>
                 <div className="pacmanContainer">
                     <img src={Pacman} alt="pacman" id="pacmanFooter"/>
                 </div>

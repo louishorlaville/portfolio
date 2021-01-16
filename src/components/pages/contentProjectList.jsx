@@ -29,6 +29,7 @@ class ContentProjectList extends Component {
         else{
             this.handleFields(fields);
         }
+
     }
 
     componentWillUnmount(){
