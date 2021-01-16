@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Clock from 'react-live-clock';
 import Cookies from 'universal-cookie';
 
+
 const cookies = new Cookies();
 
 class TimeLocation extends Component {
@@ -35,6 +36,7 @@ class TimeLocation extends Component {
             <div className="timeContainer headerItems">
                 <div className="timeItem" id="timeClock"><Clock format={'HH:mm:ss'} ticking={true} timezone={'America/Montreal'} /></div>
                 <div className="timeItem highlightYellow" id="timeLocation">Montréal, Canada</div>
+
                 <div className="timeItem" id="timeLanguage">
                     <span className="languageItem" id="en" onClick={((e)=>this.languageSwitchHandler(e))}>English </span> 
                     // 
