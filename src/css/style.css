@@ -572,8 +572,18 @@ body{
     align-items: center;
     position: relative;
 }
+
+.gallerExpandedImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 90%;
+}
+
 #galleryExpandedImgContent{
-    height: 80%;
+    height: auto;
+    width: 60vw;
 }
 
 .galleryExpandedNavBox{
@@ -767,6 +777,7 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 /*item preview*/
@@ -1305,8 +1316,8 @@ body{
     /*PROJECT LIST*/
     
     /*title*/
-    .listTitleContainer{
-        width: 60%;
+    .listTitleContainer, .myWorkTitleContainer{
+        width: 65%;
         margin-bottom: 10%;
     }
 
@@ -1388,6 +1399,31 @@ body{
         margin-bottom: 4%;
     }
 
+    /*preview gallery*/
+    .galleryExpandedImg{
+        height: 55%;
+        align-items: flex-end;
+    }
+
+    #galleryExpandedImgContent{
+        height: auto;
+        width: 70vw;
+    }
+
+    .gallerExpandedImgContainer{
+        height: auto;
+    }
+    .galleryImgRowContainer{
+        height: 30%;
+        width: 90%;
+    }
+    .galleryImgRowItem{
+        border: white solid 1px;
+    }
+
+    .exitGallery{
+        top: -50px;
+    }
 
     /*text*/
     #projectTextContentContainer{
@@ -1421,4 +1457,11 @@ body{
     .contactEmailSideText{
         font-size: 5vw;
     }
+
+    /*MY WORK PAGE*/
+    .myWorkContent{
+        max-width: 95%;
+    }
+
+
 }

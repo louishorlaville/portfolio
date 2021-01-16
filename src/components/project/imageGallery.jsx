@@ -34,14 +34,16 @@ class ImageGallery extends Component {
                 <div className="galleryContainerBackground"  onClick={console.log("okok")}>&#10240;</div>
                 <div className="galleryContentContainer">
                     <div className="galleryExpandedImg">
-                        <div className="exitGallery" onClick={this.unmount}>&#10240;</div>
-                        <div id="galleryNavLeft" className="galleryExpandedNavBox" onClick={()=>this.switchLeftRight(0, imageId)}>
-                            <div id="navLeftSymbol" className="navSymbol">&#10240;</div>
-                        </div>
-                        {console.log(imageId)}
-                        <img id="galleryExpandedImgContent" src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
-                        <div id="galleryNavRight" className="galleryExpandedNavBox" onClick={()=>this.switchLeftRight(1, imageId)}>
-                            <div id="navRightSymbol" className="navSymbol">&#10240;</div>
+                        <div className="gallerExpandedImgContainer">
+                            <div className="exitGallery" onClick={this.unmount}>&#10240;</div>
+                            <div id="galleryNavLeft" className="galleryExpandedNavBox" onClick={()=>this.switchLeftRight(0, imageId)}>
+                                <div id="navLeftSymbol" className="navSymbol">&#10240;</div>
+                            </div>
+                            {console.log(imageId)}
+                            <img id="galleryExpandedImgContent" src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
+                            <div id="galleryNavRight" className="galleryExpandedNavBox" onClick={()=>this.switchLeftRight(1, imageId)}>
+                                <div id="navRightSymbol" className="navSymbol">&#10240;</div>
+                            </div>
                         </div>
                     </div>
                     
