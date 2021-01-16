@@ -9,7 +9,7 @@ class Logo extends Component {
     render() { 
         return ( 
             <div className="logoContainer headerItems">
-                <Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
+                <Link id="homeLogo" to="/"><img src={logo} className="logo" alt="logo" /><div className="logoPacman">&#10240;</div></Link>
             </div>
         );
     }
