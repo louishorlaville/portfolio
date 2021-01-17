@@ -3,10 +3,22 @@ body{
     overflow-x: hidden;
 
 }
+
+@font-face {
+    font-family: 'd-din';
+    src: local('d-din'), url(../fonts/d-din.woff) format('woff');
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'd-din';
+    src: local('d-din'), url(../fonts/d-dincondensed.woff) format('woff');
+    font-stretch: condensed;
+}
+
 .headerContainer{
     height: 2%;
     padding: 1%;
-    font-family: "bahnschrift";
+    font-family: "d-din";
     font-stretch: condensed;
     font-weight: 100 ;
     font-size: 1em;
@@ -23,9 +35,26 @@ body{
 /* Logo element */
 .logoContainer{
     order: 1;
-    width: 20%;
+    width: 20vw;
+    position: relative;
 }
 
+.logoPacman{
+    position: absolute;
+    width: 5.5vw;
+    height: 5.5vw;
+    background-color: #33495E;
+    border-radius: 50%;
+    top: 0;
+    left: 17.5%;
+    clip-path: polygon(0 0, 100% 0, 100% 13%, 52% 52%, 100% 87%, 100% 100%, 0 100%, 0 0);
+    transition: clip-path .2s ease-in;
+}
+
+#homeLogo:hover>.logoPacman{
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 52% 52%, 100% 52%, 100% 100%, 0 100%, 0 0);
+
+}
 
 .headerRightSide{
     display: flex;
@@ -156,7 +185,7 @@ body{
 
 /*////////// HOME CONTENT //////////*/
 #contentContainer{
-    font-family: "bahnschrift";
+    font-family: "d-din";
     color: black;
     font-size: 1em;
 }
@@ -535,7 +564,7 @@ body{
     left: 0;
     background-color: black;
     opacity: .6;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     z-index: -1;
 }
@@ -545,26 +574,28 @@ body{
     position: absolute;
     top: 5%;
     right: 0%;
-    background-color: white;
     width: 30px;
     height: 30px;
     clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color: white;
     cursor: pointer;
     transform-origin: center;
     transition: all .3s ease-out;
 }
 
 .exitGallery:hover{
-    transform: scale(1.2);
+    clip-path: polygon(26% 6%, 7% 25%, 30% 50%, 6% 75%, 26% 95%, 50% 70%, 74% 94%, 94% 71%, 70% 50%, 93% 24%, 73% 7%, 50% 30%);
 }
 
 /*Content*/
 .galleryContentContainer{
     height: 100vh;
     display: flex;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
 }
+
 /*expanded*/
 .galleryExpandedImg{
     height: 90%;
@@ -689,8 +720,6 @@ body{
     margin-right: 100px;
 
 }
-.projectVideoContainer>iframe{
-}
 
 
 /*LINKS*/
@@ -736,7 +765,7 @@ body{
 .myWorkContainer{
     margin-left: 5%;
     margin-top: 2%;
-    font-family: "bahnschrift";
+    font-family: "d-din";
 }
 
 /*TITLE*/
@@ -817,7 +846,7 @@ body{
 /*////////// CONTACT PAGE //////////*/
 .contactContainer{
     margin-top: 2%;
-    font-family: "bahnschrift";
+    font-family: "d-din";
     height: 64vh;
 }
 
@@ -1151,6 +1180,7 @@ body{
     .pageContainer{
         overflow-x: hidden;
     }
+
     .headerContainer{
         margin-top: 5%;
         justify-content: space-around;
@@ -1158,6 +1188,11 @@ body{
 
     .logoContainer{
         flex: .6;
+    }
+
+    .logoPacman{
+        width: 16vw;
+        height: 16vw;
     }
 
     .headerRightSide{
@@ -1229,6 +1264,7 @@ body{
     .selectedLang{
         color: black;
     }
+
     /*nav*/
     .burgerActive > .burgerMenuNavContainer{
         transform: translateX(-100vw);
@@ -1353,6 +1389,7 @@ body{
     }
     .listFieldTitle{
         font-size: 1.4em;
+        width: 90%;
     }
 
     /*item*/

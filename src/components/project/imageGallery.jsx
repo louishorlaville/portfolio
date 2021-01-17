@@ -40,17 +40,16 @@ class ImageGallery extends Component {
                                 <div id="navLeftSymbol" className="navSymbol">&#10240;</div>
                             </div>
                             {console.log(imageId)}
-                            <img id="galleryExpandedImgContent" src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
+                            <img id="galleryExpandedImgContent" src={'./img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
                             <div id="galleryNavRight" className="galleryExpandedNavBox" onClick={()=>this.switchLeftRight(1, imageId)}>
                                 <div id="navRightSymbol" className="navSymbol">&#10240;</div>
                             </div>
                         </div>
                     </div>
-                    
                     <div className="galleryImgRowContainer">
                     {this.state.images.map(imageId=>
                         <div key={imageId} className="galleryImgRowItem" onClick={()=>this.switchImg(imageId)}>
-                            <img src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
+                            <img src={'./img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
                         </div>
                     )}
                     </div>

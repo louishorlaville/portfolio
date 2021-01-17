@@ -22,12 +22,12 @@ class ContentMyWork extends Component {
                     <div className="myWorkContent">
                         {projectsData[cookies.get("lang")].map((project,index)=>{
                             return(
-                            <Link to={{pathname:"/projectProfile",state:{id:project.id,from:'myWork'}}} key={index} className="myWorkItem">
+                            <Link to={{pathname:"/portfolio/projectProfile",state:{id:project.id,from:'myWork'}}} key={index} className="myWorkItem">
                                 <div className="myWorkItemTitleContainer">
                                     <div className="myWorkItemTitle">{project.title}</div>
                                 </div>
                                 <div className="myWorkItemPreviewContainer">
-                                    <img src={'../../img/projects/'+project.id+'/1.jpg'} className="myWorkItemPreview"/>
+                                    <img src={'./img/projects/'+project.id+'/1.jpg'} className="myWorkItemPreview"/>
                                     <div className="myWorkItemPreviewInfos">
                                         <div className="myWorkItemPreviewField">{project.fieldName}</div>
                                         <div className="myWorkItemPreviewDate">{project.date}</div>
