@@ -30,10 +30,10 @@ class App extends Component{
       <div className="pageContainer">
         <Header parentCallback={this.callBackFunctionLang} />
         <Route exact path="/portfolio" component={ContentHome} />
-        <Route path="/projects" component={ContentProjectList}/>
-        <Route path="/projectProfile" component={ContentProjectProfile} />
-        <Route path="/contact" component={ContentContact} />
-        <Route path="/myWork" component={ContentMyWork}/>
+        <Route path="/portfolio/projects" component={ContentProjectList}/>
+        <Route path="/portfolio/projectProfile" component={ContentProjectProfile} />
+        <Route path="/portfolio/contact" component={ContentContact} />
+        <Route path="/portfolio/myWork"  component={ContentMyWork}/>
         <Footer/>
       </div>
     );

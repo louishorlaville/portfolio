@@ -106,7 +106,7 @@ class ContentProjectList extends Component {
                             {/* MAP THE PROJECTS DEPENDING ON THE CURRENT FIELD */}
                             {this.getCurrentProjects(field).map((project,pIndex)=>{
                                 return(
-                                <Link to={{pathname:"/projectProfile",state:{id:project.id, from:'projects'}}} key={pIndex} className="listItem">
+                                <Link to={{pathname:"/portfolio/projectProfile",state:{id:project.id, from:'projects'}}} key={pIndex} className="listItem">
                                     <div className="listItemTitle">
                                         {project.title}
                                         <p className="listItemSoftware">{project.software}</p>
