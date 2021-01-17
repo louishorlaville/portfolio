@@ -5,12 +5,12 @@ body{
 
 @font-face {
     font-family: 'd-din';
-    src: local('d-din'), url(./fonts/d-din.woff) format('woff');
+    src: local('d-din'), url(../fonts/d-din.woff) format('woff');
     font-stretch: normal;
 }
 @font-face {
     font-family: 'd-din';
-    src: local('d-din'), url(./fonts/d-dincondensed.woff) format('woff');
+    src: local('d-din'), url(../fonts/d-dincondensed.woff) format('woff');
     font-stretch: condensed;
 }
 

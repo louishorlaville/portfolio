@@ -44,10 +44,10 @@ class BurgerMenu extends Component {
                 <div className="burgerContent">
                     <div className="burgerNavContainer">
                         <div className="linkBurgerContainer">
-                            <Link onClick={(e)=>this.handleCloseBurger(e)} className="navBurgerItem" to="/myWork">{homeData[cookies.get("lang")].nav[0].toUpperCase()}</Link>
+                            <Link onClick={(e)=>this.handleCloseBurger(e)} className="navBurgerItem" to="/portfolio/myWork">{homeData[cookies.get("lang")].nav[0].toUpperCase()}</Link>
                         </div>
                         <div className="linkBurgerContainer">
-                            <Link onClick={(e)=>this.handleCloseBurger(e)} className="navBurgerItem" to="/contact">{homeData[cookies.get("lang")].nav[1].toUpperCase()}</Link>
+                            <Link onClick={(e)=>this.handleCloseBurger(e)} className="navBurgerItem" to="/portfolio/contact">{homeData[cookies.get("lang")].nav[1].toUpperCase()}</Link>
                         </div>
                     </div>
                 </div>
