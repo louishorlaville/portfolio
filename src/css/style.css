@@ -2,14 +2,22 @@
 body{
     overflow-x: hidden;
 }
-@font-face{
-    font-family: 'bahnschrift';
-    src: local('bahnschrift'), url(./fonts/BAHNSCHRIFT.TTF), format(woff);
+
+@font-face {
+    font-family: 'd-din';
+    src: local('d-din'), url(./fonts/d-din.woff) format('woff');
+    font-stretch: normal;
 }
+@font-face {
+    font-family: 'd-din';
+    src: local('d-din'), url(./fonts/d-dincondensed.woff) format('woff');
+    font-stretch: condensed;
+}
+
 .headerContainer{
     height: 2%;
     padding: 1%;
-    font-family: "bahnschrift";
+    font-family: "d-din";
     font-stretch: condensed;
     font-weight: 100 ;
     font-size: 1em;
@@ -176,7 +184,7 @@ body{
 
 /*////////// HOME CONTENT //////////*/
 #contentContainer{
-    font-family: "bahnschrift";
+    font-family: "d-din";
     color: black;
     font-size: 1em;
 }
@@ -756,7 +764,7 @@ body{
 .myWorkContainer{
     margin-left: 5%;
     margin-top: 2%;
-    font-family: "bahnschrift";
+    font-family: "d-din";
 }
 
 /*TITLE*/
@@ -837,7 +845,7 @@ body{
 /*////////// CONTACT PAGE //////////*/
 .contactContainer{
     margin-top: 2%;
-    font-family: "bahnschrift";
+    font-family: "d-din";
     height: 64vh;
 }
 
@@ -1254,6 +1262,7 @@ body{
     .selectedLang{
         color: black;
     }
+
     /*nav*/
     .burgerActive > .burgerMenuNavContainer{
         transform: translateX(-100vw);

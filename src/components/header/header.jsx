@@ -29,15 +29,29 @@ class Header extends Component {
 
     toggleBurger = (e) =>{
         let currentState = this.state.burgerState;
-        if(currentState===0 &&  e.target.classList.contains("burgerMenuBar")){
-            e.target.parentElement.parentElement.classList.add("burgerActive");
-            document.body.style.overflowY = "hidden"
-            this.setState({burgerState:1});
+        if(e.target.classList.contains("burgerMenuBar")){
+            if(currentState===0){
+                e.target.parentElement.parentElement.classList.add("burgerActive");
+                document.body.style.overflowY = "hidden"
+                this.setState({burgerState:1});
+            }
+            else{
+                e.target.parentElement.parentElement.classList.remove("burgerActive");
+                document.body.style.overflowY = "auto"
+                this.setState({burgerState:0});
+            }
         }
         else{
-            e.target.parentElement.parentElement.classList.remove("burgerActive");
-            document.body.style.overflowY = "auto"
-            this.setState({burgerState:0});
+            if(currentState===0){
+                e.target.parentElement.classList.add("burgerActive");
+                document.body.style.overflowY = "hidden"
+                this.setState({burgerState:1});
+            }
+            else{
+                e.target.parentElement.classList.remove("burgerActive");
+                document.body.style.overflowY = "auto"
+                this.setState({burgerState:0});
+            }
         }
     }
 
@@ -61,7 +75,7 @@ class Header extends Component {
                         <div className="burgerMenuBar">&#10240;</div>
                         <div className="burgerMenuBar">&#10240;</div>
                     </div>
-                    <BurgerMenuContent callBackClose={(e)=>this.closeBurger(e)} callBackLang={this.callBackFunction}/>
+                    <BurgerMenuContent state={this.state.burgerState} callBackClose={(e)=>this.closeBurger(e)} callBackLang={this.callBackFunction}/>
                 </div>
                 
             </div>

@@ -6,7 +6,9 @@ import homeData from '../../data/home.json';
 const cookies = new Cookies();
 
 class BurgerMenu extends Component {
-    state = {  }
+    state = { 
+        burgerState:this.props.state
+     }
 
     handleCloseBurger=(e)=>{
         this.props.callBackClose(e);
