@@ -561,17 +561,17 @@ body{
     position: absolute;
     top: 5%;
     right: 0%;
-    background-color: white;
     width: 30px;
     height: 30px;
     clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color: white;
     cursor: pointer;
     transform-origin: center;
     transition: all .3s ease-out;
 }
 
 .exitGallery:hover{
-    transform: scale(1.2);
+    clip-path: polygon(26% 6%, 7% 25%, 30% 50%, 6% 75%, 26% 95%, 50% 70%, 74% 94%, 94% 71%, 70% 50%, 93% 24%, 73% 7%, 50% 30%);
 }
 
 /*Content*/
