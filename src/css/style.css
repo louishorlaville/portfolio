@@ -4,7 +4,7 @@ body{
 }
 @font-face{
     font-family: 'bahnschrift';
-    src: local('bahnschrift'), url(../fonts/BAHNSCHRIFT.TTF), format(woff);
+    src: local('bahnschrift'), url(./fonts/BAHNSCHRIFT.TTF), format(woff);
 }
 .headerContainer{
     height: 2%;

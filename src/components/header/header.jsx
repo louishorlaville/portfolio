@@ -43,7 +43,7 @@ class Header extends Component {
 
     closeBurger=(e)=>{
         console.log(e);
-        e.target.parentElement.parentElement.parentElement.parentElement.parentElement.classList.remove("burgerActive");
+        e.target.parentElement.parentElement.parentElement.parentElement.classList.remove("burgerActive");
         this.setState({burgerState:0});
     }
 
