@@ -2,6 +2,10 @@
 body{
     overflow-x: hidden;
 }
+@font-face{
+    font-family: 'bahnschrift';
+    src: local('bahnschrift'), url(../fonts/BAHNSCHRIFT.TTF), format(woff);
+}
 .headerContainer{
     height: 2%;
     padding: 1%;
@@ -1166,6 +1170,7 @@ body{
     .pageContainer{
         overflow-x: hidden;
     }
+
     .headerContainer{
         margin-top: 5%;
         justify-content: space-around;
@@ -1373,6 +1378,7 @@ body{
     }
     .listFieldTitle{
         font-size: 1.4em;
+        width: 90%;
     }
 
     /*item*/
