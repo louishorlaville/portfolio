@@ -50,7 +50,7 @@ class ImageGallery extends Component {
                     <div className="galleryImgRowContainer">
                     {this.state.images.map(imageId=>
                         <div key={imageId} className="galleryImgRowItem" onClick={()=>this.switchImg(imageId)}>
-                            <img src={'../../img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
+                            <img src={'./img/projects/'+projectId+'/'+imageId+'.jpg'} alt=""/>
                         </div>
                     )}
                     </div>
