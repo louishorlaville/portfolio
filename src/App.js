@@ -23,17 +23,6 @@ class App extends Component{
     console.log(this.state.langData);
   }
 
-  callBackFunctionScroll =(childData)=>{
-    this.setState({scroll:childData});
-    console.log(this.state.scroll);
-  }
-
-  onRouteChanged() {
-    // if(this.setState.scroll!==cookies.get("scroll")){
-    //   this.setState({scroll:cookies.get("scroll")});
-    // }
-    console.log("ehehehieiehieh");
-  }
 
   render(){
     {console.log()}
@@ -41,10 +30,10 @@ class App extends Component{
       <div className="pageContainer">
         <Header parentCallback={this.callBackFunctionLang} />
         <Route exact path="/portfolio" component={ContentHome} />
-        <Route path="%PUBLIC_URL%/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)} />
-        <Route path="%PUBLIC_URL%/projectProfile" component={ContentProjectProfile} />
-        <Route path="%PUBLIC_URL%/contact" onEnter={this.onRouteChanged} component={ContentContact} />
-        <Route path="%PUBLIC_URL%/myWork" onLeave={this.onRouteChanged} component={ContentMyWork}/>
+        <Route path="/projects" component={ContentProjectList}/>
+        <Route path="/projectProfile" component={ContentProjectProfile} />
+        <Route path="/contact" component={ContentContact} />
+        <Route path="/myWork" component={ContentMyWork}/>
         <Footer/>
       </div>
     );
