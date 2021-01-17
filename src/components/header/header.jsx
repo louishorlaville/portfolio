@@ -30,6 +30,7 @@ class Header extends Component {
     toggleBurger = (e) =>{
         let currentState = this.state.burgerState;
         if(e.target.classList.contains("burgerMenuBar")){
+            console.log(e.target.parentElement.parentElement)
             if(currentState===0){
                 e.target.parentElement.parentElement.classList.add("burgerActive");
                 document.body.style.overflowY = "hidden"
@@ -41,7 +42,7 @@ class Header extends Component {
                 this.setState({burgerState:0});
             }
         }
-        else{
+        else if(e.target.classList.contains("burgerMenuBox")){
             if(currentState===0){
                 e.target.parentElement.classList.add("burgerActive");
                 document.body.style.overflowY = "hidden"
@@ -56,8 +57,8 @@ class Header extends Component {
     }
 
     closeBurger=(e)=>{
-        console.log(e);
-        e.target.parentElement.parentElement.parentElement.parentElement.classList.remove("burgerActive");
+        e.target.parentElement.parentElement.parentElement.parentElement.parentElement.classList.remove("burgerActive");
+        document.body.style.overflowY = "auto";
         this.setState({burgerState:0});
     }
 
