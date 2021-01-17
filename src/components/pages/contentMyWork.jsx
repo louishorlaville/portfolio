@@ -27,7 +27,7 @@ class ContentMyWork extends Component {
                                     <div className="myWorkItemTitle">{project.title}</div>
                                 </div>
                                 <div className="myWorkItemPreviewContainer">
-                                    <img src={'../../img/projects/'+project.id+'/1.jpg'} className="myWorkItemPreview"/>
+                                    <img src={'./img/projects/'+project.id+'/1.jpg'} className="myWorkItemPreview"/>
                                     <div className="myWorkItemPreviewInfos">
                                         <div className="myWorkItemPreviewField">{project.fieldName}</div>
                                         <div className="myWorkItemPreviewDate">{project.date}</div>

@@ -30,7 +30,7 @@ class ProjectPreviews extends Component {
                 {/* <Image source='../../img/projects/0/1.jpg'/> */}
                 {console.log(this.state.projectId)}
                 {imgIndex.map(imageId=>
-                    <img className="projectPreviewImg" onClick={()=>this.displayGallery(imageId)} key={imageId} src={'%PUBLIC_URL%/img/projects/'+projectId+'/'+imageId+'.jpg'} alt="project screenshot"/>
+                    <img className="projectPreviewImg" onClick={()=>this.displayGallery(imageId)} key={imageId} src={'../img/projects/'+projectId+'/'+imageId+'.jpg'} alt="project screenshot"/>
                 )}
                 {this.state.galleryRender? <ImgGallery projectId={this.state.projectId} imageId={this.state.imageToGallery} unmountMe={this.handleGalleryUnmount}/> :null}
             </div>
