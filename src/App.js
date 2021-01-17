@@ -40,11 +40,11 @@ class App extends Component{
     return (
       <div className="pageContainer">
         <Header parentCallback={this.callBackFunctionLang} />
-        <Route exact path="%PUBLIC_URL%/portfolio" component={ContentHome} />
-        <Route path="%PUBLIC_URL%/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)} />
-        <Route path="%PUBLIC_URL%/projectProfile" component={ContentProjectProfile} />
-        <Route path="%PUBLIC_URL%/contact" onEnter={this.onRouteChanged} component={ContentContact} />
-        <Route path="%PUBLIC_URL%/myWork" onLeave={this.onRouteChanged} component={ContentMyWork}/>
+        <Route exact path="%PUBLIC_URL%" component={ContentHome} />
+        <Route path="%PUBLIC_URL%/portfolio/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)} />
+        <Route path="%PUBLIC_URL%/portfolio/projectProfile" component={ContentProjectProfile} />
+        <Route path="%PUBLIC_URL%/portfolio/contact" onEnter={this.onRouteChanged} component={ContentContact} />
+        <Route path="%PUBLIC_URL%/portfolio/myWork" onLeave={this.onRouteChanged} component={ContentMyWork}/>
         <Footer/>
       </div>
     );
