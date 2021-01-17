@@ -40,7 +40,7 @@ class App extends Component{
     return (
       <div className="pageContainer">
         <Header parentCallback={this.callBackFunctionLang} />
-        <Route exact path="/" component={ContentHome} />
+        <Route exact path="/portfolio" component={ContentHome} />
         <Route path="%PUBLIC_URL%/projects" render={(props)=>(<ContentProjectList {...props} langData={this.state.langData}/>)} />
         <Route path="%PUBLIC_URL%/projectProfile" component={ContentProjectProfile} />
         <Route path="%PUBLIC_URL%/contact" onEnter={this.onRouteChanged} component={ContentContact} />
