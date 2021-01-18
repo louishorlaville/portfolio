@@ -29,7 +29,7 @@ class App extends Component{
     return (
       <div className="pageContainer">
         <Header parentCallback={this.callBackFunctionLang} />
-        <Route exact path="/portfolio" component={ContentHome} />
+        <Route exact path="/" component={ContentHome} />
         <Route path="/portfolio/projects" component={ContentProjectList}/>
         <Route path="/portfolio/projectProfile" component={ContentProjectProfile} />
         <Route path="/portfolio/contact" component={ContentContact} />
