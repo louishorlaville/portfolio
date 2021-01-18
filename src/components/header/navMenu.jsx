@@ -13,8 +13,8 @@ class NavMenu extends Component {
     render() { 
         return ( 
             <div className="navMenuContainer headerItems">
-                <Link className ="navElements" id="myWorkNav" to={{pathname:"/portfolio/myWork"}}>//{homeData[cookies.get("lang")].nav[0].toUpperCase()}</Link>
-                <Link className ="navElements" id="contactNav" to={{pathname:"/portfolio/contact"}}>//{homeData[cookies.get("lang")].nav[1].toUpperCase()}</Link>              
+                <Link className ="navElements" id="myWorkNav" to={{pathname:"/myWork"}}>//{homeData[cookies.get("lang")].nav[0].toUpperCase()}</Link>
+                <Link className ="navElements" id="contactNav" to={{pathname:"/contact"}}>//{homeData[cookies.get("lang")].nav[1].toUpperCase()}</Link>              
             </div> 
         )        
     };
