@@ -11,6 +11,7 @@ import ContentMyWork from "./components/pages/contentMyWork.jsx"
 import ContentContact from "./components/pages/contentContact.jsx"
 import Cookies from 'universal-cookie';
 
+import "./css/style.css"
 const cookies = new Cookies();
 class App extends Component{
   state={
@@ -29,11 +30,11 @@ class App extends Component{
     return (
       <div className="pageContainer">
         <Header parentCallback={this.callBackFunctionLang} />
-        <Route exact path="/portfolio" component={ContentHome} />
-        <Route path="/portfolio/projects" component={ContentProjectList}/>
-        <Route path="/portfolio/projectProfile" component={ContentProjectProfile} />
-        <Route path="/portfolio/contact" component={ContentContact} />
-        <Route path="/portfolio/myWork"  component={ContentMyWork}/>
+        <Route exact path="/" component={ContentHome} />
+        <Route path="/projects" component={ContentProjectList}/>
+        <Route path="/projectProfile" component={ContentProjectProfile} />
+        <Route path="/contact" component={ContentContact} />
+        <Route path="/myWork"  component={ContentMyWork}/>
         <Footer/>
       </div>
     );

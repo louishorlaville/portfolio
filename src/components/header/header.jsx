@@ -5,8 +5,6 @@ import NavMenu from './navMenu.jsx';
 import TimeHeader from './timeHeader.jsx';
 import BurgerMenuContent from './burgerMenu.jsx';
 
-import '../../css/style.css';
-
 const cookies = new Cookies();
 
 class Header extends Component {
