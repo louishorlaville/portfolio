@@ -1641,12 +1641,12 @@ body{
 
     /*infos*/
     .projectInfosContainer{
-        min-width: 0;
-        max-width: 90%;
+        min-width: 80%;
+        max-width: 500%;
     }
 
     .projectCollabContainer{
-        margin-bottom: 4%;
+        margin-bottom: 5%;
     }
 
     /*preview gallery*/
