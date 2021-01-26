@@ -4,7 +4,7 @@
         "menu":["Programmer","Designer"],
         "resume":[
             "Hi! My name is Louis Horlaville and I’m a Montreal-based college student who loves "," and building "," interfaces. I specialize in "," and ",".",
-            "I have vast set of skills, ranging from the web’s front and back end HTML/CSS/javascript/PHP/MySQL, all the way to video games with Unity and C#."
+            "I have a vast set of skills, ranging from the web’s front and back end HTML/CSS/javascript/PHP/MySQL, all the way to video games with Unity and C#."
         ],
         "resumeHighlight":[
             "programming","visually interesting","video games","websites."
@@ -20,6 +20,5 @@
         "resumeHighlight":[
             "programmation","interfaces visuelles intéressantes","jeu vidéo","web."
         ]
-    }
-    
+    }  
 }

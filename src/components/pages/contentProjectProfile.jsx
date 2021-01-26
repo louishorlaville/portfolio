@@ -56,7 +56,6 @@ class ProjectProfile extends Component {
         const{listFields} = this.state;
         return ( 
             <div id="contentContainer">
-                {console.log(projectId)}
                 <div className="projectContentContainer">
                     <div className="projectTitleContainer">
                         <Link to={{pathname:(pageFrom=='myWork')?'/myWork':'/projects',state:{fields:listFields}}}  className="backToList ballBackPassive" onMouseEnter={(e)=>this.mouseEnterBack(e)} onMouseLeave={(e)=>this.mouseLeaveBack(e)}>
