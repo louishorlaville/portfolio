@@ -14,7 +14,6 @@ class Header extends Component {
     };
 
     UNSAFE_componentWillMount=()=>{
-        console.log(cookies.get("lang"));
         if(!cookies.get("lang")){
             cookies.set("lang","en");
         }
@@ -28,7 +27,6 @@ class Header extends Component {
     toggleBurger = (e) =>{
         let currentState = this.state.burgerState;
         if(e.target.classList.contains("burgerMenuBar")){
-            console.log(e.target.parentElement.parentElement)
             if(currentState===0){
                 e.target.parentElement.parentElement.classList.add("burgerActive");
                 document.body.style.overflowY = "hidden"

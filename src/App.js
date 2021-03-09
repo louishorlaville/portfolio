@@ -21,7 +21,6 @@ class App extends Component{
 
   callBackFunctionLang =(childData)=>{
     this.setState({langData:childData});
-    console.log(this.state.langData);
   }
 
 

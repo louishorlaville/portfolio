@@ -40,7 +40,7 @@ class ContentProjectList extends Component {
     handleFields=(fieldsData)=>{
         this.setState({fieldsID:fieldsData});
         /*Set the cookies in case of relaod*/
-        cookies.set("fields",(fieldsData[0]==2)?"prog":"design");
+        cookies.set("fields",(fieldsData[0]===2)?"prog":"design");
     }
 
 
@@ -69,7 +69,7 @@ class ContentProjectList extends Component {
     handleSkillSwitch = (skillClicked) =>{
         this.resetFields();
         let temp = [];
-        if(skillClicked!=0){
+        if(skillClicked!==0){
             temp=[4,1,0];
         }
         else{
@@ -77,7 +77,7 @@ class ContentProjectList extends Component {
         }
         this.setState({fieldsID:temp});
         /*Set the cookies in case of relaod*/
-        cookies.set("fields",(skillClicked==0)?"prog":"design");
+        cookies.set("fields",(skillClicked===0)?"prog":"design");
     }
 
     resetFields(){
