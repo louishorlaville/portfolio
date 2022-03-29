@@ -164,6 +164,9 @@ body{
 }
 
 /*////////// GENERAL HIGHLIGHT STYLES //////////*/
+.highlight{
+    padding: 0 2px;
+}
 .highlightYellow{
     background-color: #EDBD21;
     color: black;
@@ -334,7 +337,7 @@ body{
 }
 
 .listItemTitle:hover>.boxHoverBehind{
-    width: 105%;
+    width: calc(100% + 8px);
     
 }
 

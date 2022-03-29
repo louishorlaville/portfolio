@@ -3,22 +3,22 @@
         "nav":["My work","Contact"],
         "menu":["Programmer","Designer"],
         "resume":[
-            "Hi! My name is Louis Horlaville and I’m a Montreal-based college student who loves "," and building "," interfaces. I specialize in "," and ",".",
-            "I have a vast set of skills, ranging from the web’s front and back end HTML/CSS/javascript/PHP/MySQL, all the way to video games with Unity and C#."
+            "Hi! My name is Louis Horlaville and I’m a Montreal-based Software Engineering student. I love "," and creating new "," with my friends. I like "," and to ",", allowing me to broaden my horizons",
+            "I have a vast set of skills, ranging from video games programming with Unity and C#, as well as Unreal Engine, all the way to the web’s front and back end with HTML/CSS/javascript/PHP/MySQL."
         ],
         "resumeHighlight":[
-            "programming","visually interesting","video games","websites."
+            "programming","video games","taking up challenges","discover"
         ]
     },
     "fr":{
         "nav":["Mon travail","Contact"],
         "menu":["Programmeur","Designer"],
         "resume":[
-            "Bonjour! Je m'appelle Louis Horlaville et je suis un finissant collégial établit à Montréal. Je suis passionné de "," et j'adore créer des ",". Je me spécialise dans le "," et le ",".",
-            "Je possède un vaste ensemble de compétences, partant de la programmation web back-end et front-end HTML/CSS/javascript/PHP/MySQL, jusqu'aux jeux vidéo avec Unity et C#."
+            "Bonjour! Je m'appelle Louis Horlaville et je suis un étudiant en Génie Logiciel établit à Montréal. Je suis passionné de "," et j'adore créer des "," avec mes amis. J'aime "," et ",", me permettant d'étendre mes horizons.",
+            "Je possède un vaste ensemble de compétences, partant de la programmation de jeux vidéo avec Unity et C# ainsi qu'Unreal Engine, allant jusqu'à la programmation web back-end et front-end HTML/CSS/javascript/PHP/MySQL."
         ],
         "resumeHighlight":[
-            "programmation","interfaces visuelles intéressantes","jeu vidéo","web."
+            "programmation","jeux vidéo","relever des défis","découvrir"
         ]
     }  
 }

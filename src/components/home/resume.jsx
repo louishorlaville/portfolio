@@ -10,10 +10,12 @@ const Resume = () => {
             <div id="resumeContainer">
                 <div id="borderResume"></div>
                 <p className="resumeElement" id="resumeP1">
-                    {homeData[cookies.get("lang")].resume[0]}<span className="highlightYellow">{homeData[cookies.get("lang")].resumeHighlight[0]}</span>
-                    {homeData[cookies.get("lang")].resume[1]}<span className="highlightPink">{homeData[cookies.get("lang")].resumeHighlight[1]}</span>
-                    {homeData[cookies.get("lang")].resume[2]}<span className="highlightBlue">{homeData[cookies.get("lang")].resumeHighlight[2]}</span>
-                    {homeData[cookies.get("lang")].resume[3]}<span className="highlightGrey">{homeData[cookies.get("lang")].resumeHighlight[3]}</span>
+                    {homeData[cookies.get("lang")].resume[0]}<span className="highlight highlightYellow">{homeData[cookies.get("lang")].resumeHighlight[0]}</span>
+                    {homeData[cookies.get("lang")].resume[1]}<span className="highlight highlightPink">{homeData[cookies.get("lang")].resumeHighlight[1]}</span>
+                    {homeData[cookies.get("lang")].resume[2]}<span className="highlight highlightBlue">{homeData[cookies.get("lang")].resumeHighlight[2]}</span>
+                    {homeData[cookies.get("lang")].resume[3]}<span className="highlight highlightGrey">{homeData[cookies.get("lang")].resumeHighlight[3]}</span>
+                    {homeData[cookies.get("lang")].resume[4]}
+
                 </p>
                 <p className="resumeElement" id="resumeP2">{homeData[cookies.get("lang")].resume[5]}</p>
             </div>
