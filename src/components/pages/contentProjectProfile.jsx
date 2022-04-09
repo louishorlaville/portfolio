@@ -64,6 +64,7 @@ class ProjectProfile extends Component {
                             <div className="ballBack">&#10240;</div>
                         </Link>
                         <div className="projectTitle">
+                            {console.log(projectsData[cookies.get("lang")][projectId])}
                             //{projectsData[cookies.get("lang")][projectId].title.toUpperCase()}
                         </div>
                     </div>

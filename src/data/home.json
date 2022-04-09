@@ -1,7 +1,7 @@
 {
     "en":{
         "nav":["My work","Contact"],
-        "menu":["Programmer","Designer"],
+        "menu":["My games"],
         "resume":[
             "Hi! My name is Louis Horlaville and I’m a Montreal-based Software Engineering student. I love "," and creating new "," with my friends. I like "," and to ",", allowing me to broaden my horizons",
             "I have a vast set of skills, ranging from video games programming with Unity and C#, as well as Unreal Engine, all the way to the web’s front and back end with HTML/CSS/javascript/PHP/MySQL."
@@ -12,7 +12,7 @@
     },
     "fr":{
         "nav":["Mon travail","Contact"],
-        "menu":["Programmeur","Designer"],
+        "menu":["Mes jeux"],
         "resume":[
             "Bonjour! Je m'appelle Louis Horlaville et je suis un étudiant en Génie Logiciel établit à Montréal. Je suis passionné de "," et j'adore créer des "," avec mes amis. J'aime "," et ",", me permettant d'étendre mes horizons.",
             "Je possède un vaste ensemble de compétences, partant de la programmation de jeux vidéo avec Unity et C# ainsi qu'Unreal Engine, allant jusqu'à la programmation web back-end et front-end HTML/CSS/javascript/PHP/MySQL."

@@ -10,8 +10,8 @@ class ContentProjectList extends Component {
     state = { 
         fieldsID:[],
         skillTitle:{
-            "en":["PROGRAMMER","DESIGNER"],
-            "fr":["PROGRAMMEUR", "DESIGNER"]
+            "en":["PROGRAMMER"],
+            "fr":["PROGRAMMEUR"]
         }    
     }
 
@@ -20,10 +20,7 @@ class ContentProjectList extends Component {
         /*If the user reloads the page it displays the fields he was currently watching*/
         if(cookies.get("fields")){
             if(cookies.get("fields")==="prog"){
-                this.setState({fieldsID:[2,3]});
-            }
-            else{
-                this.setState({fieldsID:[4,1,0]});
+                this.setState({fieldsID:[1]});
             }
         }
         else{
@@ -40,7 +37,7 @@ class ContentProjectList extends Component {
     handleFields=(fieldsData)=>{
         this.setState({fieldsID:fieldsData});
         /*Set the cookies in case of relaod*/
-        cookies.set("fields",(fieldsData[0]===2)?"prog":"design");
+        cookies.set("fields",(fieldsData[0]===1)?"prog":"design");
     }
 
 
@@ -73,7 +70,7 @@ class ContentProjectList extends Component {
             temp=[4,1,0];
         }
         else{
-            temp=[2,3];
+            temp=[1];
         }
         this.setState({fieldsID:temp});
         /*Set the cookies in case of relaod*/
@@ -94,8 +91,9 @@ class ContentProjectList extends Component {
                 <div className="listContainer">
                     <div className="listTitleContainer">
                         <div className="listTitle">
-                            <a id="listTitleDesigner" className={(this.state.fieldsID[0]===2)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>//
-                            <a id="listTitleProgrammer" className={(this.state.fieldsID[0]!==2)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a> 
+                            {/* <a id="listTitleDesigner" className={(this.state.fieldsID[0]===2)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(0)}>{skillTitle[cookies.get("lang")][0]} </a>// */}
+                            {/* <a id="listTitleProgrammer" className={(this.state.fieldsID[0]==1)?"activeListTitle":"inactiveListTitle"} onClick={() => this.handleSkillSwitch(1)}> {skillTitle[cookies.get("lang")][1]}</a>  */}
+                            <p id="listTitleProgrammer" className="activeListTitle">{skillTitle[cookies.get("lang")][0]}</p> 
                         </div>
                     </div>
                     {/* MAP THE FIELD DEPENDING ON THE SELECTED CATEGORY */}
@@ -109,6 +107,7 @@ class ContentProjectList extends Component {
                                 <Link to={{pathname:"/projectProfile",state:{id:project.id, from:'projects'}}} key={pIndex} className="listItem">
                                     <div className="listItemTitle">
                                         {project.title}
+                                        {console.log(project)}
                                         <p className="listItemSoftware">{project.software}</p>
                                         <p className="listItemDate">{project.date}</p>
                                         <div className="boxHoverBehind">&#10240;</div>

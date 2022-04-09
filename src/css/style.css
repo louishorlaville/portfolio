@@ -311,11 +311,11 @@ body{
     font-size: 1.8em;
 }
 
-.listTitle>a{
+.listTitle>p{
     text-decoration: none;
     color: rgb(58, 58, 58);
     opacity: 0.4;
-    cursor: pointer;
+    margin: 0;
 }
 
 .listTitle>.activeListTitle{
