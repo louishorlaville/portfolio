@@ -20,12 +20,13 @@ class ProjectProfile extends Component {
     }
 
     componentDidMount(){
-        if(projectsData[cookies.get("lang")][this.state.projectId].fieldId===0 || projectsData[cookies.get("lang")][this.state.projectId].fieldId===1 || projectsData[cookies.get("lang")][this.state.projectId].fieldId===4){
+        this.setState({listFields:[1]});
+        /*if(projectsData[cookies.get("lang")][this.state.projectId].fieldId===0 || projectsData[cookies.get("lang")][this.state.projectId].fieldId===1 || projectsData[cookies.get("lang")][this.state.projectId].fieldId===4){
             this.setState({listFields:[4,1,0]});
         }
         else{
             this.setState({listFields:[2,3]});
-        }
+        }*/
 
     }
 
@@ -64,7 +65,6 @@ class ProjectProfile extends Component {
                             <div className="ballBack">&#10240;</div>
                         </Link>
                         <div className="projectTitle">
-                            {console.log(projectsData[cookies.get("lang")][projectId])}
                             //{projectsData[cookies.get("lang")][projectId].title.toUpperCase()}
                         </div>
                     </div>

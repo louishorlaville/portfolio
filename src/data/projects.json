@@ -2,7 +2,7 @@
     "en":[
         {
             "id":0,
-            "title":"valleyfield's intercollegiate gameJam",
+            "title":"Les enfants de la forêt",
             "date":"january 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/f8dJNoXbYNk"],
@@ -27,7 +27,7 @@
         },
         {
             "id":1,
-            "title":"borderline",
+            "title":"Borderline",
             "date":"fall 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
@@ -49,13 +49,13 @@
         {
             "id":2,
             "title":"Stay Cool (work in progress)",
-            "date":"automne 2021 - now",
-            "software":"Unreal Engine",
+            "date":"autumn 2021 - now",
+            "software":"UNREAL ENGINE",
             "video":[],
             "artstation":[],
             "github":[],
             "fieldId":1,
-            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "fieldName":"VIDEO GAME DEVELOPMENT",
             "collab":[
                 "Olivier Larose",
                 "Allen Jang",
@@ -65,9 +65,34 @@
                 "Miguel Santana Vargas"
             ],
             "text":[
-                "Un prototype de jeu pixel 2D JRPG réalisé avec Unity 3D qui prend place dans un monde ou votre source de préoccupation principale et de venir en aidee à vos amis victimes de problèmes psychologiques tel que l'anxiété scolaire et la toxicité dans les relations sociales.",
-                "Mon rôle dans ce projet était d'implémenter les assets créées par l'équipe artistique dans Unity, créer et assembler la ville (je n'ai pas créer les asssets visuelles) dans laquelle le joueur commence son aventure, et implémenter les musique pour chaque scène. Mes responsabilités comprenaient aussi de programmer l'instanciation aléatoire des accessoires dans le donjon, tel que les casiers, les horloges, et les portes, et coder la fonctionnalité d'entrer et sortir des salles dans le donjon.",
-                "L'ensemble du projet a été développé avec un structure modulaire, ce qui nous permet de pouvoir créer plusieurs donjons très facilement une fois que les modules du premier donjon étaient programmés. Tout ce qui restait à faire était de créer le matériel visuel et sonor et le travail était quasiment finit. Ce projet étant mon premier projet à base de modules, c'était définitivement un challenge sur lequel j'ai aimé travaillé et duquel j'en ai appris beaucoup."
+                "A 3D puzzle game in which u embody an ice cube who has but only one goal: escape the kitchen along with the chaos massacre created by the lemonade party.",
+                "This project is a game which friends and I have been working on on our free time out of pure pleasure of creating something we liked. Every team member touched a bit of everything, but one of my main responsibilities was the implementation of mechanics and fonctionnalities of the character controller, such as pushing cubes. I was also responsible of some level design and assets integration inside Unreal Engine.",
+                "Stay Cool is my very first project working on Unreal Engine using the blueprints system. It was my first time using visual programming, it was very interesting. As I started getting more comfortable with the tool, I started noticing obvious similarities with actual programming, which helped me better my understanding and usage of the blueprints. It was good opportunity for be to broaden my range of skills, but I'm already planning on  deepening my Unreal Engine knowledge and start learning C++."
+            ]
+        },
+        {
+            "id":3,
+            "title":"Cyber-Slime",
+            "date":"winter 2021",
+            "software":"UNITY//C#",
+            "video":["https://www.youtube-nocookie.com/embed/gb1sHa9Lnsc"],
+            "artstation":[],
+            "github":["https://github.com/louishorlaville/EnterNameHere"],
+            "fieldId":1,
+            "fieldName":"VIDEO GAME DEVELOPMENT",
+            "collab":[
+                "Antoine Beauchesne",
+                "Éric Piaugeard",
+                "Émile Jutras",
+                "Pier-Luc Fournier",
+                "Tomas Clark Dumoulin",
+                "Jesse Serre"
+            ],
+            "text":[
+                "Created for the Montreal Gamejam 2022, two friends and I assembled a team majorly composed of new people we didn't know beforehand. Getting to know new people while working on a project as a team happened to be a very enriching experience. The game we created is a 2D puzzle plateformer aiming to challenge the player on a logical as well as a technical aspect (mechanics).",
+                "The gamjam's theme was 'duality'. After a few hours brainstorming together, we decided to go for a duality of shapes and temporalities. Embody Cyber-Slime, a slime who, depsite his own will, became a time traveller who now has the ability to switch between his orginal round slimy shape and a metallic cyborg-ish cube shape.",
+                "My role in this project was the creation of all the different mechanics of the character controller, such as bouncing off the walls while using your slime shape, and  sticking to metallic plateforms while in cyborg form. The main challenge on this project was to detect where to factorize the code, so every script would have its own use. Thanks to this logic, we now have reusable code and an optmial structure.",
+                "A link to the download page of the game if available on the on the Github repository, for those who want to play the game."
             ]
         }
 
@@ -75,7 +100,7 @@
     "fr":[
         {
             "id":0,
-            "title":"gameJam intercollégial de valleyfield",
+            "title":"Les enfants de la forêt",
             "date":"janvier 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/f8dJNoXbYNk"],
@@ -100,7 +125,7 @@
         },
         {
             "id":1,
-            "title":"borderline",
+            "title":"Borderline",
             "date":"automne 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
@@ -121,9 +146,9 @@
         },
         {
             "id":2,
-            "title":"Stay Cool (work in progress)",
+            "title":"Stay Cool (travail en cours)",
             "date":"automne 2021 - maintenant",
-            "software":"Unreal Engine",
+            "software":"UNREAL ENGINE",
             "video":[],
             "artstation":[],
             "github":[],
@@ -139,8 +164,33 @@
             ],
             "text":[
                 "Jeu 3D puzzle dans lequel vous incarnez un cube de glace qui n'a qu'un seul but: s'échapper de la cuisine afin d'échapper au massacre causé par le stand de limonade d'été.",
-                "Ce projet est un jeu sur lequel nous travaillons sur nos temps libre que nous avons commencer par pur plaisir. Les rôles des membres de l'équipes s'entre-mêle au niveau de la conception du jeu, mais ma responsabilité est l'intégration de nouvelles fonctionnalités avec le controlleur du personnage ainsi que l'intégration d'assets visuel et sonores.",
+                "Ce projet est un jeu sur lequel nous travaillons sur nos temps libres que nous avons commencé par pur plaisir. Les rôles des membres de l'équipe s'entre-mêlent au niveau de la conception du jeu, mais ma responsabilité est l'intégration de nouvelles fonctionnalités avec le controlleur du personnage ainsi que l'intégration d'assets visuelles et sonores.",
                 "Stay Cool est mon tout premier jeu créé à l'aide d'Unreal Engine et du système de blueprints. Le début de l'apprentissage est plutôt lent mais très intéressant. Je me suis rapidement rendu compte de similarités de logique avec un langage du programmation plus 'traditionnel'. Ce fut pour moi l'occasion d'ajouter du contenu à mon baggage de connaissance, mais je compte bien évidemment pousser mon apprentissage et commencer à apprendre le C++."
+            ]
+        },
+        {
+            "id":3,
+            "title":"Cyber-Slime",
+            "date":"hiver 2021",
+            "software":"UNITY//C#",
+            "video":["https://www.youtube-nocookie.com/embed/gb1sHa9Lnsc"],
+            "artstation":[],
+            "github":["https://github.com/louishorlaville/EnterNameHere"],
+            "fieldId":1,
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "collab":[
+                "Antoine Beauchesne",
+                "Éric Piaugeard",
+                "Émile Jutras",
+                "Pier-Luc Fournier",
+                "Tomas Clark Dumoulin",
+                "Jesse Serre"
+            ],
+            "text":[
+                "Réalisé dans le cadre du Montreal Gamejam 2022, deux amis et moi avons assemblé une équipe composée majoritairement de personnes que nous ne connaissions pas. Le fait d'apprendre à connaître de nouvelles personnes tout en travaillant sur un projet commun s'est trouvé être un exercice très enrichissant. Le jeu est un puzzle plateformer 2D visant à défier le joueur autant au niveau logique que technique.",
+                "Le thème du gamejam était la dualité. Suite à quelques heures de remue-méninge, nous avons décidé de nous embarquer dans une dualité de formes et de temporalités. Incarnez Cyber-Slime, un slime qui s'est vu, contre son grès, devenir un voyageur temporel et qui a désormais la possibilité d'alterner entre sa forme ronde de slime et celle d'un cube metallique.",
+                "Mon rôle dans ce projet était la création du character controller ainsi que toutes les mécaniques qui viennent avec son changement de forme, tel que le rebond sur les murs, et les surfaces magnétiques. Le défi principal était de savoir à quels endroits factoriser le code, afin de concevoir une implémentation optimale réutilisable.",
+                "Un lien vers la page de téléchargement est disponible sur le dépôt Github du projet pour ceux qui voudraient essayer le jeu."
             ]
         }
 

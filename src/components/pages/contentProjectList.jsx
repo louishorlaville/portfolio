@@ -107,7 +107,6 @@ class ContentProjectList extends Component {
                                 <Link to={{pathname:"/projectProfile",state:{id:project.id, from:'projects'}}} key={pIndex} className="listItem">
                                     <div className="listItemTitle">
                                         {project.title}
-                                        {console.log(project)}
                                         <p className="listItemSoftware">{project.software}</p>
                                         <p className="listItemDate">{project.date}</p>
                                         <div className="boxHoverBehind">&#10240;</div>

@@ -31,7 +31,7 @@ class ImageGallery extends Component {
         const {imageId} = this.state;
         return ( 
             <div className="galleryContainer">
-                <div className="galleryContainerBackground"  onClick={console.log("okok")}>&#10240;</div>
+                <div className="galleryContainerBackground">&#10240;</div>
                 <div className="galleryContentContainer">
                     <div className="galleryExpandedImg">
                         <div className="gallerExpandedImgContainer">

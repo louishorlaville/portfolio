@@ -381,6 +381,7 @@ body{
 }
 
 .listItemSoftware{
+    width: 150px;
     position: absolute;
     left: 100%;
     transform: translateX(8px);
@@ -751,7 +752,7 @@ body{
 
 .linkItemBall{
     position: absolute;
-    left: -10%;
+    left: -18%;
     top: 30%;
     display: inline-block;
     background-color: #EDBD21;
@@ -1401,6 +1402,7 @@ body{
         width: 90%;
     }
     .listItemSoftware{
+        width: 150px;
         left: 0;
         top: auto;
         bottom: -20px;
