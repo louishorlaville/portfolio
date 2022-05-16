@@ -8,19 +8,19 @@ const cookies = new Cookies();
 class ProjectLinks extends Component {
     state = { 
         projectId:this.props.id,
-        artstation:false,
+        itchio:false,
         github:false
      }
 
     componentDidMount(){
         this.setState({
-            artstation:(projectsData[cookies.get("lang")][this.state.projectId].artstation.length!=0)?true:false,
+            itchio:(projectsData[cookies.get("lang")][this.state.projectId].itchio.length!=0)?true:false,
             github:(projectsData[cookies.get("lang")][this.state.projectId].github.length!=0)?true:false
         })
      }
 
 
-    ArtstationLink = (link) => {
+     ItchioLink = (link) => {
         return ( 
             <a className="linkItem" href={link} target="_blank">
                 <div className="linkItemBall">&#10240;</div>
@@ -39,13 +39,13 @@ class ProjectLinks extends Component {
     }
 
     render() { 
-        const {artstation} = this.state;
+        const {itchio} = this.state;
         const {github} = this.state;
 
         return ( 
             <div className="projectLinksBoxContainer">
                 <div className="projectLinksFlexContainer">
-                    {(artstation)?this.ArtstationLink(projectsData[cookies.get("lang")][this.state.projectId].artstation):null}
+                    {(itchio)?this.ItchioLink(projectsData[cookies.get("lang")][this.state.projectId].itchio):null}
                     {(github)?this.GithubLink(projectsData[cookies.get("lang")][this.state.projectId].github):null}
                 </div>
                 {console.log()}

@@ -6,7 +6,7 @@
             "date":"january 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/f8dJNoXbYNk"],
-            "artstation":["https://louishorlaville.artstation.com/projects/w6qzk9"],
+            "itchio":[],
             "github":[],
             "fieldId":1,
             "fieldName":"VIDEO GAME DEVELOPMENT",
@@ -31,7 +31,7 @@
             "date":"fall 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
-            "artstation":["https://louishorlaville.artstation.com/projects/WKzZN2?album_id=2882884"],
+            "itchio":["https://louishorlaville.itch.io/borderline"],
             "github":[],
             "fieldId":1,
             "fieldName":"VIDEO GAME DEVELOPMENT",
@@ -52,7 +52,7 @@
             "date":"autumn 2021 - now",
             "software":"UNREAL ENGINE",
             "video":[],
-            "artstation":[],
+            "itchio":[],
             "github":[],
             "fieldId":1,
             "fieldName":"VIDEO GAME DEVELOPMENT",
@@ -73,10 +73,10 @@
         {
             "id":3,
             "title":"Cyber-Slime",
-            "date":"winter 2021",
+            "date":"winter 2022",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/gb1sHa9Lnsc"],
-            "artstation":[],
+            "itchio":["https://louishorlaville.itch.io/cyber-slime"],
             "github":["https://github.com/louishorlaville/EnterNameHere"],
             "fieldId":1,
             "fieldName":"VIDEO GAME DEVELOPMENT",
@@ -94,6 +94,33 @@
                 "My role in this project was the creation of all the different mechanics of the character controller, such as bouncing off the walls while using your slime shape, and  sticking to metallic plateforms while in cyborg form. The main challenge on this project was to detect where to factorize the code, so every script would have its own use. Thanks to this logic, we now have reusable code and an optmial structure.",
                 "A link to the download page of the game if available on the on the Github repository, for those who want to play the game."
             ]
+        },
+        {
+            "id":4,
+            "title":"Verse Invaders",
+            "date":"spring 2022",
+            "software":"UNITY//C#",
+            "video":[],
+            "itchio":["https://conjure.itch.io/verse-invaders"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"VIDEO GAME DEVELOPMENT",
+            "collab":[
+                "Soulaha Djenabou Baldé",
+                "Naomi Catwell",
+                "Yann Dupont",
+                "Jason Durand",
+                "William Gingras",
+                "Daniel Sami"
+            ],
+            "text":[
+                "Created for the 20th edition of the CreativeJam organized by PolyGames, some club members at ÉTS and I got together to participate, learn and mostly have fun.",
+                "The gamejam's theme was 'multiverse', and the technical challenge was to implement intern economy to our game. Given the theme, we wanted to challenge ourselves to create a dimension swap, while incorporating an optimal gameplay loop.",
+                "Our game is a shooter type in which you have to manage 3 different dimensions and use debris left by destroyed invaders to upgrade your cannon.",
+                "In this project, I was mainly in charge of the enemy spawner, the enemy behaviors, managing the player attacks throughout the different dimensions, as well as the creation and implementation of the enemy damage particle systems.",
+                "One of most interesting technical challenges to take on was the management of the different dimensions and the mouse in order to be able to shoot in only one dimension at the same time, as well as making sure interdimensional ennemies don't interact together. In order to do it, we used camera's culling mask to select which layer to render for each of them. From here on out, the job left was to make sure the instanciated objects have the correct layer,",
+                "Un défi technique qui fut très intéressant à relever fut la gestion des différentes dimensions avec la détection de la sourie pour le tire et faire en sorte que les différents ennemis interdimensionnel n'intéragissaient pas ensemble. Pour ce faire, nous avons utilisé les culling mask des caméras afin de sélectionner les différents Layer rendus. À partir de là, le reste du travail consistait à s'assurer que les objets instanciés avec le Layer approprié."
+            ]
         }
 
     ],
@@ -104,7 +131,7 @@
             "date":"janvier 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/f8dJNoXbYNk"],
-            "artstation":["https://louishorlaville.artstation.com/projects/w6qzk9?album_id=2882884"],
+            "itchio":[],
             "github":[],
             "fieldId":1,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
@@ -129,7 +156,7 @@
             "date":"automne 2020",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/NFFRQn0owIQ"],
-            "artstation":["https://louishorlaville.artstation.com/projects/WKzZN2"],
+            "itchio":["https://louishorlaville.itch.io/borderline"],
             "github":[],
             "fieldId":1,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
@@ -150,7 +177,7 @@
             "date":"automne 2021 - maintenant",
             "software":"UNREAL ENGINE",
             "video":[],
-            "artstation":[],
+            "itchio":[],
             "github":[],
             "fieldId":1,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
@@ -171,10 +198,10 @@
         {
             "id":3,
             "title":"Cyber-Slime",
-            "date":"hiver 2021",
+            "date":"hiver 2022",
             "software":"UNITY//C#",
             "video":["https://www.youtube-nocookie.com/embed/gb1sHa9Lnsc"],
-            "artstation":[],
+            "itchio":["https://louishorlaville.itch.io/cyber-slime"],
             "github":["https://github.com/louishorlaville/EnterNameHere"],
             "fieldId":1,
             "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
@@ -191,6 +218,32 @@
                 "Le thème du gamejam était la dualité. Suite à quelques heures de remue-méninge, nous avons décidé de nous embarquer dans une dualité de formes et de temporalités. Incarnez Cyber-Slime, un slime qui s'est vu, contre son grès, devenir un voyageur temporel et qui a désormais la possibilité d'alterner entre sa forme ronde de slime et celle d'un cube metallique.",
                 "Mon rôle dans ce projet était la création du character controller ainsi que toutes les mécaniques qui viennent avec son changement de forme, tel que le rebond sur les murs, et les surfaces magnétiques. Le défi principal était de savoir à quels endroits factoriser le code, afin de concevoir une implémentation optimale réutilisable.",
                 "Un lien vers la page de téléchargement est disponible sur le dépôt Github du projet pour ceux qui voudraient essayer le jeu."
+            ]
+        },
+        {
+            "id":4,
+            "title":"Verse Invaders",
+            "date":"printemps 2022",
+            "software":"UNITY//C#",
+            "video":[],
+            "itchio":["https://conjure.itch.io/verse-invaders"],
+            "github":[],
+            "fieldId":1,
+            "fieldName":"DÉVELOPPEMENT DE JEUX VIDÉO",
+            "collab":[
+                "Soulaha Djenabou Baldé",
+                "Naomi Catwell",
+                "Yann Dupont",
+                "Jason Durand",
+                "William Gingras",
+                "Daniel Sami"
+            ],
+            "text":[
+                "Réalisé dans le cadre de la 20e édition du CreativeJam organisé par PolyGames, des membres de mon club de l'ÉTS et moi-même nous sommes réunis afin de participer, d'apprendre et de s'amuser.",
+                "Le thème du gamejam était le multivers et le défi technique était de posséder une économie interne au jeu. Nous avons voulu relever le défi de créer une transition entre plusieurs dimensions, tout en y incorporant une boucle de jouabilité optimale.",
+                "Le jeu est un shooter, dans lequel vous devez gérer vos 3 différentes dimensions et utiliser les débris laissés par les envahisseurs pour améliorer votre cannon.",
+                "Lors de ce projet, j'étais principalement en charge de la gestion des ennemis semi-aléatoires, des attaques du joueur et des ennemis à travers les differentes dimensions, ainsi la création et la gestion des systèmes de particules des attaques.",
+                "Un défi technique qui fut très intéressant à relever fut la gestion des différentes dimensions avec la détection de la sourie pour le tire et faire en sorte que les différents ennemis interdimensionnel n'intéragissaient pas ensemble. Pour ce faire, nous avons utilisé les culling mask des caméras afin de sélectionner les différents Layer rendus. À partir de là, le reste du travail consistait à s'assurer que les objets instanciés avaient le Layer approprié."
             ]
         }
 

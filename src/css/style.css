@@ -794,7 +794,7 @@ body{
 /*ITEM*/
 .myWorkItem{
     width: 300px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -1373,6 +1373,10 @@ body{
 
     #contentContainer,.contentContainer{
         margin-top: 10%;
+    }
+    /*MY WORK PAGE*/
+    .myWorkItem{
+        flex-grow: 1;
     }
 
     /*PROJECT LIST*/

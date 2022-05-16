@@ -19,7 +19,7 @@ const ContactLinks = () => {
             </div>
             <div className="contactLinkItemBox">
                 <div className="contactLinkItem">
-                    <a href="https://louishorlaville.artstation.com/" target="_blank">artstation</a>
+                    <a href="https://louishorlaville.itch.io/" target="_blank">itch.io</a>
                     <div className="boxHoverBehind">&#10240;</div>
                 </div>
                 <div className="contactLinkItemBall">&#10240;</div>
